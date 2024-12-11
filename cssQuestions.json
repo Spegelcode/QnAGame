@@ -1,0 +1,604 @@
+{
+  "questions": [
+    {
+      "question": "What is the default value of the 'display' property in CSS?",
+      "options": [
+        "none",
+        "block",
+        "inline",
+        "flex"
+      ],
+      "correctAnswer": "block"
+    },
+    {
+      "question": "Which CSS property is used to set the transparency of an element?",
+      "options": [
+        "opacity",
+        "visibility",
+        "color",
+        "background-color"
+      ],
+      "correctAnswer": "opacity"
+    },
+    {
+      "question": "What is the purpose of the 'box-sizing' property in CSS?",
+      "options": [
+        "To adjust the padding of an element",
+        "To adjust the border of an element",
+        "To include padding and border in the element's total width and height",
+        "To change the element's position"
+      ],
+      "correctAnswer": "To include padding and border in the element's total width and height"
+    },
+    {
+      "question": "Which value of the 'position' property allows an element to remain in the same place when scrolling?",
+      "options": [
+        "sticky",
+        "absolute",
+        "fixed",
+        "relative"
+      ],
+      "correctAnswer": "fixed"
+    },
+    {
+      "question": "Which method is used to remove the last item from an array in JavaScript?",
+      "options": [
+        "pop()",
+        "push()",
+        "shift()",
+        "unshift()"
+      ],
+      "correctAnswer": "pop()"
+    },
+    {
+      "question": "Which value of the 'display' property makes an element behave like an inline element?",
+      "options": [
+        "inline",
+        "block",
+        "flex",
+        "none"
+      ],
+      "correctAnswer": "inline"
+    },
+    {
+      "question": "What does the CSS property 'background-color' do?",
+      "options": [
+        "Sets the background color of an element",
+        "Sets the text color of an element",
+        "Defines the font size of text",
+        "Sets the margin of an element"
+      ],
+      "correctAnswer": "Sets the background color of an element"
+    },
+    {
+      "question": "Which CSS property is used to change the font of an element?",
+      "options": [
+        "font-family",
+        "font-style",
+        "font-weight",
+        "text-transform"
+      ],
+      "correctAnswer": "font-family"
+    },
+    {
+      "question": "How can you make text bold in CSS?",
+      "options": [
+        "font-weight: bold;",
+        "text-style: bold;",
+        "font-size: bold;",
+        "text-decoration: bold;"
+      ],
+      "correctAnswer": "font-weight: bold;"
+    },
+    {
+      "question": "Which CSS property is used to control the space between lines of text?",
+      "options": [
+        "line-height",
+        "letter-spacing",
+        "text-indent",
+        "word-spacing"
+      ],
+      "correctAnswer": "line-height"
+    },
+    {
+      "question": "Which property is used to control the space between characters in CSS?",
+      "options": [
+        "letter-spacing",
+        "line-height",
+        "word-spacing",
+        "text-indent"
+      ],
+      "correctAnswer": "letter-spacing"
+    },
+    {
+      "question": "What does the 'display' property in CSS define?",
+      "options": [
+        "How an element is displayed on the page",
+        "The font of an element",
+        "The position of an element",
+        "The color of an element"
+      ],
+      "correctAnswer": "How an element is displayed on the page"
+    },
+    {
+      "question": "Which value of the 'display' property makes an element invisible but still takes up space in the layout?",
+      "options": [
+        "none",
+        "block",
+        "inline",
+        "visibility"
+      ],
+      "correctAnswer": "visibility"
+    },
+    {
+      "question": "What is the purpose of the 'z-index' property in CSS?",
+      "options": [
+        "It controls the stacking order of elements",
+        "It adjusts the margin of an element",
+        "It defines the font size",
+        "It changes the background color"
+      ],
+      "correctAnswer": "It controls the stacking order of elements"
+    },
+    {
+      "question": "Which CSS property is used to control the space around an element?",
+      "options": [
+        "padding",
+        "margin",
+        "border",
+        "width"
+      ],
+      "correctAnswer": "margin"
+    },
+    {
+      "question": "What is the default value of the 'position' property in CSS?",
+      "options": [
+        "static",
+        "relative",
+        "absolute",
+        "fixed"
+      ],
+      "correctAnswer": "static"
+    },
+    {
+      "question": "What is the purpose of the 'float' property in CSS?",
+      "options": [
+        "It controls the alignment of elements",
+        "It adjusts the space between text and elements",
+        "It controls the visibility of elements",
+        "It changes the font style"
+      ],
+      "correctAnswer": "It controls the alignment of elements"
+    },
+    {
+      "question": "Which value of the 'position' property allows an element to be positioned relative to its normal position in the document?",
+      "options": [
+        "relative",
+        "absolute",
+        "fixed",
+        "sticky"
+      ],
+      "correctAnswer": "relative"
+    },
+    {
+      "question": "Which CSS property is used to change the size of text?",
+      "options": [
+        "font-size",
+        "text-size",
+        "text-align",
+        "font-style"
+      ],
+      "correctAnswer": "font-size"
+    },
+    {
+      "question": "Which value of the 'display' property makes an element a block-level element?",
+      "options": [
+        "block",
+        "inline",
+        "flex",
+        "none"
+      ],
+      "correctAnswer": "block"
+    },
+    {
+      "question": "Which property is used to create space between the content of an element and its border?",
+      "options": [
+        "padding",
+        "margin",
+        "border",
+        "content-spacing"
+      ],
+      "correctAnswer": "padding"
+    },
+    {
+      "question": "What does the 'opacity' property in CSS do?",
+      "options": [
+        "It controls the transparency of an element",
+        "It controls the background color",
+        "It defines the font style",
+        "It sets the element's border"
+      ],
+      "correctAnswer": "It controls the transparency of an element"
+    },
+        {
+          "question": "What is the default value of the 'display' property in CSS?",
+          "options": [
+            "none",
+            "block",
+            "inline",
+            "flex"
+          ],
+          "correctAnswer": "block"
+        },
+        {
+          "question": "Which property is used to change the font of an element in CSS?",
+          "options": [
+            "font-family",
+            "font-style",
+            "font-weight",
+            "font-size"
+          ],
+          "correctAnswer": "font-family"
+        },
+        {
+          "question": "How do you select an element with the class 'example' in CSS?",
+          "options": [
+            "#example",
+            ".example",
+            "example",
+            "div.example"
+          ],
+          "correctAnswer": ".example"
+        },
+        {
+          "question": "Which property is used to change the background color of an element?",
+          "options": [
+            "color",
+            "background",
+            "bg-color",
+            "background-color"
+          ],
+          "correctAnswer": "background-color"
+        },
+        {
+          "question": "Which property controls the space between the content and the border of an element?",
+          "options": [
+            "padding",
+            "margin",
+            "border",
+            "spacing"
+          ],
+          "correctAnswer": "padding"
+        },
+        {
+          "question": "Which property is used to set the distance between the content of an element and its edges?",
+          "options": [
+            "margin",
+            "padding",
+            "border-spacing",
+            "outline"
+          ],
+          "correctAnswer": "margin"
+        },
+        {
+          "question": "What is the correct CSS syntax to change the text color to red?",
+          "options": [
+            "color: red;",
+            "text-color: red;",
+            "font-color: red;",
+            "background-color: red;"
+          ],
+          "correctAnswer": "color: red;"
+        },
+        {
+          "question": "Which property is used to add space between letters in text?",
+          "options": [
+            "letter-spacing",
+            "text-spacing",
+            "word-spacing",
+            "font-spacing"
+          ],
+          "correctAnswer": "letter-spacing"
+        },
+        {
+          "question": "How do you make text bold in CSS?",
+          "options": [
+            "font-weight: bold;",
+            "font-style: bold;",
+            "font-variant: bold;",
+            "text-weight: bold;"
+          ],
+          "correctAnswer": "font-weight: bold;"
+        },
+        {
+          "question": "Which of the following CSS properties is used to control the text alignment?",
+          "options": [
+            "text-align",
+            "text-decoration",
+            "text-position",
+            "font-align"
+          ],
+          "correctAnswer": "text-align"
+        },
+        {
+          "question": "Which property is used to change the width of a box in CSS?",
+          "options": [
+            "width",
+            "height",
+            "box-width",
+            "content-width"
+          ],
+          "correctAnswer": "width"
+        },
+        {
+          "question": "How do you create a border around an element in CSS?",
+          "options": [
+            "border: 1px solid black;",
+            "border: 1px dashed black;",
+            "border: solid 1px black;",
+            "all of the above"
+          ],
+          "correctAnswer": "all of the above"
+        },
+        {
+          "question": "What property is used to set the transparency of an element?",
+          "options": [
+            "opacity",
+            "visibility",
+            "transparent",
+            "alpha"
+          ],
+          "correctAnswer": "opacity"
+        },
+        {
+          "question": "Which CSS property is used to add a shadow to text?",
+          "options": [
+            "text-shadow",
+            "box-shadow",
+            "shadow-effect",
+            "text-effects"
+          ],
+          "correctAnswer": "text-shadow"
+        },
+        {
+          "question": "What does the 'z-index' property control?",
+          "options": [
+            "The order of stacking of elements",
+            "The size of an element",
+            "The opacity of an element",
+            "The font size of an element"
+          ],
+          "correctAnswer": "The order of stacking of elements"
+        },
+        {
+          "question": "Which property is used to change the font size of text in CSS?",
+          "options": [
+            "font-size",
+            "font-style",
+            "text-size",
+            "font-weight"
+          ],
+          "correctAnswer": "font-size"
+        },
+        {
+          "question": "Which of the following is the correct syntax for importing an external stylesheet in HTML?",
+          "options": [
+            "<link rel='stylesheet' href='style.css'>",
+            "<link src='style.css' type='text/css'>",
+            "<style src='style.css'>",
+            "<import src='style.css'>"
+          ],
+          "correctAnswer": "<link rel='stylesheet' href='style.css'>"
+        },
+        {
+          "question": "Which CSS property is used to change the layout of a flex container?",
+          "options": [
+            "flex-direction",
+            "display",
+            "grid-template-columns",
+            "align-items"
+          ],
+          "correctAnswer": "flex-direction"
+        },
+        {
+          "question": "What does the 'float' property do in CSS?",
+          "options": [
+            "Aligns an element to the left or right of its container",
+            "Defines the alignment of text",
+            "Moves an element to the bottom of its container",
+            "Changes the position of an element"
+          ],
+          "correctAnswer": "Aligns an element to the left or right of its container"
+        },
+        {
+          "question": "What is the purpose of the 'position' property in CSS?",
+          "options": [
+            "Specifies the position of an element in the document",
+            "Specifies the padding of an element",
+            "Defines the width of an element",
+            "Controls the text direction of an element"
+          ],
+          "correctAnswer": "Specifies the position of an element in the document"
+        },
+        {
+          "question": "Which value of the 'position' property is used to position an element relative to its normal position?",
+          "options": [
+            "relative",
+            "absolute",
+            "fixed",
+            "sticky"
+          ],
+          "correctAnswer": "relative"
+        },
+        {
+          "question": "Which CSS property is used to create space between the content and the border of an element?",
+          "options": [
+            "padding",
+            "margin",
+            "border-spacing",
+            "gap"
+          ],
+          "correctAnswer": "padding"
+        },
+        {
+          "question": "Which CSS property is used to define how an element behaves when its content overflows?",
+          "options": [
+            "overflow",
+            "clip",
+            "resize",
+            "visibility"
+          ],
+          "correctAnswer": "overflow"
+        },
+        {
+          "question": "How do you select all the elements of a specific type (e.g., all <p> elements) in CSS?",
+          "options": [
+            "p {}",
+            "div p {}",
+            "class p {}",
+            "all p {}"
+          ],
+          "correctAnswer": "p {}"
+        },
+        {
+          "question": "Which CSS property controls the visibility of an element?",
+          "options": [
+            "visibility",
+            "opacity",
+            "display",
+            "hidden"
+          ],
+          "correctAnswer": "visibility"
+        },
+        {
+          "question": "What is the default value of the 'position' property in CSS?",
+          "options": [
+            "static",
+            "relative",
+            "absolute",
+            "fixed"
+          ],
+          "correctAnswer": "static"
+        },
+        {
+          "question": "What value is used to make an element not visible but still take up space in CSS?",
+          "options": [
+            "visibility: hidden;",
+            "display: none;",
+            "opacity: 0;",
+            "background-color: transparent;"
+          ],
+          "correctAnswer": "visibility: hidden;"
+        },
+        {
+          "question": "Which property is used to control the stacking order of elements?",
+          "options": [
+            "z-index",
+            "order",
+            "float",
+            "position"
+          ],
+          "correctAnswer": "z-index"
+        },
+        {
+          "question": "Which of the following is used to specify the number of columns in a grid layout?",
+          "options": [
+            "grid-template-columns",
+            "grid-template-rows",
+            "grid-gap",
+            "column-count"
+          ],
+          "correctAnswer": "grid-template-columns"
+        },
+        {
+          "question": "How do you create a rounded border in CSS?",
+          "options": [
+            "border-radius: 5px;",
+            "rounded-border: 5px;",
+            "border: rounded 5px;",
+            "circle-radius: 5px;"
+          ],
+          "correctAnswer": "border-radius: 5px;"
+        },
+        {
+          "question": "Which property is used to define the alignment of grid items?",
+          "options": [
+            "align-items",
+            "align-content",
+            "justify-items",
+            "justify-content"
+          ],
+          "correctAnswer": "align-items"
+        },
+        {
+          "question": "What property is used to set the space between lines of text in CSS?",
+          "options": [
+            "line-height",
+            "letter-spacing",
+            "word-spacing",
+            "text-height"
+          ],
+          "correctAnswer": "line-height"
+        },
+        {
+          "question": "Which property is used to control how content is displayed inside an inline element?",
+          "options": [
+            "vertical-align",
+            "text-align",
+            "float",
+            "clear"
+          ],
+          "correctAnswer": "vertical-align"
+        },
+        {
+          "question": "Which CSS property is used to set the visibility of an element?",
+          "options": [
+            "visibility",
+            "opacity",
+            "display",
+            "hidden"
+          ],
+          "correctAnswer": "visibility"
+        },
+        {
+          "question": "Which of the following is used to style a link when it is clicked in CSS?",
+          "options": [
+            ":active",
+            ":focus",
+            ":visited",
+            ":hover"
+          ],
+          "correctAnswer": ":active"
+        },
+        {
+          "question": "Which CSS property controls the space between elements in a flex container?",
+          "options": [
+            "gap",
+            "space-between",
+            "justify-content",
+            "align-items"
+          ],
+          "correctAnswer": "gap"
+        },
+        {
+          "question": "Which property is used to change the text decoration (like underlining) in CSS?",
+          "options": [
+            "text-decoration",
+            "text-style",
+            "font-decoration",
+            "decoration"
+          ],
+          "correctAnswer": "text-decoration"
+        },
+        {
+          "question": "Which CSS property is used to set the opacity of an element?",
+          "options": [
+            "opacity",
+            "visibility",
+            "filter",
+            "transparency"
+          ],
+          "correctAnswer": "opacity"
+        }
+  ]
+}

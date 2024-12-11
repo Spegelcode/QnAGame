@@ -1,0 +1,275 @@
+{
+  "questions": [
+    {
+      "question": "What does the <head> tag contain in an HTML document?",
+      "options": [
+        "Body content",
+        "Meta-information about the document",
+        "Main content",
+        "Page styles"
+      ],
+      "correctAnswer": "Meta-information about the document"
+    },
+    {
+      "question": "What does the <a> tag do in HTML?",
+      "options": [
+        "Defines a hyperlink",
+        "Defines a paragraph",
+        "Defines an image",
+        "Defines a section"
+      ],
+      "correctAnswer": "Defines a hyperlink"
+    },
+    {
+      "question": "What is the purpose of the <img> tag in HTML?",
+      "options": [
+        "To add a paragraph",
+        "To add an image",
+        "To create a table",
+        "To format text"
+      ],
+      "correctAnswer": "To add an image"
+    },
+    {
+      "question": "What attribute is used to provide alternative text for an image in HTML?",
+      "options": [
+        "alt",
+        "src",
+        "href",
+        "title"
+      ],
+      "correctAnswer": "alt"
+    },
+    {
+      "question": "Which tag is used to create an unordered list in HTML?",
+      "options": [
+        "<ol>",
+        "<ul>",
+        "<li>",
+        "<list>"
+      ],
+      "correctAnswer": "<ul>"
+    },
+    {
+      "question": "What does the <form> tag in HTML define?",
+      "options": [
+        "A hyperlink",
+        "An input field",
+        "A form for user input",
+        "A table"
+      ],
+      "correctAnswer": "A form for user input"
+    },
+    {
+      "question": "Which attribute is used to specify the destination of a hyperlink in the <a> tag?",
+      "options": [
+        "src",
+        "href",
+        "link",
+        "alt"
+      ],
+      "correctAnswer": "href"
+    },
+    {
+      "question": "What is the default display property of a <div> element in HTML?",
+      "options": [
+        "block",
+        "inline",
+        "flex",
+        "inline-block"
+      ],
+      "correctAnswer": "block"
+    },
+    {
+      "question": "Which HTML tag is used to define a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table>"
+      ],
+      "correctAnswer": "<tr>"
+    },
+    {
+      "question": "What is the function of the <br> tag in HTML?",
+      "options": [
+        "Creates a bold text",
+        "Creates a line break",
+        "Creates a horizontal line",
+        "Creates a new section"
+      ],
+      "correctAnswer": "Creates a line break"
+    },
+    {
+      "question": "Which HTML element is used to specify a header for a section or page?",
+      "options": [
+        "<header>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "correctAnswer": "<header>"
+    },
+    {
+      "question": "What does the <title> tag define in an HTML document?",
+      "options": [
+        "The title of the web page displayed in the browser tab",
+        "The main heading of the page",
+        "The footer of the page",
+        "The body of the page"
+      ],
+      "correctAnswer": "The title of the web page displayed in the browser tab"
+    },
+    {
+      "question": "Which HTML tag is used to display a numbered list?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<list>"
+      ],
+      "correctAnswer": "<ol>"
+    },
+    {
+      "question": "What does the <meta> tag in HTML define?",
+      "options": [
+        "It defines metadata about the document, like character encoding and keywords",
+        "It defines the title of the document",
+        "It defines the main content of the page",
+        "It defines the style of the page"
+      ],
+      "correctAnswer": "It defines metadata about the document, like character encoding and keywords"
+    },
+    {
+      "question": "Which tag is used to create a checkbox in an HTML form?",
+      "options": [
+        "<input type='radio'>",
+        "<input type='checkbox'>",
+        "<button>",
+        "<input type='text'>"
+      ],
+      "correctAnswer": "<input type='checkbox'>"
+    },
+    {
+      "question": "What is the purpose of the <em> tag in HTML?",
+      "options": [
+        "To emphasize text",
+        "To insert an image",
+        "To create a hyperlink",
+        "To create a paragraph"
+      ],
+      "correctAnswer": "To emphasize text"
+    },
+    {
+      "question": "Which HTML tag is used to create a table header?",
+      "options": [
+        "<th>",
+        "<tr>",
+        "<td>",
+        "<thead>"
+      ],
+      "correctAnswer": "<th>"
+    },
+    {
+      "question": "What does the <blockquote> tag do in HTML?",
+      "options": [
+        "Defines a block of code",
+        "Defines a section of text that is a quotation",
+        "Defines a table",
+        "Defines a link"
+      ],
+      "correctAnswer": "Defines a section of text that is a quotation"
+    },
+    {
+      "question": "What is the correct HTML element to specify a footer for a page or section?",
+      "options": [
+        "<header>",
+        "<section>",
+        "<footer>",
+        "<aside>"
+      ],
+      "correctAnswer": "<footer>"
+    },
+    {
+      "question": "Which tag is used to define a navigation bar in HTML?",
+      "options": [
+        "<nav>",
+        "<header>",
+        "<menu>",
+        "<footer>"
+      ],
+      "correctAnswer": "<nav>"
+    },
+    {
+      "question": "What is the purpose of the <iframe> tag in HTML?",
+      "options": [
+        "To create a table",
+        "To display an external webpage within the current page",
+        "To create a form",
+        "To define a list"
+      ],
+      "correctAnswer": "To display an external webpage within the current page"
+    },
+    {
+      "question": "What attribute is used to specify the width of an image in HTML?",
+      "options": [
+        "height",
+        "src",
+        "width",
+        "alt"
+      ],
+      "correctAnswer": "width"
+    },
+    {
+      "question": "Which tag is used to define the body of the document in HTML?",
+      "options": [
+        "<header>",
+        "<body>",
+        "<content>",
+        "<main>"
+      ],
+      "correctAnswer": "<body>"
+    },
+    {
+      "question": "What does the <strong> tag do in HTML?",
+      "options": [
+        "It creates a link",
+        "It adds emphasis to text",
+        "It makes the text bold",
+        "It creates an image"
+      ],
+      "correctAnswer": "It makes the text bold"
+    },
+    {
+      "question": "Which HTML element is used to represent a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<url>",
+        "<h1>"
+      ],
+      "correctAnswer": "<a>"
+    },
+    {
+      "question": "What tag is used to define an ordered list in HTML?",
+      "options": [
+        "<ul>",
+        "<li>",
+        "<ol>",
+        "<list>"
+      ],
+      "correctAnswer": "<ol>"
+    },
+    {
+      "question": "What is the correct HTML element to define a sidebar?",
+      "options": [
+        "<nav>",
+        "<sidebar>",
+        "<aside>",
+        "<section>"
+      ],
+      "correctAnswer": "<aside>"
+    }
+    
+  ]
+}
