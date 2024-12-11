@@ -9,9 +9,15 @@
 <body>
   <h1>Quiz Game</h1>
   <nav class="navbar">
-    <button class="leftNav"> Info</button>
-    <button class="rightNavOne"> Cheatsheet</button>
-    <button class="rightNavTwo"> Index</button>
+    <a class="navbar" href="info.html">
+      <button class="leftNav"> Info</button>
+    </a>
+    <a class="navbar" href="/cheatsheet.html">
+      <button class="rightNavOne"> Cheatsheet</button>
+    </a>
+    <a class="navbar" href="/resources.html">
+      <button class="rightNavTwo"> Resources</button>
+    </a>
   </nav>
   <div class="selectTopic">
 
@@ -30,6 +36,12 @@
     <ul id="options"></ul>
     <p id="result"></p>
   </div>
+
+  <footer class="footer">
+    <small>
+      Copyright © 2024 Leo Spegel. All Rights Reserved.
+    </small>
+  </footer>
 
   <script src="script.js"></script> <!-- Link to JS -->
 </body>

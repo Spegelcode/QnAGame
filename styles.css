@@ -17,7 +17,7 @@ h1 {
   justify-content: center; /* Horizontal alignment */
   align-items: center;    /* Vertical alignment */
   font-size: 22px;
-  background-color: #b13939;
+  background-color: #7b947c8c;
 }
 #topic {
   margin: 20px;
@@ -47,7 +47,7 @@ ul {
   padding: 0;
 }
 
-li {
+.liL {
   background-color: #4CAF50;
   color: white;
   padding: 16px; /* Increased padding */
@@ -58,12 +58,12 @@ li {
   font-size: 1.5em; /* Increased font size */
 }
 
-li:hover {
+.liL:hover {
   background-color: #45a049;
   transform: translateY(-3px);
 }
 
-li:active {
+.liL:active {
   background-color: #387a3b;
   transform: translateY(1px);
 }
@@ -154,4 +154,11 @@ li:active {
   padding: 1px;
   
 
+}
+
+.footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #abbaba;
+  color: #000;
 }

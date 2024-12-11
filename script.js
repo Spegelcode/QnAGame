@@ -28,6 +28,7 @@ function displayQuestion(index) {
   question.options.forEach((option) => {
     const optionElement = document.createElement('li');
     optionElement.textContent = option;
+    optionElement.classList.add('liL');
     optionElement.onclick = () => checkAnswer(option, question.correctAnswer, index);
     optionsList.appendChild(optionElement);
   });
