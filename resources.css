@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  
+}
+
+.articles {
+  overflow: hidden; /* Prevent content overflow */
+  height: 100%; /* Full viewport height */
+  margin: 2%;
+  height: 100vh;
+
+}
+
+.article {
+  margin-bottom: 10px;
+}
+
+.toggle-button {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+#pdf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.iframe {
+  height: 100vh;
+  width: 80%;
+
+
+
+}
+#pdf-frame {
+  
+}
+
+.mainDropdown {
+
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center;     /* Centers content vertically */
+  width: 100%;             /* Ensures the container takes full width */
+}
+
+.dropdown {
+  display: flex;
+  display: inline-block;
+
+}
+
+.dropdown-button {
+  background-color:rgb(30, 40, 30);
+  color: white;
+  padding: 16px; 
+  margin: 12px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1.5em;
+  width: 45rem;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  list-style: none;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 8px;
+  width: 45rem;
+
+
+}
+.dropdown-content li {
+  text-align: left;
+}
+
+.dropdown-content li a {
+  color: rgb(219, 207, 207);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color:rgb(30, 40, 30);
+  border-radius: 8px;
+
+
+}
+.dropdown-content li a:hover {
+  background-color:rgb(52, 70, 52);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

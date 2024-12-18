@@ -5,20 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quiz Game</title>
   <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+  <link rel="stylesheet" href="/resources.css">
+  <link rel="stylesheet" href="/stylesinfo.css">
+
 </head>
 <body>
-  <h1>Quiz Game</h1>
-  <nav class="navbar">
-    <a class="navbar" href="info.html">
-      <button class="leftNav"> Info</button>
-    </a>
-    <a class="navbar" href="/cheatsheet.html">
-      <button class="rightNavOne"> Cheatsheet</button>
-    </a>
-    <a class="navbar" href="/resources.html">
-      <button class="rightNavTwo"> Resources</button>
-    </a>
-  </nav>
+  <header>
+    <h1 class ="banner"></h1>
+    <nav class="navbar">
+      <a class="navbar" href="info.html">
+        <button class="leftNav"> Home</button>
+      </a>
+      <a class="navbar" href="/resources.html">
+        <button class="rightNavTwo"> Resources</button>
+      </a>
+      <a class="navbar" href="/index.html">
+        <button class="rightNavTwo"> QnA Game</button>
+      </a>
+      <a class="navbar" href="/cheatsheet.html">
+        <button class="rightNavOne"> Cheatsheet</button>
+      </a>
+    </nav>
+  </header>
+
+     <h1>Quiz Game</h1>
   <div class="selectTopic">
 
 
@@ -35,6 +45,7 @@
     <p id="question"></p>
     <ul id="options"></ul>
     <p id="result"></p>
+    <button id="resourcesButton" onclick="goToResources()"target="_blank">More Information</button>
   </div>
 
   <footer class="footer">

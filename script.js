@@ -34,6 +34,7 @@ function displayQuestion(index) {
   });
 }
 
+
 // Function to check the selected answer and move to the next question if correct
 function checkAnswer(selectedOption, correctAnswer, index) {
   const resultDiv = document.getElementById('result');
@@ -55,6 +56,9 @@ function checkAnswer(selectedOption, correctAnswer, index) {
     resultDiv.textContent = `Incorrect. The correct answer is ${correctAnswer}.`;
     resultDiv.style.color = 'red';
   }
+}
+function goToResources() {
+  window.open('resources.html', '_blank')  // Redirects to the resources.html page
 }
 
 // Load the initial set of questions for CSS topic

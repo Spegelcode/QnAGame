@@ -439,6 +439,216 @@
         "None of the above"
       ],
       "correctAnswer": "Both 1 and 2"
+    },
+    {
+      "question": "Which of the following is a valid way to access an object's property in JavaScript?",
+      "options": [
+        "object.property",
+        "object['property']",
+        "Both 1 and 2",
+        "None of the above"
+      ],
+      "correctAnswer": "Both 1 and 2"
+    },
+    {
+      "question": "What is the purpose of the `bind()` method in JavaScript?",
+      "options": [
+        "It binds a function to a specified object.",
+        "It binds a function to an event.",
+        "It allows you to pass parameters to a function.",
+        "None of the above"
+      ],
+      "correctAnswer": "It binds a function to a specified object."
+    },
+    {
+      "question": "What will be the output of the following JavaScript code: `console.log(3 + '3');`?",
+      "options": [
+        "6",
+        "33",
+        "NaN",
+        "Error"
+      ],
+      "correctAnswer": "33"
+    },
+    {
+      "question": "Which of the following is NOT a valid data type in JavaScript?",
+      "options": [
+        "String",
+        "Integer",
+        "Boolean",
+        "Object"
+      ],
+      "correctAnswer": "Integer"
+    },
+    {
+      "question": "What does the `this` keyword refer to in JavaScript?",
+      "options": [
+        "The global object",
+        "The current function",
+        "The current object",
+        "The parent function"
+      ],
+      "correctAnswer": "The current object"
+    },
+    {
+      "question": "How do you declare a variable in JavaScript?",
+      "options": [
+        "var variableName",
+        "let variableName",
+        "const variableName",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above"
+    },
+    {
+      "question": "Which of the following is used to define a function in JavaScript?",
+      "options": [
+        "function functionName()",
+        "def functionName()",
+        "func functionName()",
+        "None of the above"
+      ],
+      "correctAnswer": "function functionName()"
+    },
+    {
+      "question": "Which method can be used to add an element to the end of an array in JavaScript?",
+      "options": [
+        "push()",
+        "pop()",
+        "shift()",
+        "unshift()"
+      ],
+      "correctAnswer": "push()"
+    },
+    {
+      "question": "Which of the following methods is used to convert a string to an integer in JavaScript?",
+      "options": [
+        "parseInt()",
+        "parseFloat()",
+        "Number()",
+        "All of the above"
+      ],
+      "correctAnswer": "parseInt()"
+    },
+    {
+      "question": "What is the purpose of the `setTimeout()` function in JavaScript?",
+      "options": [
+        "It sets a delay before executing a function.",
+        "It repeats a function at regular intervals.",
+        "It stops a function from executing.",
+        "None of the above"
+      ],
+      "correctAnswer": "It sets a delay before executing a function."
+    },
+    {
+      "question": "Which of the following is a correct way to create a new object in JavaScript?",
+      "options": [
+        "var obj = {}",
+        "var obj = new Object()",
+        "Both 1 and 2",
+        "None of the above"
+      ],
+      "correctAnswer": "Both 1 and 2"
+    },
+    {
+      "question": "What will the following code snippet output: `console.log(0 == false);`?",
+      "options": [
+        "true",
+        "false",
+        "undefined",
+        "NaN"
+      ],
+      "correctAnswer": "true"
+    },
+    {
+      "question": "How do you check if a variable is an array in JavaScript?",
+      "options": [
+        "Array.isArray(variable)",
+        "variable.isArray()",
+        "variable instanceof Array",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above"
+    },
+    {
+      "question": "Which event is triggered when a user clicks on an HTML element?",
+      "options": [
+        "onclick",
+        "onchange",
+        "onmouseover",
+        "onfocus"
+      ],
+      "correctAnswer": "onclick"
+    },
+    {
+      "question": "Which of the following is the correct syntax for a for loop in JavaScript?",
+      "options": [
+        "for (i = 0; i < 10; i++)",
+        "for (i = 0; i <= 10; i++)",
+        "for (let i = 0; i < 10; i++)",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above"
+    },
+    {
+      "question": "Which method is used to remove the last element from an array in JavaScript?",
+      "options": [
+        "push()",
+        "pop()",
+        "shift()",
+        "unshift()"
+      ],
+      "correctAnswer": "pop()"
+    },
+    {
+      "question": "Which of the following is NOT a valid way to define a function in JavaScript?",
+      "options": [
+        "function name() {}",
+        "var name = function() {}",
+        "var name = () => {}",
+        "def name() {}"
+      ],
+      "correctAnswer": "def name() {}"
+    },
+    {
+      "question": "Which of the following operators is used to assign a value to a variable in JavaScript?",
+      "options": [
+        "=",
+        "==",
+        "===",
+        "=>"
+      ],
+      "correctAnswer": "="
+    },
+    {
+      "question": "Which of the following methods is used to join two arrays in JavaScript?",
+      "options": [
+        "join()",
+        "concat()",
+        "push()",
+        "merge()"
+      ],
+      "correctAnswer": "concat()"
+    },
+    {
+      "question": "What is the output of the following code: `console.log(3 + 4 + '5');`?",
+      "options": [
+        "75",
+        "12",
+        "34",
+        "Error"
+      ],
+      "correctAnswer": "75"
+    },
+    {
+      "question": "Which of the following is the correct way to add a comment in JavaScript?",
+      "options": [
+        "// This is a comment",
+        "/* This is a comment */",
+        "Both 1 and 2",
+        "None of the above"
+      ],
+      "correctAnswer": "Both 1 and 2"
     }
   ]
 }

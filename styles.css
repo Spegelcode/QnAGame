@@ -113,7 +113,7 @@ ul {
   }
 }
 .leftNav, .rightNavOne, .rightNavTwo {
-  background-color: #4CAF50;
+  background-color:rgb(30, 40, 30);
   color: white;
   padding: 16px; /* Increased padding */
   margin: 12px 0;
@@ -122,6 +122,7 @@ ul {
   transition: background-color 0.3s ease, transform 0.2s ease;
   font-size: 1.5em; /* Increased font size */
   width: 15rem;
+  
 
 }
 .leftNav:hover, .rightNavOne:hover, .rightNavTwo:hover {
@@ -131,11 +132,12 @@ ul {
 }
 
 .leftNav:active, .rightNavOne:active, .rightNavTwo:active {
-  background-color: #387a3b;
+  background-color:  rgb(55, 70, 55);
   transform: translateY(1px);
 }
 .leftNav {
   margin-left: 20%;
+  
 }
 .rightNavOne {
 
@@ -147,12 +149,12 @@ ul {
 
 }
 .navbar {
-  background-color: #333;
+  background-color: rgb(36, 48, 36);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1px;
-  
+
 
 }
 
@@ -162,3 +164,4 @@ ul {
   background-color: #abbaba;
   color: #000;
 }
+

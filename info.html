@@ -3,53 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Info about website. </title>
+  <title>Home </title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stylesInfo.css">
 </head>
 <body>
   <header>
-    <h1>Information about the website</h1>
+    <h1 class ="banner"></h1>
 
-  </header>
-  <main>
-    <h2>This website was made for a school projekt</h2>
-    <p>
-      It all began with a project I created for a dinner event where my classmates and I set a goal to complete
-       and present a small project. For this, I decided to build a Runeword Website based on an old game. 
-       The goal was to showcase a list of runewords in the game, which could be viewed and easily navigated.
-       At first, I had no idea how to make a website or interact with data, but through this project, I learned 
-       an important lesson about how web development works. I discovered that HTML could be dynamically populated with content from external sources using JSON files.
-    </p>
+  </header> 
+  <nav class="navbar">
+    <a class="navbar" href="info.html">
+      <button class="leftNav"> Home</button>
+    </a>
+    <a class="navbar" href="/resources.html">
+      <button class="rightNavTwo"> Resources</button>
+    </a>
+    <a class="navbar" href="/index.html">
+      <button class="rightNavTwo"> QnA Game</button>
+    </a>
+    <a class="navbar" href="/cheatsheet.html">
+      <button class="rightNavOne"> Cheatsheet</button>
+    </a>
+  </nav>
 
-    <h3> Here’s what I learned in the process:   </h3>
-    <ul>
-      <Li>HTML for the structure of the webpage.</Li>
-      <Li>JSON for storing and organizing the runeword data.</Li>
-      <Li>JavaScript to fetch the data from the JSON file and display it in an interactive manner on the webpage.</Li>
-    </ul>
-    <p>
-      This project opened my eyes to the world of web development and led me to pursue more advanced learning in web technologies.
-    </p>
-    <h2>
-      The idea
-    </h2>
-    <p>
-      It all started with a simple question: How can I create a website that not only showcases what I’ve learned in class but also maximizes my learning experience? I wanted to dive deep into web development while also showing my growth.
-      Then it hit me: What if I created a game that teaches simple HTML, JavaScript, and CSS concepts? By doing this, I would not only challenge myself to build a website with an interactive game but also have fun while learning.
-    </p>
-    <ul>
-      <Li>Reinforcement: Every time I test and play the game, I reinforce the concepts I’ve learned, strengthening my understanding.</Li>
-      <Li>Practical Application: The game gives me a sandbox to experiment and apply new coding skills in a real-world context.</Li>
-      <Li>Fun and Engaging: Since I'm playing the game, the learning feels less like a task and more like an interactive experience.</Li>
-    </ul>
-    <p>
-      The key benefit of this approach is that while I'm working to perfect the game, I'm playing it, too. By testing the game’s functionality and solving problems in real time, I am learning the same material that I’m teaching through the game.
-       This method of learning by doing is powerful because it allows me to see the immediate impact of my work. It's not just theoretical knowledge; I’m actively applying it. 
-       In the end, this project isn’t just about creating a game—it's about using the game as a tool to accelerate my learning and make the web development process more enjoyable. 
-       As I continue to test and refine the game, I’ll not only improve the final product but also grow as a developer.
-    </p>
-    </main>
-  <footer>
+  <main class="main">
+    <aside class="welcomeSection">
+      <article class="welcomeSectionArtical">
+        <h2>Learn HTML, CSS, and JavaScript Today!</h2>
+
+        <p>
+          Welcome to our website, a comprehensive learning platform designed to help you master HTML, CSS, and JavaScript. Whether you're a beginner or looking to 
+          enhance your skills, our interactive tutorials, coding challenges, and hands-on projects guide you through the essentials of web development. Learn at your own pace,
+           practice in real-time, and build your confidence as you create dynamic, responsive websites. Join us and unlock the power of coding to bring your ideas to life!
+        </p>
+      </article>
+
+    </aside>
+    <section class="mainSection">
+      
+      <div class="mainSectionDiv">
+
+
+        <section class ="mainSectionDivInfo">
+          <div class="mainSectionDivInfoDivOne">
+            <h2>Resources</h2>
+            <a href="/resources.html" class="mainSectionDivInfoImage">
+              <img src="bilder/5d7e43c7-91ff-40ac-a198-88d32f96daf6.webp" alt="Description of the image" >
+            </a>
+            <p>Here you will find resources to read about HTML, CSS and JavaScript</p>
+          </div>
+          <div class="mainSectionDivInfoDivTwo">
+            <h2>QnA Game</h2>
+            <a href="/index.html" class="mainSectionDivInfoImage">
+              <img src="bilder/qna-2.jpg" alt="Description of the image" />
+            </a>
+            <p>Play a game to challenge your HTML, CSS and JavaScript skills! </p>
+
+          </div>
+          <div class="mainSectionDivInfoDivTre">
+            <h2>Cheatsheet</h2>
+            <a href="/cheatsheet.html" class="mainSectionDivInfoImage">
+              <img src="bilder/cheatsheet.png" alt="Description of the image" />
+            </a>
+            <p>Here you will find all the correct answers to the question's in the QnA game. PS. Its not cheating if your learning. </p>
+          </div>
+        </section>
+
+      </div>
+
+
+      </aside>
+    </section>
+    <section class="secondSection">
+      <div class="secondSectiondiv">
+        <div class="secondSectiondivDiv">
+          <h2>HTML (Hypertext Markup Language)</h2>
+          <p>
+            HTML is the foundation of any webpage and is used to create and structure content on the internet. It consists of elements (or tags) that 
+            define headings, paragraphs, links, images, and other content. HTML is the skeleton of a website,
+             providing the structure that supports everything else. Without HTML, there would be no way to display content on the web.</p>
+        </div>
+        <div class="secondSectiondivDiv">
+          <h2>CSS (Cascading Style Sheets)</h2>
+          <p>CSS is used to style the HTML structure and control the layout, appearance, and overall design of a webpage. It allows you to change things like colors, fonts, spacing,
+             and the positioning of elements on the page. With CSS, you can make a webpage visually appealing and responsive, ensuring it looks good on any device.</p>
+        </div>
+        <div class="secondSectiondivDiv">
+          <h2>JavaScript (JS)</h2>
+          <p>JavaScript is a programming language that brings interactivity to a webpage. It allows you to manipulate the DOM (Document Object Model), create dynamic content, handle user interactions like 
+            clicks and form submissions, and much more. JavaScript is essential for making websites more interactive, from simple animations to complex applications.</p>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+    <footer class="footer">
+      <small>
+        Copyright © 2024 Leo Spegel. All Rights Reserved.
+      </small>
+    </footer>
 
   </footer>
 </body>

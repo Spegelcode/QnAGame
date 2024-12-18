@@ -1,19 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resources</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scriptResources.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="/resources.css">
+    <link rel="stylesheet" href="/stylesinfo.css">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
 <body>
-  <header>
 
-  </header>
-  <main>
+    <header>
+      <h1 class ="banner"></h1>
+      <nav class="navbar">
+        <a class="navbar" href="info.html">
+          <button class="leftNav"> Home</button>
+        </a>
+        <a class="navbar" href="/resources.html">
+          <button class="rightNavTwo"> Resources</button>
+        </a>
+        <a class="navbar" href="/index.html">
+          <button class="rightNavTwo"> QnA Game</button>
+        </a>
+        <a class="navbar" href="/cheatsheet.html">
+          <button class="rightNavOne"> Cheatsheet</button>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <header>
+        <main class="main">
+          <aside class="welcomeSection">
+            <article class="welcomeSectionArtical">
+              <h2>Unlock Your Web Development Potential: Explore HTML, JavaScript, CSS Resources & More</h2>
+      
+              <p>
+                Welcome to our Web Development Resources section! Here, you'll find a collection of valuable materials designed to help you master the fundamentals and advanced techniques of HTML,
+                 JavaScript, and CSS. Whether you're just getting started or looking to refine your skills, we have curated PDF guides, tutorials, and more to assist you on your coding journey. Dive into our
+                  resources and explore everything from basic structure and styling to dynamic interactivity and layout design.
+              </p>
+            </article>
+      
+          </aside>
+          <section class="mainSection">
 
-  </main>
-  <footer>
-    
-  </footer>
+      </header>
+      <Section class="mainDropdown">
+        <div class="dropdown">
+          <button class="dropdown-button">Choose a PDF</button>
+          <ul class="dropdown-content">
+              <li><a href="#" onclick="showPdf('/pdf/Eloquent_JavaScript_3rdEdition.pdf')">Eloquent JavaScript (3rd Edition)</a></li>
+              <li><a href="#" onclick="showPdf('pdf/Learning-Web-Design-5th-Edition-by-Jennifer-Niederst-booksfree.org_.pdf')">Web Design 5th Edition by Jennifer Niederst</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropdown-button">Choose a Video</button>
+          <ul class="dropdown-content">
+            <li><a href="#" onclick="loadYouTubeVideo('EfAl9bwzVZk')">Video 1</a></li>
+            <li><a href="#" onclick="loadYouTubeVideo('3tmd-ClpJxA')">Video 2</a></li>
+            <li><a href="#" onclick="loadYouTubeVideo('oHg5SJYRHA0')">Video 3</a></li>
+          </ul>
+        </div>
+
+    </Section>
+
+
+    <div style="text-align: center;">
+      <iframe 
+        id="youtube-player" 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+      <div id="pdf-container">
+        <iframe id="pdf-frame" src="" class="iframe" width="80%" height="600px"></iframe>
+
+
+      
+    </main>
+  
 </body>
 </html>
