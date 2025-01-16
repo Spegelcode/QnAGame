@@ -112,3 +112,38 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.content {
+  display: none;
+  transition: all 0.3 ease;
+}
+.content.visible  {
+  display: block;
+}
+#pdf-container {
+  width: 100%; /* Full width by default */
+  max-width: 100%; /* Prevent overflow */
+  height: 100vh; /* Default height, adjustable */
+  border: 1px solid #ddd; /* Subtle border for clarity */
+  border-radius: 8px; /* Rounded corners for modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 20px 0; /* Spacing around iframe */
+  overflow: hidden; /* Prevent scrollbars inside iframe */
+  transition: all 0.3s ease; /* Smooth changes */
+}
+@media (max-width: 768px) {
+  iframe {
+    height: 300px; /* Adjust height for smaller screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  iframe {
+    height: 600px; /* Larger height for bigger screens */
+  }
+}
+
+/* Optional hover effect for interactivity */
+iframe:hover {
+  border-color: #007BFF; /* Highlight on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly larger shadow */
+}

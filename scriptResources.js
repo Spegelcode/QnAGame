@@ -1,29 +1,29 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const buttons = document.querySelectorAll(".toggle-button");
+    const buttons = document.querySelectorAll(".toggle-button");
 
-  buttons.forEach(button => {
-      button.addEventListener("click", () => {
-          const targetId = button.getAttribute("data-target");
-          const targetContent = document.getElementById(targetId);
+    buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const targetId = button.getAttribute("data-target");
+            const targetContent = document.getElementById(targetId);
 
-          // Close all other articles
-          document.querySelectorAll(".content").forEach(content => {
-              if (content.id !== targetId) {
-                  content.style.display = "none";
-              }
-          });
+            // Close all other articles
+            document.querySelectorAll(".content").forEach(content => {
+                if (content !== targetContent) {
+                    content.classList.remove("visible");
+                }
+            });
 
-          // Toggle the visibility of the clicked article
-          if (targetContent.style.display === "block") {
-              targetContent.style.display = "none";
-          } else {
-              targetContent.style.display = "block";
-          }
-      });
+            // Toggle the visibility of the clicked article
+            targetContent.classList.toggle("visible");
+        });
+    });
   });
-});
 
-function showPdf(pdfPath) {
-  document.getElementById('pdf-frame').src = pdfPath;
-  document.getElementById('pdf-container');
-}
+  function showPdf(pdfPath) {
+      const pdfFrame = document.getElementById('pdf-frame');
+      if (pdfFrame) {
+          pdfFrame.src = pdfPath;
+      } else {
+          console.error('PDF frame not found');
+      }
+  }

@@ -9,14 +9,15 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="/resources.css">
     <link rel="stylesheet" href="/stylesinfo.css">
-    <link rel="stylesheet" href="styles.css">
 
   </head>
 <body>
 
-    <header>
-      <h1 class ="banner"></h1>
-      <nav class="navbar">
+  <header>
+    <h1 class ="banner"></h1>
+    <nav class="navbar">
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+      <div class="nav-links collapsed, navbar" id="navLinks">   
         <a class="navbar" href="info.html">
           <button class="leftNav"> Home</button>
         </a>
@@ -29,10 +30,11 @@
         <a class="navbar" href="/cheatsheet.html">
           <button class="rightNavOne"> Cheatsheet</button>
         </a>
-      </nav>
-    </header>
+      </div>                                        
+    </nav>
+  </header>
     <main>
-      <header>
+      <div>
         <main class="main">
           <aside class="welcomeSection">
             <article class="welcomeSectionArtical">
@@ -48,42 +50,25 @@
           </aside>
           <section class="mainSection">
 
-      </header>
+          </div>
       <Section class="mainDropdown">
         <div class="dropdown">
-          <button class="dropdown-button">Choose a PDF</button>
+          <button class="dropdown-button">PDF</button>
           <ul class="dropdown-content">
               <li><a href="#" onclick="showPdf('/pdf/Eloquent_JavaScript_3rdEdition.pdf')">Eloquent JavaScript (3rd Edition)</a></li>
               <li><a href="#" onclick="showPdf('pdf/Learning-Web-Design-5th-Edition-by-Jennifer-Niederst-booksfree.org_.pdf')">Web Design 5th Edition by Jennifer Niederst</a></li>
           </ul>
         </div>
 
-        <div class="dropdown">
-          <button class="dropdown-button">Choose a Video</button>
-          <ul class="dropdown-content">
-            <li><a href="#" onclick="loadYouTubeVideo('EfAl9bwzVZk')">Video 1</a></li>
-            <li><a href="#" onclick="loadYouTubeVideo('3tmd-ClpJxA')">Video 2</a></li>
-            <li><a href="#" onclick="loadYouTubeVideo('oHg5SJYRHA0')">Video 3</a></li>
-          </ul>
-        </div>
-
-    </Section>
 
 
-    <div style="text-align: center;">
-      <iframe 
-        id="youtube-player" 
-        width="560" 
-        height="315" 
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-      </iframe>
-    </div>
+      </Section>
+
+
+
 
       <div id="pdf-container">
-        <iframe id="pdf-frame" src="" class="iframe" width="80%" height="600px"></iframe>
+        <iframe id="pdf-frame" src="" class="iframe" ></iframe>
 
 
       
@@ -91,3 +76,4 @@
   
 </body>
 </html>
+<script src="hamburger.js"></script> <!-- Link to JS -->

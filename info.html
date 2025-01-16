@@ -10,22 +10,24 @@
 <body>
   <header>
     <h1 class ="banner"></h1>
-
-  </header> 
-  <nav class="navbar">
-    <a class="navbar" href="info.html">
-      <button class="leftNav"> Home</button>
-    </a>
-    <a class="navbar" href="/resources.html">
-      <button class="rightNavTwo"> Resources</button>
-    </a>
-    <a class="navbar" href="/index.html">
-      <button class="rightNavTwo"> QnA Game</button>
-    </a>
-    <a class="navbar" href="/cheatsheet.html">
-      <button class="rightNavOne"> Cheatsheet</button>
-    </a>
-  </nav>
+    <nav class="navbar">
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+      <div class="nav-links collapsed, navbar" id="navLinks">   
+        <a class="navbar" href="info.html">
+          <button class="leftNav"> Home</button>
+        </a>
+        <a class="navbar" href="/resources.html">
+          <button class="rightNavTwo"> Resources</button>
+        </a>
+        <a class="navbar" href="/index.html">
+          <button class="rightNavTwo"> QnA Game</button>
+        </a>
+        <a class="navbar" href="/cheatsheet.html">
+          <button class="rightNavOne"> Cheatsheet</button>
+        </a>
+      </div>                                        
+    </nav>
+  </header>
 
   <main class="main">
     <aside class="welcomeSection">
@@ -110,3 +112,4 @@
   </footer>
 </body>
 </html>
+<script src="hamburger.js"></script> <!-- Link to JS -->

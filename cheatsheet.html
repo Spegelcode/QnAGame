@@ -5,30 +5,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cheatsheet</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/resources.css">
+  <link rel="stylesheet" href="/stylesinfo.css">
+
+  <link rel="script" href="cheatsheet.css">
+
+
+  
 </head>
 <body>
-  <nav class="navbar">
-    <a class="navbar" href="info.html">
-      <button class="leftNav"> Home</button>
-    </a>
-    <a class="navbar" href="/resources.html">
-      <button class="rightNavTwo"> Resources</button>
-    </a>
-    <a class="navbar" href="/index.html">
-      <button class="rightNavTwo"> QnA Game</button>
-    </a>
-    <a class="navbar" href="/cheatsheet.html">
-      <button class="rightNavOne"> Cheatsheet</button>
-    </a>
-  </nav>
   <header>
-
+    <h1 class ="banner"></h1>
+    <nav class="navbar">
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+      <div class="nav-links collapsed, navbar" id="navLinks">   
+        <a class="navbar" href="info.html">
+          <button class="leftNav"> Home</button>
+        </a>
+        <a class="navbar" href="/resources.html">
+          <button class="rightNavTwo"> Resources</button>
+        </a>
+        <a class="navbar" href="/index.html">
+          <button class="rightNavTwo"> QnA Game</button>
+        </a>
+        <a class="navbar" href="/cheatsheet.html">
+          <button class="rightNavOne"> Cheatsheet</button>
+        </a>
+      </div>                                        
+    </nav>
   </header>
-  <main>
 
+  <main class="mainSectionbig">
+    <div>
+      <main class="main">
+        <aside class="welcomeSection">
+          <article class="welcomeSectionArtical">
+            <h2>Unlock Your Web Development Potential: Explore HTML, JavaScript, CSS Resources & More</h2>
+    
+            <p>
+              Welcome to our Web Development Resources section! Here, you'll find a collection of valuable materials designed to help you master the fundamentals and advanced techniques of HTML,
+               JavaScript, and CSS. Whether you're just getting started or looking to refine your skills, we have curated PDF guides, tutorials, and more to assist you on your coding journey. Dive into our
+                resources and explore everything from basic structure and styling to dynamic interactivity and layout design.
+            </p>
+          </article>
+    
+        </aside>
+
+
+      </div>
+    <Section class="mainDropdownCheat">
+
+
+      <section class="video-dropdown">
+        <div class="dropdown">
+          <button class="dropdown-button">Choose a Video</button>
+          <ul class="dropdown-content">
+            <li><a href="#" onclick="loadYouTubeVideo('EfAl9bwzVZk?si=47L6MIwA9SHmejVN')">JavaScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours </a></li>
+            <li><a href="#" onclick="loadYouTubeVideo('EfAl9bwzVZk?si=47L6MIwA9SHmejVN')">Video 1sdfas</a></li>
+            <li><a href="#" onclick="loadYouTubeVideo('EfAl9bwzVZk?')">Video 1</a></li>
+
+          </ul>
+        </div>
+      </section>
+    
+      <div class="video-container">
+        <iframe 
+          id="youtube-player" 
+
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </Section>
+
+
+
+    
   </main>
   <footer>
     
   </footer>
 </body>
+<script src="vid.js"></script>
+<script src="hamburger.js"></script> <!-- Link to JS -->
+
 </html>
