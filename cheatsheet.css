@@ -1,56 +1,11 @@
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
+#youtube-player {
+  width: 150vh;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-button {
-  background-color: #007BFF;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 5px;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-  z-index: 1;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.dropdown-content li {
-  padding: 8px 12px;
-}
-
-.dropdown-content li a {
-  color: black;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content li:hover {
-  background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 .video-container {
   margin-top: 20px;
+  
 }
 
 .mainDropdownCheat {
@@ -58,6 +13,7 @@ body {
   flex-direction:column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30vh;
 
 }
 .mainSectionbig {

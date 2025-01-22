@@ -17,14 +17,15 @@ h1 {
   justify-content: center; /* Horizontal alignment */
   align-items: center;    /* Vertical alignment */
   font-size: 22px;
-  background-color: #7b947c8c;
+  background-color: rgb(36, 48, 36);
+  color: #ececec;
 }
 #topic {
   margin: 20px;
   padding: 10px;
   font-size: 1em; /* Increased font size */
   font-weight: bold;
-  color: #333;
+  color: #d3bfbf;
   text-transform: uppercase;
   justify-content: center;
 }
@@ -40,6 +41,8 @@ h1 {
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30vh;
+
 }
 
 ul {
@@ -48,7 +51,7 @@ ul {
 }
 
 .liL {
-  background-color: #4CAF50;
+  background-color: rgb(36, 48, 36);
   color: white;
   padding: 16px; /* Increased padding */
   margin: 12px 0;
@@ -130,8 +133,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* Allows wrapping for smaller screens */
-  padding: 0.5rem;
+  padding: 0.3rem;
+  margin-left: 4%;
+  margin-right: 4%;
+  text-decoration: none;
 }
 
 /* Navigation links container */
@@ -166,11 +171,13 @@ header {
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
   text-align: center;
+
 }
 
 .leftNav:hover, .rightNavOne:hover, .rightNavTwo:hover {
   background-color: #45a049;
   transform: translateY(-3px);
+
 }
 
 /* Hamburger menu button */
@@ -184,7 +191,7 @@ header {
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .hamburger {
     display: block; /* Show hamburger on small screens */
   }
@@ -196,4 +203,11 @@ header {
   .nav-links.expanded {
     display: flex; /* Show expanded navigation */
   }
+}
+.hiddenAnswer {
+  visibility: hidden; /* Hide the answer by default */
+}
+#result:hover .hiddenAnswer {
+  visibility: visible; /* Show the answer on hover */
+  color: rgb(14, 153, 25); /* Optional styling for hover effect */
 }

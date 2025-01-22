@@ -51,11 +51,17 @@ function checkAnswer(selectedOption, correctAnswer, index) {
       } else {
         resultDiv.textContent = 'You have completed the quiz!';
       }
-    }, 1000); // 1-second delay before moving to the next question
+    }, 3000); // 1-second delay before moving to the next question
   } else {
-    resultDiv.textContent = `Incorrect. The correct answer is ${correctAnswer}.`;
+    // Create a span for the correct answer
+    const answerSpan = document.createElement('span');
+    answerSpan.textContent = ` ${correctAnswer}`;
+    answerSpan.classList.add('hiddenAnswer');
+
+    resultDiv.textContent = "Incorrect. The correct answer is....";
+    resultDiv.appendChild(answerSpan); // Append the hidden answer to the result text
     resultDiv.style.color = 'red';
-  }
+}
 }
 function goToResources() {
   window.open('resources.html', '_blank')  // Redirects to the resources.html page

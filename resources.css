@@ -144,6 +144,5 @@ body {
 
 /* Optional hover effect for interactivity */
 iframe:hover {
-  border-color: #007BFF; /* Highlight on hover */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly larger shadow */
 }
