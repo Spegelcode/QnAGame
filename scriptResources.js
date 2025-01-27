@@ -6,14 +6,13 @@ document.addEventListener("DOMContentLoaded", () => {
             const targetId = button.getAttribute("data-target");
             const targetContent = document.getElementById(targetId);
 
-            // Close all other articles
+
             document.querySelectorAll(".content").forEach(content => {
                 if (content !== targetContent) {
                     content.classList.remove("visible");
                 }
             });
 
-            // Toggle the visibility of the clicked article
             targetContent.classList.toggle("visible");
         });
     });

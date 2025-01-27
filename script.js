@@ -7,7 +7,7 @@ document.getElementById('topic').addEventListener('change', (event) => {
   loadQuestions(event.target.value);
 });
 
-// Function to load questions based on the topic selected
+// load questions based on the topic selected
 function loadQuestions(topic) {
   fetch(`${topic}Questions.json`)
     .then(response => response.json())
@@ -18,12 +18,12 @@ function loadQuestions(topic) {
     .catch(error => console.error('Error loading questions:', error));
 }
 
-// Function to display a question based on the index
+// display a question based on the index
 function displayQuestion(index) {
   const question = questions[index];
   document.getElementById('question').textContent = question.question;
   const optionsList = document.getElementById('options');
-  optionsList.innerHTML = ''; // Clear previous options
+  optionsList.innerHTML = '';
 
   question.options.forEach((option) => {
     const optionElement = document.createElement('li');
@@ -35,7 +35,7 @@ function displayQuestion(index) {
 }
 
 
-// Function to check the selected answer and move to the next question if correct
+// check the selected answer and move to the next question if correct
 function checkAnswer(selectedOption, correctAnswer, index) {
   const resultDiv = document.getElementById('result');
 
@@ -51,21 +51,19 @@ function checkAnswer(selectedOption, correctAnswer, index) {
       } else {
         resultDiv.textContent = 'You have completed the quiz!';
       }
-    }, 2000); // delay before moving to the next question
+    }, 2000);
   } else {
-    // Create a span for the correct answer
     const answerSpan = document.createElement('span');
     answerSpan.textContent = ` ${correctAnswer}`;
     answerSpan.classList.add('hiddenAnswer');
 
     resultDiv.textContent = "Incorrect. The correct answer is....";
-    resultDiv.appendChild(answerSpan); // Append the hidden answer to the result text
+    resultDiv.appendChild(answerSpan);
     resultDiv.style.color = 'red';
 }
 }
 function goToResources() {
-  window.open('resources.html', '_blank')  // Redirects to the resources.html page
+  window.open('resources.html', '_blank') 
 }
 
-// Load the initial set of questions for CSS topic
 loadQuestions('css');
