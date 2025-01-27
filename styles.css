@@ -62,7 +62,7 @@ ul {
 }
 
 .liL:hover {
-  background-color: #45a049;
+  background-color: #335034;
   transform: translateY(-3px);
 }
 
@@ -93,7 +93,7 @@ ul {
   color: #721c24;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 300px) {
   #question-container {
     padding: 25px;
     max-width: 100%;
@@ -113,6 +113,9 @@ ul {
 
   li {
     font-size: 1.4em;
+  }
+  .dropdown {
+    max-width: 20px;
   }
 }
 
@@ -153,12 +156,7 @@ header {
   opacity: 0;
 }
 
-.nav-links.expanded {
-  max-height: 500px; 
-  opacity: 1;
-  flex-direction: column; 
-  align-items: center;
-}
+
 
 
 .leftNav, .rightNavOne, .rightNavTwo {
@@ -175,7 +173,7 @@ header {
 }
 
 .leftNav:hover, .rightNavOne:hover, .rightNavTwo:hover {
-  background-color: #45a049;
+  background-color: #275029;
   transform: translateY(-3px);
 
 }
@@ -186,12 +184,11 @@ header {
   background: none;
   border: none;
   color: white;
-  cursor: pointer;
-  display: none; 
+
 }
 
 
-@media (max-width: 868px) {
+@media (max-width: 860px) {
   .hamburger {
     display: block; 
   }
@@ -203,11 +200,21 @@ header {
   .nav-links.expanded {
     display: flex; 
   }
+  .nav-links.expanded {
+    opacity: 1;
+    display: flex;
+    flex-direction: column; 
+    align-items: start;
+  }
+
+
 }
 .hiddenAnswer {
   visibility: hidden;
 }
 #result:hover .hiddenAnswer {
   visibility: visible; 
-  color: rgb(14, 153, 25); 
+  color: rgb(53, 94, 57); 
 }
+
+

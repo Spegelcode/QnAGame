@@ -77,7 +77,6 @@ body {
 .mainSectionDivInfoDivTwo,
 .mainSectionDivInfoDivTre {
   flex: 1;
-  min-width: 250px;
 
   padding: 10px;
   border-radius: 10px;
@@ -101,7 +100,7 @@ body {
   object-fit: cover;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 300px) {
   .mainSection {
     flex-direction: column; 
     height: auto;
@@ -109,6 +108,23 @@ body {
 
   .mainSectionDiv, .mainSectionAside {
     max-width: 100%; 
+    margin-right: 0;
+  }
+
+  .mainSectionDivInfoDivOne,
+  .mainSectionDivInfoDivTwo,
+  .mainSectionDivInfoDivTre {
+    flex: 1 1 100%; 
+  }
+}
+@media screen and (max-width: 900px) {
+  .mainSection {
+    flex-direction: column; 
+    height: auto;
+  }
+
+  .mainSectionDiv, .mainSectionAside {
+    min-width: 100px; 
     margin-right: 0;
   }
 
@@ -141,7 +157,6 @@ body {
 
 .secondSectiondivDiv {
   flex: 1;
-  min-width: 250px; 
 
   padding: 10px;
   border-radius: 10px;
@@ -151,7 +166,7 @@ body {
   color: aliceblue;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 300px) {
   .secondSection {
     flex-direction: column; 
   }
