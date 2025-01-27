@@ -51,7 +51,7 @@ function checkAnswer(selectedOption, correctAnswer, index) {
       } else {
         resultDiv.textContent = 'You have completed the quiz!';
       }
-    }, 3000); // 1-second delay before moving to the next question
+    }, 2000); // delay before moving to the next question
   } else {
     // Create a span for the correct answer
     const answerSpan = document.createElement('span');

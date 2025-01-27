@@ -10,12 +10,12 @@ h1 {
   text-align: center;
   color: #333;
   margin-top: 40px;
-  font-size: 3em; /* Increased font size */
+  font-size: 3em;
 }
 .selectTopic {
   display: flex;
-  justify-content: center; /* Horizontal alignment */
-  align-items: center;    /* Vertical alignment */
+  justify-content: center; 
+  align-items: center;   
   font-size: 22px;
   background-color: rgb(36, 48, 36);
   color: #ececec;
@@ -23,7 +23,7 @@ h1 {
 #topic {
   margin: 20px;
   padding: 10px;
-  font-size: 1em; /* Increased font size */
+  font-size: 1em;
   font-weight: bold;
   color: #d3bfbf;
   text-transform: uppercase;
@@ -35,7 +35,7 @@ h1 {
 
 }
 #question-container {
-  max-width: 700px; /* Slightly wider container */
+  max-width: 700px;
   margin: 0 auto;
   background-color: #fff;
   padding: 40px;
@@ -53,12 +53,12 @@ ul {
 .liL {
   background-color: rgb(36, 48, 36);
   color: white;
-  padding: 16px; /* Increased padding */
+  padding: 16px; 
   margin: 12px 0;
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  font-size: 1.5em; /* Increased font size */
+  font-size: 1.5em; 
 }
 
 .liL:hover {
@@ -73,7 +73,7 @@ ul {
 
 #result {
   text-align: center;
-  font-size: 1.8em; /* Increased font size */
+  font-size: 1.8em; 
   font-weight: bold;
   margin-top: 30px;
   padding: 20px;
@@ -100,35 +100,35 @@ ul {
   }
 
   h1 {
-    font-size: 2.5em; /* Increased for mobile */
+    font-size: 2.5em; 
   }
 
   #topic {
-    font-size: 2.2em; /* Increased for mobile */
+    font-size: 2.2em; 
   }
 
   #result {
-    font-size: 1.6em; /* Increased for mobile */
+    font-size: 1.6em; 
   }
 
   li {
-    font-size: 1.4em; /* Increased for mobile */
+    font-size: 1.4em;
   }
 }
-/* General header styles */
+
 header {
   background-color: rgb(36, 48, 36);
   padding: 1rem;
 }
 
-/* Banner styles */
+
 .banner {
   color: white;
   text-align: center;
   margin-bottom: 1rem;
 }
 
-/* Navbar styles */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -139,7 +139,7 @@ header {
   text-decoration: none;
 }
 
-/* Navigation links container */
+
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -154,13 +154,13 @@ header {
 }
 
 .nav-links.expanded {
-  max-height: 500px; /* Arbitrary large value */
+  max-height: 500px; 
   opacity: 1;
-  flex-direction: column; /* Stack items on smaller screens */
+  flex-direction: column; 
   align-items: center;
 }
 
-/* Individual navigation buttons */
+
 .leftNav, .rightNavOne, .rightNavTwo {
   background-color: rgb(30, 40, 30);
   color: white;
@@ -180,34 +180,34 @@ header {
 
 }
 
-/* Hamburger menu button */
+
 .hamburger {
   font-size: 1.5rem;
   background: none;
   border: none;
   color: white;
   cursor: pointer;
-  display: none; /* Hidden on larger screens */
+  display: none; 
 }
 
-/* Responsive design */
+
 @media (max-width: 868px) {
   .hamburger {
-    display: block; /* Show hamburger on small screens */
+    display: block; 
   }
 
   .nav-links {
-    display: none; /* Hidden by default */
+    display: none; 
   }
 
   .nav-links.expanded {
-    display: flex; /* Show expanded navigation */
+    display: flex; 
   }
 }
 .hiddenAnswer {
-  visibility: hidden; /* Hide the answer by default */
+  visibility: hidden;
 }
 #result:hover .hiddenAnswer {
-  visibility: visible; /* Show the answer on hover */
-  color: rgb(14, 153, 25); /* Optional styling for hover effect */
+  visibility: visible; 
+  color: rgb(14, 153, 25); 
 }
