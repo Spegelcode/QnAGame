@@ -131,14 +131,14 @@ body {
   transition: all 0.3s ease; 
 }
 @media (max-width: 768px) {
-  iframe {
-    height: 1500px; 
+  #pdf-frame {
+    height: 70yh; 
   }
 }
 
 @media (min-width: 1200px) {
-  iframe {
-    height: 600px; 
+  #pdf-frame {
+    height: 80yh; 
   }
 }
 @media (max-width:800px)  {
