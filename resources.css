@@ -45,9 +45,7 @@ body {
 
 
 }
-#pdf-frame {
-  
-}
+
 
 .mainDropdown {
 
@@ -59,7 +57,6 @@ body {
 
 .dropdown {
   display: flex;
-  display: inline-block;
 
 }
 
@@ -141,16 +138,7 @@ body {
     height: 80yh; 
   }
 }
-@media (max-width:800px)  {
-  .dropdown-button {
-    max-width: 30vb;
-  }
-  
-  .dropdown-content li a {
-    max-width: 25vb;
 
-  }
-}
 
 iframe:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
