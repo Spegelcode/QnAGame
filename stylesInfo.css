@@ -3,7 +3,7 @@ h2 {
 }
 body {
   font-family: 'Arial', sans-serif;
-  background-color: rgb(209, 205, 205);
+  background-color: rgb(240, 240, 240);
   margin: 0;
   padding: 0;
   line-height: 1.8;
@@ -218,19 +218,33 @@ body {
 }
 
 .main {
-  background-color: rgb(209, 205, 205);
+  background-color: rgb(241, 241, 241);
   border-radius: 10px;
   margin-left: 5%;
   margin-right: 5%;
   padding: 1%;
-  
+  box-sizing: border-box; /* Ensures padding is included in the width calculation */
 }
+
+
+
+@media (max-width: 1024px) {
+  .main {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
+@media (max-width: 600px) {
+  .main {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
 @media (max-width: 300px) {
   .main {
-    background-color: rgb(209, 205, 205);
-    border-radius: 10px;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding: 1%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
