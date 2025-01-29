@@ -4,6 +4,7 @@
   align-items: center;
   padding: 0.8rem 4%;
   background-color: rgb(30, 40, 30);
+  border-radius: 10px;
 }
 
 /* Navigation Links */
