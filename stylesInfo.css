@@ -3,7 +3,7 @@ h2 {
 }
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f9;
+  background-color: rgb(209, 205, 205);
   margin: 0;
   padding: 0;
   line-height: 1.8;
@@ -224,4 +224,13 @@ body {
   margin-right: 5%;
   padding: 1%;
   
+}
+@media (max-width: 300px) {
+  .main {
+    background-color: rgb(209, 205, 205);
+    border-radius: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 1%;
+  }
 }
