@@ -6,29 +6,22 @@
   <title>Home </title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="stylesInfo.css">
+  <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
       <h1 class ="banner"></h1>
 
-  <header>
-    <nav class="navbar">
-      <button class="hamburger" onclick="toggleMenu()">☰</button>
-      <div class="nav-links collapsed, navbar" id="navLinks">   
-        <a class="navbar" href="info.html">
-          <button class="leftNav"> Home</button>
-        </a>
-        <a class="navbar" href="resources.html">
-          <button class="rightNavTwo"> Resources</button>
-        </a>
-        <a class="navbar" href="index.html">
-          <button class="rightNavTwo"> QnA Game</button>
-        </a>
-        <a class="navbar" href="cheatsheet.html">
-          <button class="rightNavOne"> Video Tutorials</button>
-        </a>
-      </div>                                        
-    </nav>
-  </header>
+      <header>
+        <nav class="navbar">
+          <button class="hamburger" aria-label="Toggle Menu" aria-expanded="false" onclick="toggleMenu()">☰</button>
+          <div class="nav-links collapsed" id="navLinks">
+            <a href="info.html"><button class="nav-btn">Home</button></a>
+            <a href="resources.html"><button class="nav-btn">Resources</button></a>
+            <a href="index.html"><button class="nav-btn">QnA Game</button></a>
+            <a href="cheatsheet.html"><button class="nav-btn">Video Tutorials</button></a>
+          </div>
+        </nav>
+      </header>
 
   <main class="main">
     <aside class="welcomeSection">

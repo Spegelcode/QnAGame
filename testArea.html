@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <style>
+    /* General Navbar Styling */
+    .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 4%;
+  background-color: rgb(30, 40, 30);
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  justify-content: center; /* This will center the buttons horizontally */
+  align-items: center; /* This will ensure the buttons are vertically centered */
+  gap: 15px; /* Adjust space between buttons */
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  width: 100%; /* Ensure the nav-links take full width of the parent */
+}
+
+/* Navigation Buttons */
+.nav-btn {
+  background-color: rgb(30, 40, 30);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: none;
+  text-align: center;
+}
+
+.nav-btn:hover {
+  background-color: #275029;
+  transform: translateY(-2px);
+}
+
+/* Hamburger Button */
+.hamburger {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+/* Responsive Navigation */
+@media (max-width: 860px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center; /* This centers buttons vertically when in column layout */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: rgb(30, 40, 30);
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+  }
+
+  .nav-links.expanded {
+    max-height: 300px;
+    opacity: 1;
+    padding: 10px 4%;
+  }
+}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <button class="hamburger" aria-label="Toggle Menu" aria-expanded="false" onclick="toggleMenu()">☰</button>
+      <div class="nav-links collapsed" id="navLinks">
+        <a href="info.html"><button class="nav-btn">Home</button></a>
+        <a href="resources.html"><button class="nav-btn">Resources</button></a>
+        <a href="index.html"><button class="nav-btn">QnA Game</button></a>
+        <a href="cheatsheet.html"><button class="nav-btn">Video Tutorials</button></a>
+      </div>
+    </nav>
+  </header>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById("navLinks");
+      const isExpanded = navLinks.classList.contains("expanded");
+      
+      navLinks.classList.toggle("expanded", !isExpanded);
+      document.querySelector(".hamburger").setAttribute("aria-expanded", !isExpanded);
+    }
+  </script>
+</body>
+</html>
