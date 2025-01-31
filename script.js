@@ -29,14 +29,16 @@ function displayQuestion(index) {
     const optionElement = document.createElement('li');
     optionElement.textContent = option;
     optionElement.classList.add('liL');
+    
     optionElement.onclick = () => checkAnswer(option, question.correctAnswer, index);
     optionsList.appendChild(optionElement);
   });
 }
 
 
-// check the selected answer and move to the next question if correct
-function checkAnswer(selectedOption, correctAnswer, index) {
+// Rätt svar resultat. Correct answer result.
+
+function checkAnswer(selectedOption, correctAnswer) {
   const resultDiv = document.getElementById('result');
 
   if (selectedOption === correctAnswer) {
@@ -44,26 +46,33 @@ function checkAnswer(selectedOption, correctAnswer, index) {
     resultDiv.style.color = 'green';
 
     setTimeout(() => {
-      currentQuestionIndex++;
-      if (currentQuestionIndex < questions.length) {
-        displayQuestion(currentQuestionIndex);
-        resultDiv.textContent = '';
-      } else {
-        resultDiv.textContent = 'You have completed the quiz!';
-      }
-    }, 2000);
+      const randomIndex = Math.floor(Math.random() * questions.length);
+      displayQuestion(randomIndex);
+      resultDiv.textContent = '';
+    }, 1500);
+
+
+    //Fel svar resultat. Wrong answer results. 
+
   } else {
+    resultDiv.textContent = "Incorrect. The correct answer is....";
     const answerSpan = document.createElement('span');
     answerSpan.textContent = ` ${correctAnswer}`;
     answerSpan.classList.add('hiddenAnswer');
-
-    resultDiv.textContent = "Incorrect. The correct answer is....";
     resultDiv.appendChild(answerSpan);
     resultDiv.style.color = 'red';
 }
 }
-function goToResources() {
+loadQuestions('css');
+
+
+
+
+
+// länk till resources för mer info. Tagit bort. 
+
+/*function goToResources() {
   window.open('resources.html', '_blank') 
 }
 
-loadQuestions('css');
+*/
