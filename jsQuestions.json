@@ -649,6 +649,467 @@
         "None of the above"
       ],
       "correctAnswer": "Both 1 and 2"
-    }
+    },
+    {
+        "question": "Which of the following is the correct syntax to create a JavaScript function?",
+          "options": [
+            "function myFunction()",
+            "function = myFunction()",
+            "function: myFunction()",
+            "def myFunction()"
+          ],
+          "correctAnswer": "function myFunction()"
+        },
+        {
+          "question": "What is the correct syntax to declare a variable in JavaScript?",
+          "options": [
+            "var x = 10;",
+            "let x = 10;",
+            "const x = 10;",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above"
+        },
+        {
+          "question": "What is the result of 5 + '5' in JavaScript?",
+          "options": [
+            "10",
+            "'55'",
+            "Error",
+            "NaN"
+          ],
+          "correctAnswer": "'55'"
+        },
+        {
+          "question": "Which of the following is NOT a JavaScript data type?",
+          "options": [
+            "string",
+            "boolean",
+            "float",
+            "undefined"
+          ],
+          "correctAnswer": "float"
+        },
+        {
+          "question": "How do you write a comment in JavaScript?",
+          "options": [
+            "// This is a comment",
+            "/* This is a comment */",
+            "<!-- This is a comment -->",
+            "Both 1 and 2"
+          ],
+          "correctAnswer": "Both 1 and 2"
+        },
+        {
+          "question": "Which of the following methods can be used to convert a string to an integer in JavaScript?",
+          "options": [
+            "parseInt()",
+            "Number()",
+            "parseFloat()",
+            "Both 1 and 2"
+          ],
+          "correctAnswer": "Both 1 and 2"
+        },
+        {
+          "question": "Which of the following is the correct way to write a JavaScript array?",
+          "options": [
+            "var arr = [1, 2, 3];",
+            "var arr = (1, 2, 3);",
+            "var arr = {1, 2, 3};",
+            "var arr = 1, 2, 3;"
+          ],
+          "correctAnswer": "var arr = [1, 2, 3];"
+        },
+        {
+          "question": "What is the output of the following code: console.log(1 + '1');",
+          "options": [
+            "2",
+            "11",
+            "NaN",
+            "Error"
+          ],
+          "correctAnswer": "11"
+        },
+        {
+          "question": "What will be the output of the following code: console.log(3 == '3');",
+          "options": [
+            "true",
+            "false",
+            "NaN",
+            "undefined"
+          ],
+          "correctAnswer": "true"
+        },
+        {
+          "question": "Which of the following methods is used to add a new item to the end of an array in JavaScript?",
+          "options": [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+          ],
+          "correctAnswer": "push()"
+        },
+        {
+          "question": "Which JavaScript keyword is used to define a constant?",
+          "options": [
+            "let",
+            "const",
+            "var",
+            "define"
+          ],
+          "correctAnswer": "const"
+        },
+        {
+          "question": "What is the purpose of the 'this' keyword in JavaScript?",
+          "options": [
+            "It refers to the global object",
+            "It refers to the current function",
+            "It refers to the current object",
+            "It refers to the previous function"
+          ],
+          "correctAnswer": "It refers to the current object"
+        },
+        {
+          "question": "Which of the following is a valid JavaScript object?",
+          "options": [
+            "{name: 'John', age: 30}",
+            "[name: 'John', age: 30]",
+            "(name: 'John', age: 30)",
+            "None of the above"
+          ],
+          "correctAnswer": "{name: 'John', age: 30}"
+        },
+        {
+          "question": "What is the result of the expression 5 == '5' in JavaScript?",
+          "options": [
+            "true",
+            "false",
+            "NaN",
+            "undefined"
+          ],
+          "correctAnswer": "true"
+        },
+        {
+          "question": "Which method is used to remove the first item from an array in JavaScript?",
+          "options": [
+            "pop()",
+            "shift()",
+            "push()",
+            "unshift()"
+          ],
+          "correctAnswer": "shift()"
+        },
+        {
+          "question": "What is the value of 'x' after the following code: let x = 10; x += 5;",
+          "options": [
+            "10",
+            "15",
+            "5",
+            "undefined"
+          ],
+          "correctAnswer": "15"
+        },
+        {
+          "question": "Which of the following methods is used to convert a value to a string in JavaScript?",
+          "options": [
+            "toString()",
+            "parseString()",
+            "String()",
+            "Both 1 and 3"
+          ],
+          "correctAnswer": "Both 1 and 3"
+        },
+        {
+          "question": "How do you define a function that accepts parameters in JavaScript?",
+          "options": [
+            "function myFunction()",
+            "function myFunction(param) {}",
+            "function myFunction {param} {}",
+            "function = myFunction()"
+          ],
+          "correctAnswer": "function myFunction(param) {}"
+        },
+        {
+          "question": "Which operator is used to assign a value to a variable in JavaScript?",
+          "options": [
+            "=",
+            "==",
+            "===",
+            "=>"
+          ],
+          "correctAnswer": "="
+        },
+        {
+          "question": "What is the result of the following code: console.log(1 + true);",
+          "options": [
+            "2",
+            "NaN",
+            "1true",
+            "Error"
+          ],
+          "correctAnswer": "2"
+        },
+        {
+          "question": "Which of the following methods is used to remove an item from the end of an array in JavaScript?",
+          "options": [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+          ],
+          "correctAnswer": "pop()"
+        },
+        {
+          "question": "What does the 'console.log()' function do in JavaScript?",
+          "options": [
+            "It logs a message to the browser console",
+            "It logs a message to the screen",
+            "It opens a console window",
+            "It writes to the HTML document"
+          ],
+          "correctAnswer": "It logs a message to the browser console"
+        },
+        {
+          "question": "What is the purpose of the 'let' keyword in JavaScript?",
+          "options": [
+            "To declare a constant variable",
+            "To declare a block-scoped variable",
+            "To declare a global variable",
+            "To declare a function"
+          ],
+          "correctAnswer": "To declare a block-scoped variable"
+        },
+        {
+          "question": "What is 'null' in JavaScript?",
+          "options": [
+            "An undefined variable",
+            "A string value",
+            "A reference to an empty object",
+            "A special object representing no value"
+          ],
+          "correctAnswer": "A special object representing no value"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "/* */",
+            "#",
+            "<!-- -->"
+          ],
+          "correctAnswer": "//"
+        },
+        {
+          "question": "What will `typeof null` return in JavaScript?",
+          "options": [
+            "'object'",
+            "'null'",
+            "'undefined'",
+            "'NaN'"
+          ],
+          "correctAnswer": "'object'"
+        },
+        {
+          "question": "Which method is used to check if an array includes a specific value?",
+          "options": [
+            "includes()",
+            "contains()",
+            "has()",
+            "exists()"
+          ],
+          "correctAnswer": "includes()"
+        },
+        {
+          "question": "What does the '===' operator check in JavaScript?",
+          "options": [
+            "Value only",
+            "Type only",
+            "Value and type",
+            "None of the above"
+          ],
+          "correctAnswer": "Value and type"
+        },
+        {
+          "question": "Which of the following can be used to create an object in JavaScript?",
+          "options": [
+            "Object literals",
+            "Object.create()",
+            "Classes",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above"
+        },
+        {
+          "question": "What will `console.log('5' - 2);` output?",
+          "options": [
+            "3",
+            "'52'",
+            "NaN",
+            "Error"
+          ],
+          "correctAnswer": "3"
+        },
+        {
+          "question": "Which JavaScript keyword is used to loop through properties of an object?",
+          "options": [
+            "forEach",
+            "for",
+            "for...in",
+            "for...of"
+          ],
+          "correctAnswer": "for...in"
+        },
+            {
+              "question": "Which method is used to select an HTML element by its ID in JavaScript?",
+              "options": [
+                "document.getElementById()",
+                "document.querySelector()",
+                "document.getElementsByClassName()",
+                "document.querySelectorAll()"
+              ],
+              "correctAnswer": "document.getElementById()"
+            },
+            {
+              "question": "What is the purpose of the `document.getElementById()` method in JavaScript?",
+              "options": [
+                "To select an element by its tag name",
+                "To select an element by its class name",
+                "To select an element by its ID",
+                "To select an element by its attribute"
+              ],
+              "correctAnswer": "To select an element by its ID"
+            },
+            {
+              "question": "Which of the following methods returns a NodeList of all elements with the specified class name?",
+              "options": [
+                "document.querySelector()",
+                "document.getElementById()",
+                "document.getElementsByClassName()",
+                "document.getElementsByTagName()"
+              ],
+              "correctAnswer": "document.getElementsByClassName()"
+            },
+            {
+              "question": "Which method is used to select the first element that matches a specified CSS selector?",
+              "options": [
+                "document.getElementsByClassName()",
+                "document.querySelector()",
+                "document.getElementById()",
+                "document.querySelectorAll()"
+              ],
+              "correctAnswer": "document.querySelector()"
+            },
+            {
+              "question": "What does the `document.querySelectorAll()` method return?",
+              "options": [
+                "A single element that matches the selector",
+                "An array of all elements that match the selector",
+                "A NodeList of all elements that match the selector",
+                "None of the above"
+              ],
+              "correctAnswer": "A NodeList of all elements that match the selector"
+            },
+            {
+              "question": "Which of the following methods can be used to change the content of an HTML element in JavaScript?",
+              "options": [
+                "element.innerHTML",
+                "element.textContent",
+                "element.setAttribute()",
+                "Both 1 and 2"
+              ],
+              "correctAnswer": "Both 1 and 2"
+            },
+            {
+              "question": "Which method is used to add a new HTML element to the DOM in JavaScript?",
+              "options": [
+                "document.createElement()",
+                "document.getElementById()",
+                "document.appendChild()",
+                "Both 1 and 3"
+              ],
+              "correctAnswer": "Both 1 and 3"
+            },
+            {
+              "question": "What does `document.getElementById('myElement').innerText` return?",
+              "options": [
+                "The HTML code of the element",
+                "The plain text content of the element",
+                "The CSS style of the element",
+                "The value of the element"
+              ],
+              "correctAnswer": "The plain text content of the element"
+            },
+            {
+              "question": "Which method is used to remove an element from the DOM?",
+              "options": [
+                "removeChild()",
+                "deleteElement()",
+                "remove()",
+                "Both 1 and 3"
+              ],
+              "correctAnswer": "Both 1 and 3"
+            },
+            {
+              "question": "What will `document.getElementById('myElement').style.color = 'blue';` do?",
+              "options": [
+                "It will change the text color of the element with ID 'myElement' to blue.",
+                "It will change the background color of the element with ID 'myElement' to blue.",
+                "It will set the text of the element with ID 'myElement' to 'blue'.",
+                "It will create a new element with blue color."
+              ],
+              "correctAnswer": "It will change the text color of the element with ID 'myElement' to blue."
+            },
+            {
+              "question": "Which of the following is a correct way to select all `div` elements with a specific class in JavaScript?",
+              "options": [
+                "document.getElementById('className')",
+                "document.querySelectorAll('.className')",
+                "document.getElementsByClassName('.className')",
+                "document.querySelectorAll('#className')"
+              ],
+              "correctAnswer": "document.querySelectorAll('.className')"
+            },
+            {
+              "question": "What is the correct syntax to add an event listener to an element?",
+              "options": [
+                "element.addEventListener('click', function() { ... })",
+                "element.addEvent('click', function() { ... })",
+                "element.addEventListener('click', () => { ... })",
+                "Both 1 and 3"
+              ],
+              "correctAnswer": "Both 1 and 3"
+            },
+            {
+              "question": "How can you change the value of an input element in JavaScript?",
+              "options": [
+                "document.getElementById('inputElement').value = 'new value';",
+                "document.getElementById('inputElement').textContent = 'new value';",
+                "document.getElementById('inputElement').innerHTML = 'new value';",
+                "document.getElementById('inputElement').setValue('new value');"
+              ],
+              "correctAnswer": "document.getElementById('inputElement').value = 'new value';"
+            },
+            {
+              "question": "How can you check if an element exists in the DOM using JavaScript?",
+              "options": [
+                "if (document.getElementById('myElement')) { ... }",
+                "if (document.querySelector('#myElement')) { ... }",
+                "if (document.getElementsByClassName('myElement')) { ... }",
+                "All of the above"
+              ],
+              "correctAnswer": "All of the above"
+            },
+            {
+              "question": "Which method is used to set the attribute of an element in JavaScript?",
+              "options": [
+                "setAttribute()",
+                "setAttr()",
+                "setElement()",
+                "changeAttribute()"
+              ],
+              "correctAnswer": "setAttribute()"
+            }
+        
   ]
 }
