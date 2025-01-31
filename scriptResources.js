@@ -1,28 +1,12 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const buttons = document.querySelectorAll(".toggle-button");
-
-    buttons.forEach(button => {
-        button.addEventListener("click", () => {
-            const targetId = button.getAttribute("data-target");
-            const targetContent = document.getElementById(targetId);
-
-
-            document.querySelectorAll(".content").forEach(content => {
-                if (content !== targetContent) {
-                    content.classList.remove("visible");
-                }
-            });
-
-            targetContent.classList.toggle("visible");
-        });
-    });
-  });
-
-  function showPdf(pdfPath) {
+  function showPdf(pdfPath, event) {
+    if (event) {
+        event.preventDefault();
+    }
       const pdfFrame = document.getElementById('pdf-frame');
       if (pdfFrame) {
           pdfFrame.src = pdfPath;
       } else {
           console.error('PDF frame not found');
       }
-  }
+}
+  

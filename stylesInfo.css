@@ -175,8 +175,14 @@
 }
 
 @media screen and (max-width: 900px) {
+  .mainSectionbig {
+    padding-left: 0% ;
+    padding-right: 0%;
+  }
   .mainSection {
     flex-direction: column; 
+    padding-left: 0% ;
+    padding-right: 0%;
 
   }
 
