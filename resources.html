@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive learning platform for mastering HTML, CSS, and JavaScript through interactive tutorials, videos, challenges, and projects.">
     <title>Resources</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="resources.css">
@@ -24,10 +25,11 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div>
-        <main class="main">
-          <aside class="welcomeSection">
+    <main class= "mainSectionbig">
+
+        
+      <section class="mainTextContent">
+          <div class="welcomeSection">
             <article class="welcomeSectionArtical">
               <h2>Unlock Your Web Development Potential: Explore HTML, JavaScript, CSS Resources & More</h2>
       
@@ -38,12 +40,10 @@
               </p>
             </article>
       
-          </aside>
-          
-          <section class="mainSection">
-
           </div>
-      <Section class="mainDropdown">
+      </section>
+
+      <section class="mainDropdown">
         <div class="dropdown">
           <button class="dropdown-button">PDF</button>
           <ul class="dropdown-content">
@@ -51,27 +51,23 @@
               <li class = "listClass"><a href="#" onclick="showPdf('pdf/Learning-Web-Design-5th-Edition-by-Jennifer-Niederst-booksfree.org_.pdf')">Web Design 5th Edition by Jennifer Niederst</a></li>
           </ul>
         </div>
-
-
-
-      </Section>
-
-
-
+      </section>
 
       <div id="pdf-container">
-        <iframe id="pdf-frame" src="" class="iframe" ></iframe>
+        <iframe title="iframe for pdf" id="pdf-frame" src="" class="iframe" ></iframe>
+      </div>
 
 
-      
     </main>
+
+
     <footer class="footer">
       <small>
         Copyright © 2024 Leo Spegel. All Rights Reserved.
       </small>
     </footer>
   
+    <script src="scriptResources.js"></script>
+    <script src="hamburger.js"></script> 
 </body>
 </html>
-<script src="hamburger.js"></script> 
-<script src="scriptResources.js"></script>

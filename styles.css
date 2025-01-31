@@ -5,10 +5,14 @@ body {
   padding: 0;
   line-height: 1.8;
 }
-
-h1 {
+.QnAhero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hett {
   text-align: center;
-  color: #333;
+  color: #155724;
   margin-top: 40px;
   font-size: 3em;
 }
@@ -25,7 +29,7 @@ h1 {
   padding: 10px;
   font-size: 1em;
   font-weight: bold;
-  color: #d3bfbf;
+  color: #020202;
   text-transform: uppercase;
   justify-content: center;
 }
@@ -119,17 +123,6 @@ ul {
   }
 }
 
-header {
-  background-color: rgb(36, 48, 36);
-  padding: 1rem;
-}
-
-
-.banner {
-  color: white;
-  text-align: center;
-  margin-bottom: 1rem;
-}
 
 
 
