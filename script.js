@@ -36,7 +36,7 @@ function displayQuestion(index) {
 }
 
 
-// Rätt svar resultat. Correct answer result.
+//Correct answer result.
 
 function checkAnswer(selectedOption, correctAnswer) {
   const resultDiv = document.getElementById('result');
@@ -50,13 +50,13 @@ function checkAnswer(selectedOption, correctAnswer) {
       displayQuestion(randomIndex);
       console.log(randomIndex)
       resultDiv.textContent = '';
-    }, 1500);
+    }, 1800);
 
 
-    //Fel svar resultat. Wrong answer results. 
+    //Wrong answer results. 
 
   } else {
-    resultDiv.textContent = "Incorrect. The correct answer is....";
+    resultDiv.textContent = 'Incorrect. The correct answer is....';
     const answerSpan = document.createElement('span');
     answerSpan.textContent = ` ${correctAnswer}`;
     answerSpan.classList.add('hiddenAnswer');
