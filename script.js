@@ -29,7 +29,7 @@ function displayQuestion(index) {
     const optionElement = document.createElement('li');
     optionElement.textContent = option;
     optionElement.classList.add('liL');
-    
+
     optionElement.onclick = () => checkAnswer(option, question.correctAnswer, index);
     optionsList.appendChild(optionElement);
   });
@@ -48,6 +48,7 @@ function checkAnswer(selectedOption, correctAnswer) {
     setTimeout(() => {
       const randomIndex = Math.floor(Math.random() * questions.length);
       displayQuestion(randomIndex);
+      console.log(randomIndex)
       resultDiv.textContent = '';
     }, 1500);
 
