@@ -1031,7 +1031,7 @@
               "correctAnswer": "Both 1 and 3"
             },
             {
-              "question": "What does `document.getElementById('myElement').innerText` return?",
+              "question": "What does `document.getElementById ('myElement').innerText` return?",
               "options": [
                 "The HTML code of the element",
                 "The plain text content of the element",
@@ -1051,7 +1051,7 @@
               "correctAnswer": "Both 1 and 3"
             },
             {
-              "question": "What will `document.getElementById('myElement').style.color = 'blue';` do?",
+              "question": "What will `document.getElementById ('myElement').style.color = 'blue';` do?",
               "options": [
                 "It will change the text color of the element with ID 'myElement' to blue.",
                 "It will change the background color of the element with ID 'myElement' to blue.",
@@ -1063,19 +1063,19 @@
             {
               "question": "Which of the following is a correct way to select all `div` elements with a specific class in JavaScript?",
               "options": [
-                "document.getElementById('className')",
-                "document.querySelectorAll('.className')",
-                "document.getElementsByClassName('.className')",
-                "document.querySelectorAll('#className')"
+                "document.getElementById ('className')",
+                "document.querySelectorAll ('.className')",
+                "document.getElementsByClassName ('.className')",
+                "document.querySelectorAll ('#className')"
               ],
-              "correctAnswer": "document.querySelectorAll('.className')"
+              "correctAnswer": "document.querySelectorAll ('.className')"
             },
             {
               "question": "What is the correct syntax to add an event listener to an element?",
               "options": [
-                "element.addEventListener('click', function() { ... })",
-                "element.addEvent('click', function() { ... })",
-                "element.addEventListener('click', () => { ... })",
+                "element.addEventListener ('click', function() { ... })",
+                "element.addEvent ('click', function() { ... })",
+                "element.addEventListener ('click', () => { ... })",
                 "Both 1 and 3"
               ],
               "correctAnswer": "Both 1 and 3"
@@ -1083,19 +1083,19 @@
             {
               "question": "How can you change the value of an input element in JavaScript?",
               "options": [
-                "document.getElementById('inputElement').value = 'new value';",
-                "document.getElementById('inputElement').textContent = 'new value';",
-                "document.getElementById('inputElement').innerHTML = 'new value';",
-                "document.getElementById('inputElement').setValue('new value');"
+                "document.getElementById ('inputElement').value = 'new value';",
+                "document.getElementById ('inputElement').textContent = 'new value';",
+                "document.getElementById ('inputElement').innerHTML = 'new value';",
+                "document.getElementById ('inputElement').setValue('new value');"
               ],
               "correctAnswer": "document.getElementById('inputElement').value = 'new value';"
             },
             {
               "question": "How can you check if an element exists in the DOM using JavaScript?",
               "options": [
-                "if (document.getElementById('myElement')) { ... }",
-                "if (document.querySelector('#myElement')) { ... }",
-                "if (document.getElementsByClassName('myElement')) { ... }",
+                "if (document.getElementById ('myElement')) { ... }",
+                "if (document.querySelector ('#myElement')) { ... }",
+                "if (document.getElementsByClassName ('myElement')) { ... }",
                 "All of the above"
               ],
               "correctAnswer": "All of the above"
