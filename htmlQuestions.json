@@ -269,6 +269,256 @@
         "<section>"
       ],
       "correctAnswer": "<aside>"
+    },
+    {
+      "question": "Which HTML5 element is used to define an independent, self-contained piece of content?",
+      "options": [
+        "<section>",
+        "<article>",
+        "<div>",
+        "<aside>"
+      ],
+      "correctAnswer": "<article>"
+    },
+    {
+      "question": "Which semantic HTML5 element is used to define a major section of the document that holds primary content?",
+      "options": [
+        "<header>",
+        "<main>",
+        "<nav>",
+        "<section>"
+      ],
+      "correctAnswer": "<main>"
+    },
+    {
+      "question": "Which HTML5 element is used to group related content within a document, such as chapters or sections of an article?",
+      "options": [
+        "<section>",
+        "<article>",
+        "<figure>",
+        "<footer>"
+      ],
+      "correctAnswer": "<section>"
+    },
+    {
+      "question": "Which HTML5 element is used to represent a self-contained media object, such as an image with a caption?",
+      "options": [
+        "<figure>",
+        "<img>",
+        "<picture>",
+        "<div>"
+      ],
+      "correctAnswer": "<figure>"
+    },
+    {
+      "question": "Which HTML5 element is used to provide a caption or description for an associated <figure> element?",
+      "options": [
+        "<caption>",
+        "<figcaption>",
+        "<label>",
+        "<summary>"
+      ],
+      "correctAnswer": "<figcaption>"
+    },
+    {
+      "question": "Which HTML element is used to create an input field for text?",
+      "options": [
+        "<input>",
+        "<textarea>",
+        "<form>",
+        "<label>"
+      ],
+      "correctAnswer": "<input>"
+    },
+    {
+      "question": "Which attribute is used to make an input field required in an HTML form?",
+      "options": [
+        "mandatory",
+        "validate",
+        "required",
+        "needed"
+      ],
+      "correctAnswer": "required"
+    },
+    {
+      "question": "Which input type is best suited for collecting email addresses?",
+      "options": [
+        "text",
+        "email",
+        "number",
+        "url"
+      ],
+      "correctAnswer": "email"
+    },
+    {
+      "question": "Which attribute is used to specify a regular expression pattern for an input field?",
+      "options": [
+        "regex",
+        "match",
+        "pattern",
+        "validate"
+      ],
+      "correctAnswer": "pattern"
+    },
+    {
+      "question": "Which HTML form element is used to create a dropdown selection list?",
+      "options": [
+        "<select>",
+        "<option>",
+        "<dropdown>",
+        "<list>"
+      ],
+      "correctAnswer": "<select>"
+    },
+    {
+      "question": "Which HTML5 element is used to embed a video file?",
+      "options": [
+        "<media>",
+        "<movie>",
+        "<video>",
+        "<embed>"
+      ],
+      "correctAnswer": "<video>"
+    },
+    {
+      "question": "Which HTML5 element is used to embed an audio file?",
+      "options": [
+        "<sound>",
+        "<audio>",
+        "<music>",
+        "<media>"
+      ],
+      "correctAnswer": "<audio>"
+    },
+    {
+      "question": "Which attribute is used to display video controls like play, pause, and volume?",
+      "options": [
+        "autoplay",
+        "controls",
+        "playbar",
+        "toolbar"
+      ],
+      "correctAnswer": "controls"
+    },
+    {
+      "question": "Which element is used to specify multiple media sources for a video or audio element?",
+      "options": [
+        "<source>",
+        "<media>",
+        "<track>",
+        "<stream>"
+      ],
+      "correctAnswer": "<source>"
+    },
+    {
+      "question": "Which HTML5 element is used to provide captions for a video?",
+      "options": [
+        "<caption>",
+        "<subtitle>",
+        "<track>",
+        "<text>"
+      ],
+      "correctAnswer": "<track>"
+    },
+    {
+      "question": "Which HTML tag is used to define metadata about a webpage?",
+      "options": [
+        "<meta>",
+        "<data>",
+        "<info>",
+        "<head>"
+      ],
+      "correctAnswer": "<meta>"
+    },
+    {
+      "question": "Which meta tag is used to specify a description for search engines?",
+      "options": [
+        "<meta name='keywords'>",
+        "<meta name='description'>",
+        "<meta name='author'>",
+        "<meta charset='UTF-8'>"
+      ],
+      "correctAnswer": "<meta name='description'>"
+    },
+    {
+      "question": "Which HTML element is used to improve SEO by defining the main title of a webpage?",
+      "options": [
+        "<heading>",
+        "<title>",
+        "<meta>",
+        "<h1>"
+      ],
+      "correctAnswer": "<title>"
+    },
+    {
+      "question": "Which attribute in the meta tag is used to specify character encoding?",
+      "options": [
+        "name",
+        "http-equiv",
+        "content",
+        "charset"
+      ],
+      "correctAnswer": "charset"
+    },
+    {
+      "question": "Which HTML tag is recommended for setting the viewport for responsive design?",
+      "options": [
+        "<meta name='responsive'>",
+        "<meta name='viewport'>",
+        "<meta name='scaling'>",
+        "<meta name='width'>"
+      ],
+      "correctAnswer": "<meta name='viewport'>"
+    },
+    {
+      "question": "Which web storage method stores data with no expiration time?",
+      "options": [
+        "sessionStorage",
+        "localStorage",
+        "cookieStorage",
+        "tempStorage"
+      ],
+      "correctAnswer": "localStorage"
+    },
+    {
+      "question": "Which web storage method clears data when the browser is closed?",
+      "options": [
+        "sessionStorage",
+        "localStorage",
+        "cacheStorage",
+        "persistentStorage"
+      ],
+      "correctAnswer": "sessionStorage"
+    },
+    {
+      "question": "Which JavaScript method is used to store data in localStorage?",
+      "options": [
+        "setItem()",
+        "saveData()",
+        "store()",
+        "addItem()"
+      ],
+      "correctAnswer": "setItem()"
+    },
+    {
+      "question": "Which method retrieves data from sessionStorage?",
+      "options": [
+        "getData()",
+        "retrieveItem()",
+        "getItem()",
+        "fetchStorage()"
+      ],
+      "correctAnswer": "getItem()"
+    },
+    {
+      "question": "What is the maximum storage limit for localStorage in most modern browsers?",
+      "options": [
+        "5MB",
+        "50MB",
+        "500KB",
+        "10MB"
+      ],
+      "correctAnswer": "5MB"
     }
     
   ]
