@@ -1,6 +1,7 @@
 let currentQuestionIndex = 0;
 let questions = [];
 
+
 // Fetching questions based on selected topic
 document.getElementById('topic').addEventListener('change', (event) => {
   currentQuestionIndex = 0;
@@ -44,6 +45,7 @@ function checkAnswer(selectedOption, correctAnswer) {
   if (selectedOption === correctAnswer) {
     resultDiv.textContent = 'Correct!';
     resultDiv.style.color = 'green';
+    
 
     setTimeout(() => {
       const randomIndex = Math.floor(Math.random() * questions.length);

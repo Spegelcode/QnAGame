@@ -963,10 +963,10 @@
             {
               "question": "Which method is used to select an HTML element by its ID in JavaScript?",
               "options": [
-                "document.getElementById()",
-                "document.querySelector()",
-                "document.getElementsByClassName()",
-                "document.querySelectorAll()"
+                "document. getElementById()",
+                "document. querySelector()",
+                "document. getElementsByClassName()",
+                "document. querySelectorAll()"
               ],
               "correctAnswer": "document.getElementById()"
             },
@@ -983,20 +983,20 @@
             {
               "question": "Which of the following methods returns a NodeList of all elements with the specified class name?",
               "options": [
-                "document.querySelector()",
-                "document.getElementById()",
-                "document.getElementsByClassName()",
-                "document.getElementsByTagName()"
+                "document. querySelector()",
+                "document. getElementById()",
+                "document. getElementsByClassName()",
+                "document. getElementsByTagName()"
               ],
               "correctAnswer": "document.getElementsByClassName()"
             },
             {
               "question": "Which method is used to select the first element that matches a specified CSS selector?",
               "options": [
-                "document.getElementsByClassName()",
-                "document.querySelector()",
-                "document.getElementById()",
-                "document.querySelectorAll()"
+                "document. getElementsByClassName()",
+                "document. querySelector()",
+                "document. getElementById()",
+                "document. querySelectorAll()"
               ],
               "correctAnswer": "document.querySelector()"
             },
@@ -1023,9 +1023,9 @@
             {
               "question": "Which method is used to add a new HTML element to the DOM in JavaScript?",
               "options": [
-                "document.createElement()",
-                "document.getElementById()",
-                "document.appendChild()",
+                "document. createElement()",
+                "document. getElementById()",
+                "document. appendChild()",
                 "Both 1 and 3"
               ],
               "correctAnswer": "Both 1 and 3"
@@ -1063,10 +1063,10 @@
             {
               "question": "Which of the following is a correct way to select all `div` elements with a specific class in JavaScript?",
               "options": [
-                "document.getElementById ('className')",
-                "document.querySelectorAll ('.className')",
-                "document.getElementsByClassName ('.className')",
-                "document.querySelectorAll ('#className')"
+                "document. getElementById ('className')",
+                "document. querySelectorAll ('.className')",
+                "document. getElementsByClassName ('.className')",
+                "document. querySelectorAll ('#className')"
               ],
               "correctAnswer": "document.querySelectorAll ('.className')"
             },
@@ -1083,10 +1083,10 @@
             {
               "question": "How can you change the value of an input element in JavaScript?",
               "options": [
-                "document.getElementById ('inputElement').value = 'new value';",
-                "document.getElementById ('inputElement').textContent = 'new value';",
-                "document.getElementById ('inputElement').innerHTML = 'new value';",
-                "document.getElementById ('inputElement').setValue('new value');"
+                "document. getElementById ('inputElement').value = 'new value';",
+                "document. getElementById ('inputElement').textContent = 'new value';",
+                "document. getElementById ('inputElement').innerHTML = 'new value';",
+                "document. getElementById ('inputElement').setValue('new value');"
               ],
               "correctAnswer": "document.getElementById('inputElement').value = 'new value';"
             },
