@@ -278,7 +278,7 @@
             "border-spacing",
             "outline"
           ],
-          "correctAnswer": "margin"
+          "correctAnswer": "padding"
         },
         {
           "question": "What is the correct CSS syntax to change the text color to red?",
