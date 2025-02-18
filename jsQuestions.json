@@ -961,16 +961,6 @@
           "correctAnswer": "for...in"
         },
             {
-              "question": "Which method is used to select an HTML element by its ID in JavaScript?",
-              "options": [
-                "document. getElementById()",
-                "document. querySelector()",
-                "document. getElementsByClassName()",
-                "document. querySelectorAll()"
-              ],
-              "correctAnswer": "document.getElementById()"
-            },
-            {
               "question": "What is the purpose of the `document.getElementById()` method in JavaScript?",
               "options": [
                 "To select an element by its tag name",
@@ -979,26 +969,6 @@
                 "To select an element by its attribute"
               ],
               "correctAnswer": "To select an element by its ID"
-            },
-            {
-              "question": "Which of the following methods returns a NodeList of all elements with the specified class name?",
-              "options": [
-                "document. querySelector()",
-                "document. getElementById()",
-                "document. getElementsByClassName()",
-                "document. getElementsByTagName()"
-              ],
-              "correctAnswer": "document.getElementsByClassName()"
-            },
-            {
-              "question": "Which method is used to select the first element that matches a specified CSS selector?",
-              "options": [
-                "document. getElementsByClassName()",
-                "document. querySelector()",
-                "document. getElementById()",
-                "document. querySelectorAll()"
-              ],
-              "correctAnswer": "document.querySelector()"
             },
             {
               "question": "What does the `document.querySelectorAll()` method return?",
@@ -1061,16 +1031,6 @@
               "correctAnswer": "It will change the text color of the element with ID 'myElement' to blue."
             },
             {
-              "question": "Which of the following is a correct way to select all `div` elements with a specific class in JavaScript?",
-              "options": [
-                "document. getElementById ('className')",
-                "document. querySelectorAll ('.className')",
-                "document. getElementsByClassName ('.className')",
-                "document. querySelectorAll ('#className')"
-              ],
-              "correctAnswer": "document.querySelectorAll ('.className')"
-            },
-            {
               "question": "What is the correct syntax to add an event listener to an element?",
               "options": [
                 "element.addEventListener ('click', function() { ... })",
@@ -1079,16 +1039,6 @@
                 "Both 1 and 3"
               ],
               "correctAnswer": "Both 1 and 3"
-            },
-            {
-              "question": "How can you change the value of an input element in JavaScript?",
-              "options": [
-                "document. getElementById ('inputElement').value = 'new value';",
-                "document. getElementById ('inputElement').textContent = 'new value';",
-                "document. getElementById ('inputElement').innerHTML = 'new value';",
-                "document. getElementById ('inputElement').setValue('new value');"
-              ],
-              "correctAnswer": "document.getElementById('inputElement').value = 'new value';"
             },
             {
               "question": "How can you check if an element exists in the DOM using JavaScript?",
