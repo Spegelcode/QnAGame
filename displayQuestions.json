@@ -98,17 +98,7 @@
           "Controls the size of the grid items."
       ],
       "correctAnswer": "Aligns rows of the grid along the cross axis when there is extra space."
-  }
-]
-
-Dessa frågor och svar speglar de egenskaper och koncept jag förklarade om display: flex och display: grid.
-You said:
-fler tack
-ChatGPT said:
-
-Här är fler frågor baserade på display: flex och display: grid:
-
-[
+  },
   {
       "question": "What does the `flex-wrap` property control in a flex container?",
       "options": [
