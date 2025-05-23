@@ -3,44 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home </title>
+  <meta name="description" content="A comprehensive learning platform for mastering HTML, CSS, and JavaScript through interactive tutorials, videos, challenges, and projects.">
+  <title>Home | Learn HTML, CSS & JavaScript</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="stylesInfo.css">
+  <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
-  <header>
-    <h1 class ="banner"></h1>
-    <nav class="navbar">
-      <button class="hamburger" onclick="toggleMenu()">☰</button>
-      <div class="nav-links collapsed, navbar" id="navLinks">   
-        <a class="navbar" href="info.html">
-          <button class="leftNav"> Home</button>
-        </a>
-        <a class="navbar" href="/resources.html">
-          <button class="rightNavTwo"> Resources</button>
-        </a>
-        <a class="navbar" href="/index.html">
-          <button class="rightNavTwo"> QnA Game</button>
-        </a>
-        <a class="navbar" href="/cheatsheet.html">
-          <button class="rightNavOne"> Video Tutorials</button>
-        </a>
-      </div>                                        
-    </nav>
-  </header>
+      <h1 class ="banner"></h1>
 
-  <main class="main">
+      <header>
+        <nav class="navbar">
+          <button class="hamburger" aria-label="Toggle Menu" aria-expanded="false" onclick="toggleMenu()">☰</button>
+          <div class="nav-links collapsed" id="navLinks">
+            <a href="info.html"><button class="nav-btn">Home</button></a>
+            <a href="resources.html"><button class="nav-btn">Resources</button></a>
+            <a href="index.html"><button class="nav-btn">QnA Game</button></a>
+            <a href="cheatsheet.html"><button class="nav-btn">Video Tutorials</button></a>
+          </div>
+        </nav>
+      </header>
+
+  <main class="mainSectionbig">
     <aside class="welcomeSection">
       <article class="welcomeSectionArtical">
         <h2>Learn HTML, CSS, and JavaScript Today!</h2>
-
+        
         <p>
           Welcome to our website, a comprehensive learning platform designed to help you master HTML, CSS, and JavaScript. Whether you're a beginner or looking to 
           enhance your skills, our interactive tutorials, coding challenges, and hands-on projects guide you through the essentials of web development. Learn at your own pace,
            practice in real-time, and build your confidence as you create dynamic, responsive websites. Join us and unlock the power of coding to bring your ideas to life!
         </p>
       </article>
-
+      
     </aside>
     <section class="mainSection">
       
@@ -50,14 +45,14 @@
         <section class ="mainSectionDivInfo">
           <div class="mainSectionDivInfoDivOne">
             <h2>Resources</h2>
-            <a href="/resources.html" class="mainSectionDivInfoImage">
+            <a href="resources.html" class="mainSectionDivInfoImage">
               <img src="bilder/5d7e43c7-91ff-40ac-a198-88d32f96daf6.webp" alt="Description of the image" >
             </a>
             <p>Here you will find resources to read about HTML, CSS and JavaScript</p>
           </div>
           <div class="mainSectionDivInfoDivTwo">
             <h2>QnA Game</h2>
-            <a href="/index.html" class="mainSectionDivInfoImage">
+            <a href="index.html" class="mainSectionDivInfoImage">
               <img src="bilder/qna-2.jpg" alt="Description of the image" />
             </a>
             <p>Play a game to challenge your HTML, CSS and JavaScript skills! </p>
@@ -65,7 +60,7 @@
           </div>
           <div class="mainSectionDivInfoDivTre">
             <h2>Video Tutorials</h2>
-            <a href="/cheatsheet.html" class="mainSectionDivInfoImage">
+            <a href="cheatsheet.html" class="mainSectionDivInfoImage">
               <img src="bilder/cheatsheet.png" alt="Description of the image" />
             </a>
             <p>Video Tutorials section! Here, you'll discover a curated collection of engaging and insightful video content designed to help you master HTML, JavaScript, and CSS.</p>
@@ -75,7 +70,6 @@
       </div>
 
 
-      </aside>
     </section>
     <section class="secondSection">
       <div class="secondSectiondiv">
@@ -104,14 +98,13 @@
 
 
 
+  <footer class="footer">
+    <small>
+      Copyright © 2024 Leo Spegel. All Rights Reserved.
+    </small>
+  </footer>
 
+  <script src="hamburger.js"></script> 
 </body>
-<footer class="footer">
-  <small>
-    Copyright © 2024 Leo Spegel. All Rights Reserved.
-  </small>
-</footer>
-
-</footer>
 </html>
-<script src="hamburger.js"></script> <!-- Link to JS -->
+

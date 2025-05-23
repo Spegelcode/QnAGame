@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "question": "Which array method executes a provided function once for each array element?",
+      "options": ["forEach", "map", "filter", "reduce"],
+      "correctAnswer": "forEach"
+    },
+    {
+      "question": "Which method creates a new array populated with the results of calling a provided function on every element in the calling array?",
+      "options": ["forEach", "map", "filter", "reduce"],
+      "correctAnswer": "map"
+    },
+    {
+      "question": "Which method creates a new array with all elements that pass the test implemented by the provided function?",
+      "options": ["forEach", "map", "filter", "reduce"],
+      "correctAnswer": "filter"
+    },
+    {
+      "question": "Which method applies a function against an accumulator and each element in the array to reduce it to a single value?",
+      "options": ["reduce", "reduceRight", "some", "every"],
+      "correctAnswer": "reduce"
+    },
+    {
+      "question": "Which method is similar to reduce but processes elements from right to left?",
+      "options": ["reduce", "reduceRight", "find", "findIndex"],
+      "correctAnswer": "reduceRight"
+    },
+    {
+      "question": "Which method tests whether at least one element in the array passes the provided function's test?",
+      "options": ["some", "every", "filter", "find"],
+      "correctAnswer": "some"
+    },
+    {
+      "question": "Which method tests whether all elements in the array pass the provided function's test?",
+      "options": ["some", "every", "filter", "find"],
+      "correctAnswer": "every"
+    },
+    {
+      "question": "Which method returns the first element in an array that satisfies the provided testing function?",
+      "options": ["find", "findLast", "findIndex", "findLastIndex"],
+      "correctAnswer": "find"
+    },
+    {
+      "question": "Which method returns the last element in an array that satisfies the provided testing function?",
+      "options": ["find", "findLast", "findIndex", "findLastIndex"],
+      "correctAnswer": "findLast"
+    },
+    {
+      "question": "Which method returns the index of the first element in an array that satisfies the provided testing function?",
+      "options": ["find", "findLast", "findIndex", "findLastIndex"],
+      "correctAnswer": "findIndex"
+    },
+    {
+      "question": "Which method adds one or more elements to the end of an array?",
+      "options": ["push", "pop", "shift", "unshift"],
+      "correctAnswer": "push"
+    },
+    {
+      "question": "Which method removes the last element from an array?",
+      "options": ["push", "pop", "shift", "unshift"],
+      "correctAnswer": "pop"
+    },
+    {
+      "question": "Which method removes the first element from an array?",
+      "options": ["push", "pop", "shift", "unshift"],
+      "correctAnswer": "shift"
+    },
+    {
+      "question": "Which method adds one or more elements to the beginning of an array?",
+      "options": ["push", "pop", "shift", "unshift"],
+      "correctAnswer": "unshift"
+    },
+    {
+      "question": "Which method sorts the elements of an array in place?",
+      "options": ["sort", "reverse", "map", "filter"],
+      "correctAnswer": "sort"
+    },
+    {
+      "question": "Which method reverses the order of elements in an array?",
+      "options": ["sort", "reverse", "map", "filter"],
+      "correctAnswer": "reverse"
+    },
+    {
+      "question": "Which method creates a new array that includes elements from existing arrays?",
+      "options": ["concat", "join", "toString", "slice"],
+      "correctAnswer": "concat"
+    },
+    {
+      "question": "Which method creates a string from an array by joining elements with a specified separator?",
+      "options": ["concat", "join", "toString", "slice"],
+      "correctAnswer": "join"
+    },
+    {
+      "question": "Which method returns a shallow copy of a portion of an array into a new array object?",
+      "options": ["slice", "splice", "copyWithin", "fill"],
+      "correctAnswer": "slice"
+    },
+    {
+      "question": "Which method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place?",
+      "options": ["slice", "splice", "concat", "copyWithin"],
+      "correctAnswer": "splice"
+    },
+    {
+      "question": "Which method copies a sequence of array elements within the same array?",
+      "options": ["slice", "splice", "copyWithin", "fill"],
+      "correctAnswer": "copyWithin"
+    },
+    {
+      "question": "Which method fills all the elements of an array with a static value?",
+      "options": ["slice", "splice", "copyWithin", "fill"],
+      "correctAnswer": "fill"
+    },
+    {
+      "question": "Which method flattens a nested array up to a specified depth?",
+      "options": ["flat", "flatMap", "reduce", "concat"],
+      "correctAnswer": "flat"
+    },
+    {
+      "question": "Which method maps each element using a mapping function, then flattens the result into a new array?",
+      "options": ["flat", "flatMap", "map", "reduce"],
+      "correctAnswer": "flatMap"
+    }
+  ]
+}

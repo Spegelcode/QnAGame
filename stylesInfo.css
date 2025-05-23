@@ -1,17 +1,7 @@
-h2 {
-  font-size: 30px;
-}
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f9;
-  margin: 0;
-  padding: 0;
-  line-height: 1.8;
-}
 
 .banner {
   margin: 0;
-  color: rgb(59, 155, 51);
+  color: rgb(59, 155, 51); /* Text color */
   background-image: url('bilder/b7e3ca37-4d79-4d28-8707-f0a8e67641fc.webp');
   height: 15vh;
   background-repeat: no-repeat;
@@ -19,56 +9,66 @@ body {
   background-size: cover;
   padding: 10px;
   border-radius: 10px;
-  background-color: aliceblue;
+  background-color: aliceblue; /* Optional fallback color */
+  
+}
+.welcomeSection {
+  
+  font-size: 18px;
+  background-color: rgb(55, 70, 55);
+  color: aliceblue;
+  border-radius: 10px;
+  margin: 2% 10% 1%;
+
 }
 
+
+.mainSectionbig {
+  background-color: rgb(238, 238, 247);
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 1%;
+  box-sizing: border-box; 
+}
 .mainSection {
   padding-left: 8% ;
   padding-right: 8%;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  gap: 20px; /* Use gap for consistent spacing */
-  overflow: hidden; /* Prevent content overflow */
-  height: 100%; /* Full viewport height */
+  gap: 20px; 
+
   margin: 2%;
 
 
 }
+.welcomeSectionArtical {
 
-.mainSectionDiv, .mainSectionAside {
-  background-color: rgb(55, 70, 55);
-
-  border-radius: 10px;
+  display: flex;
+  align-items: center; 
+  text-align: center;
+  
+  flex-direction: column; 
+  background-color: rgb(30, 40, 30);
   padding: 10px;
-  flex: 1; /* Make them flexible */
+  border-radius: 10px;
+
 }
+
 .mainSectionDiv {
   background-color: rgb(55, 70, 55);
+
   border-radius: 10px;
   padding: 10px;
-  flex: 7; /* This will take up 70% of the space */
-
+  flex: 1; 
 }
 
-.mainSectionAside {
-  background-color: rgb(55, 70, 55);
-  border-radius: 10px;
-  padding: 10px;
-  flex: 3; /* This will take up 30% of the space */
-  height: auto;
-}
-.mainSectionAsideArtical {
-  background-color: rgb(30, 40, 30);
-  border-radius: 20px;
-  padding: 10px;
-  height: 97%;
-  
 
-}
+
 .mainSectionDivInfo {
   display: flex;
-  flex-wrap: wrap; /* Correct wrapping behavior */
+  flex-wrap: wrap; 
   gap: 20px;
 
 }
@@ -77,9 +77,8 @@ body {
 .mainSectionDivInfoDivTwo,
 .mainSectionDivInfoDivTre {
   flex: 1;
-  min-width: 250px; /* Prevent collapsing */
 
-  padding: 10px;
+  padding: 0.7rem;
   border-radius: 10px;
   font-size: 18px;
   text-align: center;
@@ -87,11 +86,12 @@ body {
   color: aliceblue;
 }
 
-.mainSectionDivInfoImage :hover {
+.mainSectionDivInfoImage img:hover {
 
   transition: transform 0.5s ease;
-  filter: grayscale(40%);
-  transform: rotateX(5deg) rotateY(5deg);
+  filter: grayscale(70%);
+  transform: perspective(500px) rotateY(20deg);
+  
 }
 
 .mainSectionDivInfoImage img {
@@ -99,115 +99,99 @@ body {
   height: auto;
   max-height: 200px;
   object-fit: cover;
+  border-radius: 0.7rem;
 }
 
-@media screen and (max-width: 768px) {
-  .mainSection {
-    flex-direction: column; /* Stack content vertically */
-    height: auto; /* Allow content to grow */
-  }
 
-  .mainSectionDiv, .mainSectionAside {
-    max-width: 100%; /* Full width */
-    margin-right: 0;
-  }
-
-  .mainSectionDivInfoDivOne,
-  .mainSectionDivInfoDivTwo,
-  .mainSectionDivInfoDivTre {
-    flex: 1 1 100%; /* Stack items vertically */
-  }
-}
 .secondSection {
   padding-left: 8% ;
   padding-right: 8%;
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Ensures children have the same height */
-  gap: 20px; /* Space between the two sections */
+  align-items: center; 
+  gap: 20px; 
   margin: 2%;
-  flex-direction: row; /* Stack children vertically on smaller screens (optional) */
 }
 
 .secondSectiondiv {
-
-  display: flex; /* Ensure the children inside this div are flex items */
-  flex-wrap: wrap; /* Allow wrapping for responsive layouts */
+  
+  display: flex;
+  flex-wrap: wrap; 
   background-color: rgb(55, 70, 55);
   border-radius: 10px;
   padding: 10px;
-  gap: 20px; /* Space between child divs inside this section */
+  gap: 20px; 
 }
 
 .secondSectiondivDiv {
-  flex: 1; /* Each div takes up 1/3 of the space minus the gap */
-  min-width: 250px; /* Prevent collapsing of divs */
-
+  flex: 1;
+  font-size: 16px ;
   padding: 10px;
   border-radius: 10px;
-  font-size: 22px;
   text-align: center;
   background-color: rgb(30, 40, 30);
   color: aliceblue;
 }
 
-/* Optional: Media Query for responsiveness */
-@media screen and (max-width: 768px) {
-  .secondSection {
-    flex-direction: column; /* Stack sections vertically on smaller screens */
+
+
+
+
+
+@media screen and (max-width: 300px) {
+  .mainSection, .secondSection, .secondSectiondiv {
+    flex-direction: column; 
   }
 
-  .secondSectiondiv {
-    flex-direction: column; /* Stack divs vertically within secondSectiondiv */
-  }
-
+  .mainSectionDiv, .mainSectionAside, 
   .secondSectiondivDiv {
-    flex: 1 1 100%; /* Each div takes full width on small screens */
-    max-width: none; /* Remove the max-width on smaller screens */
+    max-width: 100%; 
+
+  }
+
+  .mainSectionDivInfoDivOne,
+  .mainSectionDivInfoDivTwo,
+  .mainSectionDivInfoDivTre {
+    flex: 1 1 100%; 
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mainSection, .secondSection, .secondSectiondiv {
+    flex-direction: column; 
+  }
+
+  .mainSectionDiv, .mainSectionAside, 
+  .secondSectiondivDiv {
+    max-width: 100%; 
+
+  }
+
+  .mainSectionDivInfoDivOne,
+  .mainSectionDivInfoDivTwo,
+  .mainSectionDivInfoDivTre {
+    flex: 1 1 100%; 
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mainSectionbig {
+    padding-left: 0% ;
+    padding-right: 0%;
+  }
+  .mainSection {
+    flex-direction: column; 
+
+
+  }
+
+  .mainSectionDiv, .mainSectionAside {
+    margin-right: 0;
   }
 }
 
 .footer {
   background-color: gray;
-  padding-left: 10%; /* Override padding-left */
+  padding-left: 10%; 
   padding-right: 10%;
-}
-.secondSectiondivDiv {
-  font-size: 16px ;
-
-
-}
-.welcomeSectionArtical {
-
-  display: flex;
-  align-items: center; /* Ensures children have the same height */
-  text-align: center;
-  
-  flex-direction: column; /* Stack children vertically on smaller screens (optional) */
-  background-color: rgb(30, 40, 30);
-  padding: 10px;
-  border-radius: 10px;
-
-}
-
-.welcomeSection {
-  
-  font-size: 18px;
-  background-color: rgb(55, 70, 55);
-  color: aliceblue;
-  border-radius: 10px;
-  margin: 1%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
-
-}
-
-.main {
-  background-color: rgb(209, 205, 205);
-  border-radius: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 1%;
-  
 }

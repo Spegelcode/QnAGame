@@ -1,0 +1,308 @@
+{
+  "questions": [
+
+
+  {
+      "question": "Which property is used to define a flex container?",
+      "options": [
+          "display: flex",
+          "display: grid",
+          "flex-container: true",
+          "flex-display: on"
+      ],
+      "correctAnswer": "display: flex"
+  },
+  {
+      "question": "What is the main difference between `display: flex` and `display: grid`?",
+      "options": [
+          "Flex is used for two-dimensional layouts, while grid is used for one-dimensional layouts.",
+          "Flex is used for one-dimensional layouts, while grid is used for two-dimensional layouts.",
+          "Grid controls alignment only, while flex controls both alignment and layout.",
+          "Flex and grid are the same and can be used interchangeably."
+      ],
+      "correctAnswer": "Flex is used for one-dimensional layouts, while grid is used for two-dimensional layouts."
+  },
+  {
+      "question": "What does `justify-content` do in a flex container?",
+      "options": [
+          "Aligns items vertically in the container.",
+          "Distributes space between items along the cross axis.",
+          "Aligns items horizontally along the main axis.",
+          "Sets the size of the items inside the flex container."
+      ],
+      "correctAnswer": "Aligns items horizontally along the main axis."
+  },
+  {
+      "question": "Which property in a flex container is used to align items vertically?",
+      "options": [
+          "align-items",
+          "align-self",
+          "justify-items",
+          "vertical-align"
+      ],
+      "correctAnswer": "align-items"
+  },
+  {
+      "question": "Which CSS property is used to define the number of columns in a grid layout?",
+      "options": [
+          "grid-template-columns",
+          "grid-rows",
+          "column-count",
+          "grid-columns"
+      ],
+      "correctAnswer": "grid-template-columns"
+  },
+  {
+      "question": "What does the `grid-gap` property do in a grid layout?",
+      "options": [
+          "Defines the size of each grid item.",
+          "Adds space between grid items both horizontally and vertically.",
+          "Aligns grid items in the center of the container.",
+          "Sets the size of the entire grid container."
+      ],
+      "correctAnswer": "Adds space between grid items both horizontally and vertically."
+  },
+  {
+      "question": "What is the default behavior of items in a grid container if `grid-template-columns` is not specified?",
+      "options": [
+          "Items will stack in a single column.",
+          "Items will be aligned in a single row.",
+          "Items will be placed according to their original position.",
+          "No layout will be applied."
+      ],
+      "correctAnswer": "Items will stack in a single column."
+  },
+  {
+      "question": "Which property allows you to place a grid item in a specific row or column?",
+      "options": [
+          "grid-column",
+          "grid-position",
+          "grid-item",
+          "column-start"
+      ],
+      "correctAnswer": "grid-column"
+  },
+  {
+      "question": "Which layout system should you use if you need a two-dimensional layout with both rows and columns?",
+      "options": [
+          "Flexbox",
+          "Grid",
+          "Table layout",
+          "Block layout"
+      ],
+      "correctAnswer": "Grid"
+  },
+  {
+      "question": "What does the `align-content` property do in a grid layout?",
+      "options": [
+          "Aligns grid items along the cross axis.",
+          "Distributes space between grid items along the main axis.",
+          "Aligns rows of the grid along the cross axis when there is extra space.",
+          "Controls the size of the grid items."
+      ],
+      "correctAnswer": "Aligns rows of the grid along the cross axis when there is extra space."
+  },
+  {
+      "question": "What does the `flex-wrap` property control in a flex container?",
+      "options": [
+          "The direction of the flex items.",
+          "Whether flex items should wrap onto the next line when there is not enough space.",
+          "The size of the flex container.",
+          "The alignment of flex items within the container."
+      ],
+      "correctAnswer": "Whether flex items should wrap onto the next line when there is not enough space."
+  },
+  {
+      "question": "Which value of `flex-wrap` allows flex items to wrap onto multiple lines?",
+      "options": [
+          "wrap",
+          "no-wrap",
+          "wrap-reverse",
+          "inline"
+      ],
+      "correctAnswer": "wrap"
+  },
+  {
+      "question": "In a grid layout, which property controls the size of grid rows?",
+      "options": [
+          "grid-template-rows",
+          "grid-template-columns",
+          "grid-row-gap",
+          "row-height"
+      ],
+      "correctAnswer": "grid-template-rows"
+  },
+  {
+      "question": "Which property in Flexbox controls the space between items along the main axis?",
+      "options": [
+          "justify-items",
+          "align-items",
+          "justify-content",
+          "align-content"
+      ],
+      "correctAnswer": "justify-content"
+  },
+  {
+      "question": "What is the default value for `align-items` in a flex container?",
+      "options": [
+          "center",
+          "flex-start",
+          "flex-end",
+          "stretch"
+      ],
+      "correctAnswer": "stretch"
+  },
+  {
+      "question": "Which of the following is a valid use of `grid-auto-flow` in a grid layout?",
+      "options": [
+          "grid-auto-flow: dense;",
+          "grid-auto-flow: wrap;",
+          "grid-auto-flow: reverse;",
+          "grid-auto-flow: flex;"
+      ],
+      "correctAnswer": "grid-auto-flow: dense;"
+  },
+  {
+      "question": "In Flexbox, what does the `align-self` property control?",
+      "options": [
+          "The position of the entire flex container.",
+          "The alignment of individual flex items along the cross axis.",
+          "The overall alignment of flex items in the container.",
+          "The width of each flex item."
+      ],
+      "correctAnswer": "The alignment of individual flex items along the cross axis."
+  },
+  {
+      "question": "Which property in grid layouts controls how items are placed into the grid without explicitly defining their grid position?",
+      "options": [
+          "grid-template-columns",
+          "grid-auto-rows",
+          "grid-auto-flow",
+          "grid-gap"
+      ],
+      "correctAnswer": "grid-auto-flow"
+  },
+  {
+      "question": "What does `justify-items` do in a grid layout?",
+      "options": [
+          "Aligns grid items horizontally in each cell along the main axis.",
+          "Aligns grid items along the cross axis of the container.",
+          "Controls how space is distributed between the grid rows.",
+          "Aligns grid items inside their individual grid cells."
+      ],
+      "correctAnswer": "Aligns grid items inside their individual grid cells."
+  },
+  {
+      "question": "Which value of `display` creates a flex container?",
+      "options": [
+          "flex",
+          "block",
+          "inline-block",
+          "grid"
+      ],
+      "correctAnswer": "flex"
+  },
+  {
+    "question": "Which property is used to define a flex container?",
+    "options": [
+        "display: flex",
+        "display: grid",
+        "flex-container: true",
+        "flex-display: on"
+    ],
+    "correctAnswer": "display: flex"
+  },
+  {
+      "question": "What is the main difference between `display: flex` and `display: grid`?",
+      "options": [
+          "Flex is used for two-dimensional layouts, while grid is used for one-dimensional layouts.",
+          "Flex is used for one-dimensional layouts, while grid is used for two-dimensional layouts.",
+          "Grid controls alignment only, while flex controls both alignment and layout.",
+          "Flex and grid are the same and can be used interchangeably."
+      ],
+      "correctAnswer": "Flex is used for one-dimensional layouts, while grid is used for two-dimensional layouts."
+  },
+  {
+      "question": "What does `justify-content` do in a flex container?",
+      "options": [
+          "Aligns items vertically in the container.",
+          "Distributes space between items along the cross axis.",
+          "Aligns items horizontally along the main axis.",
+          "Sets the size of the items inside the flex container."
+      ],
+      "correctAnswer": "Aligns items horizontally along the main axis."
+  },
+  {
+      "question": "Which property in a flex container is used to align items vertically?",
+      "options": [
+          "align-items",
+          "align-self",
+          "justify-items",
+          "vertical-align"
+      ],
+      "correctAnswer": "align-items"
+  },
+  {
+      "question": "Which CSS property is used to define the number of columns in a grid layout?",
+      "options": [
+          "grid-template-columns",
+          "grid-rows",
+          "column-count",
+          "grid-columns"
+      ],
+      "correctAnswer": "grid-template-columns"
+  },
+  {
+      "question": "What does the `grid-gap` property do in a grid layout?",
+      "options": [
+          "Defines the size of each grid item.",
+          "Adds space between grid items both horizontally and vertically.",
+          "Aligns grid items in the center of the container.",
+          "Sets the size of the entire grid container."
+      ],
+      "correctAnswer": "Adds space between grid items both horizontally and vertically."
+  },
+  {
+      "question": "What is the default behavior of items in a grid container if `grid-template-columns` is not specified?",
+      "options": [
+          "Items will stack in a single column.",
+          "Items will be aligned in a single row.",
+          "Items will be placed according to their original position.",
+          "No layout will be applied."
+      ],
+      "correctAnswer": "Items will stack in a single column."
+  },
+  {
+      "question": "Which property allows you to place a grid item in a specific row or column?",
+      "options": [
+          "grid-column",
+          "grid-position",
+          "grid-item",
+          "column-start"
+      ],
+      "correctAnswer": "grid-column"
+  },
+  {
+      "question": "Which layout system should you use if you need a two-dimensional layout with both rows and columns?",
+      "options": [
+          "Flexbox",
+          "Grid",
+          "Table layout",
+          "Block layout"
+      ],
+      "correctAnswer": "Grid"
+  },
+  {
+      "question": "What does the `align-content` property do in a grid layout?",
+      "options": [
+          "Aligns grid items along the cross axis.",
+          "Distributes space between grid items along the main axis.",
+          "Aligns rows of the grid along the cross axis when there is extra space.",
+          "Controls the size of the grid items."
+      ],
+      "correctAnswer": "Aligns rows of the grid along the cross axis when there is extra space."
+  }
+
+]
+
+}

@@ -1,0 +1,304 @@
+{
+  "questions": [
+  {
+    "question": "What is the main purpose of React?",
+    "options": [
+      "To create backend APIs",
+      "To build user interfaces",
+      "To manage databases",
+      "To style web pages"
+    ],
+    "correctAnswer": "To build user interfaces"
+  },
+  {
+    "question": "Which of the following is used to define a React component?",
+    "options": [
+      "A function or a class",
+      "Only a function",
+      "Only a class",
+      "An HTML file"
+    ],
+    "correctAnswer": "A function or a class"
+  },
+  {
+    "question": "What is JSX?",
+    "options": [
+      "A syntax extension for JavaScript",
+      "A new programming language",
+      "A framework similar to React",
+      "A CSS preprocessor"
+    ],
+    "correctAnswer": "A syntax extension for JavaScript"
+  },
+  {
+    "question": "Which hook is used to add state to a functional component?",
+    "options": [
+      "useEffect",
+      "useContext",
+      "useState",
+      "useReducer"
+    ],
+    "correctAnswer": "useState"
+  },
+  {
+    "question": "How do you pass data from a parent component to a child component in React?",
+    "options": [
+      "Using state",
+      "Using Redux",
+      "Using props",
+      "Using context"
+    ],
+    "correctAnswer": "Using props"
+  },
+  {
+    "question": "Which of the following is NOT a valid way to handle events in React?",
+    "options": [
+      "Using an inline function",
+      "Using an event listener with addEventListener",
+      "Passing a function reference",
+      "Using an arrow function inside JSX"
+    ],
+    "correctAnswer": "Using an event listener with addEventListener"
+  },
+  {
+    "question": "What does the `useEffect` hook do?",
+    "options": [
+      "Manages component state",
+      "Handles side effects like fetching data",
+      "Creates a new component",
+      "Renders JSX elements"
+    ],
+    "correctAnswer": "Handles side effects like fetching data"
+  },
+  {
+    "question": "What should you provide when rendering a list in React?",
+    "options": [
+      "A unique 'key' prop",
+      "An index as a key",
+      "A 'list' prop",
+      "A loop inside the render function"
+    ],
+    "correctAnswer": "A unique 'key' prop"
+  },
+  {
+    "question": "What will happen if state is updated in React?",
+    "options": [
+      "Nothing will change",
+      "The component will re-render",
+      "The state value will not change",
+      "The page will refresh"
+    ],
+    "correctAnswer": "The component will re-render"
+  },
+  {
+    "question": "Which of the following is a correct way to conditionally render a component in React?",
+    "options": [
+      "Using an 'if' statement inside JSX",
+      "Using the ternary operator",
+      "Using a 'switch' statement inside JSX",
+      "Using a for-loop"
+    ],
+    "correctAnswer": "Using the ternary operator"
+  },
+  {
+    "question": "What does React use to efficiently update and render components?",
+    "options": [
+      "Real DOM",
+      "Virtual DOM",
+      "Shadow DOM",
+      "Local Storage"
+    ],
+    "correctAnswer": "Virtual DOM"
+  },
+  {
+    "question": "Which method is used to update state in a class component?",
+    "options": [
+      "this.setState()",
+      "this.state()",
+      "updateState()",
+      "modifyState()"
+    ],
+    "correctAnswer": "this.setState()"
+  },
+  {
+    "question": "What will happen if you update state directly (e.g., this.state.count = 5) in React?",
+    "options": [
+      "The component will re-render",
+      "The component will not update correctly",
+      "React will throw an error",
+      "It will automatically call setState()"
+    ],
+    "correctAnswer": "The component will not update correctly"
+  },
+  {
+    "question": "Which React hook is used to access the value from a context?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useRef",
+      "useContext"
+    ],
+    "correctAnswer": "useContext"
+  },
+  {
+    "question": "What is the purpose of the `key` prop when rendering lists in React?",
+    "options": [
+      "To style the elements",
+      "To uniquely identify list items for performance optimization",
+      "To display list numbers",
+      "To store component state"
+    ],
+    "correctAnswer": "To uniquely identify list items for performance optimization"
+  },
+  {
+    "question": "How do you prevent a component from re-rendering unnecessarily?",
+    "options": [
+      "Using useMemo or React.memo",
+      "Using useEffect",
+      "Using setTimeout",
+      "Using inline styles"
+    ],
+    "correctAnswer": "Using useMemo or React.memo"
+  },
+  {
+    "question": "What is the default behavior of React when an error occurs inside a component?",
+    "options": [
+      "It logs the error to the console but keeps running",
+      "It crashes the entire app",
+      "It automatically retries rendering the component",
+      "It ignores the error"
+    ],
+    "correctAnswer": "It crashes the entire app"
+  },
+  {
+    "question": "Which hook is used to reference a DOM element or persist values across renders without causing re-renders?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useRef",
+      "useMemo"
+    ],
+    "correctAnswer": "useRef"
+  },
+  {
+    "question": "Which React feature allows you to write component logic once and reuse it in multiple components?",
+    "options": [
+      "Hooks",
+      "Higher-Order Components (HOC)",
+      "CSS Modules",
+      "State Management"
+    ],
+    "correctAnswer": "Higher-Order Components (HOC)"
+  },
+  {
+    "question": "What does React.Fragment do?",
+    "options": [
+      "Wraps multiple elements without adding extra DOM nodes",
+      "Creates a separate React component",
+      "Forces a component to re-render",
+      "Manages state within a component"
+    ],
+    "correctAnswer": "Wraps multiple elements without adding extra DOM nodes"
+  },
+  {
+    "question": "Which of the following is a correct way to apply CSS styles in React?",
+    "options": [
+      "Using inline styles with the 'style' prop",
+      "Using an external CSS file",
+      "Using CSS-in-JS libraries",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above"
+  },
+  {
+    "question": "What will happen if a parent component re-renders in React?",
+    "options": [
+      "All child components will re-render by default",
+      "Only modified child components will re-render",
+      "React will prevent re-renders automatically",
+      "The parent component will not re-render"
+    ],
+    "correctAnswer": "All child components will re-render by default"
+  },
+  {
+    "question": "What does React.memo() do?",
+    "options": [
+      "Prevents unnecessary re-renders of functional components",
+      "Creates a memoized copy of state",
+      "Caches the entire React app",
+      "Forces components to re-render"
+    ],
+    "correctAnswer": "Prevents unnecessary re-renders of functional components"
+  },
+  {
+    "question": "What is the purpose of useCallback() in React?",
+    "options": [
+      "To memoize a function so it doesn’t get recreated on every render",
+      "To fetch data from an API",
+      "To update state asynchronously",
+      "To force a component to re-render"
+    ],
+    "correctAnswer": "To memoize a function so it doesn’t get recreated on every render"
+  },
+  {
+    "question": "Which of the following is NOT a valid React event handler?",
+    "options": [
+      "onClick",
+      "onHover",
+      "onChange",
+      "onSubmit"
+    ],
+    "correctAnswer": "onHover"
+  },
+  {
+    "question": "What is a React Portal used for?",
+    "options": [
+      "To render children into a different DOM node outside the component tree",
+      "To handle API requests",
+      "To manage global state",
+      "To improve performance"
+    ],
+    "correctAnswer": "To render children into a different DOM node outside the component tree"
+  },
+  {
+    "question": "What is the role of Redux in a React application?",
+    "options": [
+      "To manage component styles",
+      "To manage global state across components",
+      "To fetch data from APIs",
+      "To handle routing"
+    ],
+    "correctAnswer": "To manage global state across components"
+  },
+  {
+    "question": "Which package is commonly used for routing in a React app?",
+    "options": [
+      "react-router-dom",
+      "react-nav",
+      "react-path",
+      "react-navigation"
+    ],
+    "correctAnswer": "react-router-dom"
+  },
+  {
+    "question": "How do you navigate to a different page using React Router?",
+    "options": [
+      "Using the `<a>` tag",
+      "Using the `Link` component",
+      "Using the `navigateTo` function",
+      "Using an `<iframe>`"
+    ],
+    "correctAnswer": "Using the `Link` component"
+  },
+  {
+    "question": "Which React method is used to fetch data when a component mounts?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useMemo",
+      "useReducer"
+    ],
+    "correctAnswer": "useEffect"
+  }
+]
+}

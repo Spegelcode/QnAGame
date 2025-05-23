@@ -3,40 +3,33 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive learning platform for mastering HTML, CSS, and JavaScript through interactive tutorials, videos, challenges, and projects.">
     <title>Resources</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="scriptResources.js"></script>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="/resources.css">
-    <link rel="stylesheet" href="/stylesinfo.css">
+    <link rel="stylesheet" href="resources.css">
+    <link rel="stylesheet" href="stylesInfo.css">
+    <link rel="stylesheet" href="navbar.css">
 
   </head>
 <body>
-
-  <header>
     <h1 class ="banner"></h1>
-    <nav class="navbar">
-      <button class="hamburger" onclick="toggleMenu()">☰</button>
-      <div class="nav-links collapsed, navbar" id="navLinks">   
-        <a class="navbar" href="info.html">
-          <button class="leftNav"> Home</button>
-        </a>
-        <a class="navbar" href="/resources.html">
-          <button class="rightNavTwo"> Resources</button>
-        </a>
-        <a class="navbar" href="/index.html">
-          <button class="rightNavTwo"> QnA Game</button>
-        </a>
-        <a class="navbar" href="/cheatsheet.html">
-          <button class="rightNavOne"> Video Tutorials</button>
-        </a>
-      </div>                                        
-    </nav>
-  </header>
-    <main>
-      <div>
-        <main class="main">
-          <aside class="welcomeSection">
+
+    <header>
+      <nav class="navbar">
+        <button class="hamburger" aria-label="Toggle Menu" aria-expanded="false" onclick="toggleMenu()">☰</button>
+        <div class="nav-links collapsed" id="navLinks">
+          <a href="info.html"><button class="nav-btn">Home</button></a>
+          <a href="resources.html"><button class="nav-btn">Resources</button></a>
+          <a href="index.html"><button class="nav-btn">QnA Game</button></a>
+          <a href="cheatsheet.html"><button class="nav-btn">Video Tutorials</button></a>
+        </div>
+      </nav>
+    </header>
+    <main class= "mainSectionbig">
+
+        
+      <section class="mainTextContent">
+          <div class="welcomeSection">
             <article class="welcomeSectionArtical">
               <h2>Unlock Your Web Development Potential: Explore HTML, JavaScript, CSS Resources & More</h2>
       
@@ -47,38 +40,34 @@
               </p>
             </article>
       
-          </aside>
-          <section class="mainSection">
-
           </div>
-      <Section class="mainDropdown">
+      </section>
+
+      <section class="mainDropdown">
         <div class="dropdown">
           <button class="dropdown-button">PDF</button>
           <ul class="dropdown-content">
-              <li><a href="#" onclick="showPdf('/pdf/Eloquent_JavaScript_3rdEdition.pdf')">Eloquent JavaScript (3rd Edition)</a></li>
-              <li><a href="#" onclick="showPdf('pdf/Learning-Web-Design-5th-Edition-by-Jennifer-Niederst-booksfree.org_.pdf')">Web Design 5th Edition by Jennifer Niederst</a></li>
+              <li class = "listClass"><a href="#" onclick="showPdf('pdf/Eloquent_JavaScript_3rdEdition.pdf', event)">Eloquent JavaScript (3rd Edition)</a></li>
+              <li class = "listClass"><a href="#" onclick="showPdf('pdf/Learning-Web-Design-5th-Edition-by-Jennifer-Niederst-booksfree.org_.pdf', event)">Web Design 5th Edition by Jennifer Niederst</a></li>
           </ul>
         </div>
-
-
-
-      </Section>
-
-
-
+      </section>
 
       <div id="pdf-container">
-        <iframe id="pdf-frame" src="" class="iframe" ></iframe>
+        <iframe title="iframe for pdf" id="pdf-frame" src="" class="iframe" ></iframe>
+      </div>
 
 
-      
     </main>
+
+
     <footer class="footer">
       <small>
         Copyright © 2024 Leo Spegel. All Rights Reserved.
       </small>
     </footer>
   
+    <script src="scriptResources.js"></script>
+    <script src="hamburger.js"></script> 
 </body>
 </html>
-<script src="hamburger.js"></script> <!-- Link to JS -->

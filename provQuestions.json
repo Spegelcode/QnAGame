@@ -1,0 +1,299 @@
+{
+  "questions": [
+    {
+      "question": "Vad är syftet med <!DOCTYPE html> i ett HTML-dokument?",
+      "options": [
+        "Att inkludera CSS-stilar",
+        "Att definiera dokumentets teckenuppsättning",
+        "Att deklarera dokumenttypen och HTML-versionen",
+        "Att skapa en kommentar"
+      ],
+      "correctAnswer": "Att deklarera dokumenttypen och HTML-versionen"
+    },
+    {
+      "question": "Vilken av följande <meta>-taggar används för att göra en webbsida responsiv?",
+      "options": [
+        "<meta name=\"author\" content=\"Författarens namn\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta name=\"description\" content=\"En kort beskrivning av sidans innehåll\">",
+        "<meta name=\"keywords\" content=\"HTML,CSS,XML,JavaScript\">"
+      ],
+      "correctAnswer": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
+    },
+    {
+      "question": "Vilket av följande element används för att definiera en navigationslänkssektion?",
+      "options": [
+        "<nav>",
+        "<navigation>",
+        "<navigate>",
+        "<links>"
+      ],
+      "correctAnswer": "<nav>"
+    },
+    {
+      "question": "Vilken tagg används för att skapa en lista där varje listpunkt är numrerad?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<dl>",
+        "<list>"
+      ],
+      "correctAnswer": "<ol>"
+    },
+    {
+      "question": "Vilken semantisk tagg bör användas för att markera huvudinnehållet på en webbsida?",
+      "options": [
+        "<main>",
+        "<section>",
+        "<article>",
+        "<div>"
+      ],
+      "correctAnswer": "<main>"
+    },
+    {
+      "question": "Vilken tagg används för att representera en navigationslänkssektion på en webbsida?",
+      "options": [
+        "<links>",
+        "<navigate>",
+        "<nav>",
+        "<menu>"
+      ],
+      "correctAnswer": "<nav>"
+    },
+    {
+      "question": "Vilket element betraktas som ett block-nivå element?",
+      "options": [
+        "<span>",
+        "<img>",
+        "<p>",
+        "<a>"
+      ],
+      "correctAnswer": "<p>"
+    },
+    {
+      "question": "Vilket attribut i <a>-taggen rekommenderas att använda tillsammans med target=\"_blank\" för säkerhet?",
+      "options": [
+        "rel=\"external\"",
+        "rel=\"nofollow\"",
+        "rel=\"noopener noreferrer\"",
+        "rel=\"noopen\""
+      ],
+      "correctAnswer": "rel=\"noopener noreferrer\""
+    },
+    {
+      "question": "Vilken tagg används för att infoga en bild i ett HTML-dokument?",
+      "options": [
+        "<src>",
+        "<img>",
+        "<picture>",
+        "<graphics>"
+      ],
+      "correctAnswer": "<img>"
+    },
+    {
+      "question": "Vilket attribut i <img>-taggen används för att specificera bildens filväg eller URL?",
+      "options": [
+        "href",
+        "src",
+        "path",
+        "link"
+      ],
+      "correctAnswer": "src"
+    },
+    {
+      "question": "Vilken metod beskrivs för att koppla externa CSS-stilar till ett HTML-dokument?",
+      "options": [
+        "Använda <style>-taggen inuti <head>-taggen.",
+        "Använda style-attributet inuti varje HTML-element.",
+        "Använda <link rel='stylesheet'> i <head>-taggen för att inkludera en extern .css-fil.",
+        "Använda <css>-taggen i dokumentets kropp."
+      ],
+      "correctAnswer": "Använda <link rel='stylesheet'> i <head>-taggen för att inkludera en extern .css-fil."
+    },
+    {
+      "question": "Vilket attribut används för att specificera URL:en i en <form>-tagg där data ska skickas?",
+      "options": [
+        "method",
+        "action",
+        "type",
+        "src"
+      ],
+      "correctAnswer": "action"
+    },
+    {
+      "question": "Vilken CSS-egenskap används för att definiera utrymmet mellan innehållet i en box och dess ram (border)?",
+      "options": [
+        "margin",
+        "border",
+        "padding",
+        "space"
+      ],
+      "correctAnswer": "padding"
+    },
+    {
+      "question": "Vilken positioneringstyp används för att göra ett element fast positionerat på skärmen, även när användaren skrollar?",
+      "options": [
+        "relative",
+        "absolute",
+        "fixed",
+        "static"
+      ],
+      "correctAnswer": "fixed"
+    },
+    {
+      "question": "Hur skapar du en linjär gradient som bakgrund i CSS?",
+      "options": [
+        "background: linear-gradient(direction, color-stop1, color-stop2);",
+        "background-image: gradient(linear, color-stop1, color-stop2);",
+        "background-color: linear-gradient(color-stop1, color-stop2);",
+        "background: radial-gradient(color-stop1, color-stop2);"
+      ],
+      "correctAnswer": "background: linear-gradient(direction, color-stop1, color-stop2);"
+    },
+    {
+      "question": "Vilken enhet är direkt relaterad till storleken på rotelementets teckensnitt?",
+      "options": [
+        "em",
+        "rem",
+        "%",
+        "vw"
+      ],
+      "correctAnswer": "rem"
+    },
+    {
+      "question": "Vad är syftet med viewport meta-taggen i responsiv webbdesign?",
+      "options": [
+        "För att förbättra sidans laddningstider",
+        "För att ange sidans grundläggande upplösning",
+        "För att säkerställa korrekt skalning av webbinnehållet på olika enheter",
+        "För att definiera sidans färgschema"
+      ],
+      "correctAnswer": "För att säkerställa korrekt skalning av webbinnehållet på olika enheter"
+    },
+    {
+      "question": "Vad är huvudsyftet med att använda flex-wrap i en flex container?",
+      "options": [
+        "För att justera flex items längs korsaxeln",
+        "För att tillåta flex items att omslutas på flera rader eller kolumner",
+        "För att definiera storleken på flex items",
+        "För att centrera flex items i containern"
+      ],
+      "correctAnswer": "För att tillåta flex items att omslutas på flera rader eller kolumner"
+    },
+    {
+      "question": "Vilken egenskap används för att justera hur flex items är justerade längs korsaxeln?",
+      "options": [
+        "justify-content",
+        "flex-grow",
+        "align-items",
+        "align-content"
+      ],
+      "correctAnswer": "align-items"
+    },
+    {
+      "question": "Vilket pseudo-element används för att skapa innehåll före ett element i CSS?",
+      "options": [
+        "::after",
+        "::before",
+        "::first-letter",
+        "::first-line"
+      ],
+      "correctAnswer": "::before"
+    },
+    {
+      "question": "Vilken layoutprincip fokuserar på att prioritera innehållet baserat på dess betydelse?",
+      "options": [
+        "Flexbox",
+        "CSS Grid",
+        "Visuell hierarki",
+        "Semantisk HTML"
+      ],
+      "correctAnswer": "Visuell hierarki"
+    },
+    {
+      "question": "Vilket element används för att representera ett självständigt innehåll som är oberoende och självständigt?",
+      "options": [
+        "<section>",
+        "<div>",
+        "<article>",
+        "<aside>"
+      ],
+      "correctAnswer": "<article>"
+    },
+    {
+      "question": "Vilket element används för att innehålla navigationslänkar på en webbsida?",
+      "options": [
+        "<section>",
+        "<nav>",
+        "<header>",
+        "<footer>"
+      ],
+      "correctAnswer": "<nav>"
+    },
+    {
+      "question": "Vilken strategi rekommenderas för att hantera webbläsarkompatibilitet i CSS?",
+      "options": [
+        "Använda endast HTML",
+        "Undvika att använda CSS",
+        "Använda CSS-prefix och testa i olika webbläsare",
+        "Skriva all CSS-kod i JavaScript"
+      ],
+      "correctAnswer": "Använda CSS-prefix och testa i olika webbläsare"
+    },
+    {
+      "question": "Vad möjliggör SASS som inte är direkt möjligt i vanlig CSS?",
+      "options": [
+        "Användning av variabler.",
+        "Styling av element.",
+        "Inkludering av externa stilark.",
+        "Grundläggande textformatering."
+      ],
+      "correctAnswer": "Användning av variabler."
+    },
+    {
+      "question": "Vilket påstående beskriver bäst CSS-variabler?",
+      "options": [
+        "De är statiska och kan inte ändras efter deklaration.",
+        "De lagrar återanvändbara värden som kan uppdateras centralt.",
+        "De kan enbart användas inom :root-pseudo-klassen.",
+        "De stödjer inte dynamisk teman eller stilväxlingar."
+      ],
+      "correctAnswer": "De lagrar återanvändbara värden som kan uppdateras centralt."
+    },
+    {
+      "question": "Vilken funktion tillhandahåller CSS Transforms för att ändra storleken på ett element?",
+      "options": [
+        "translate(x, y)",
+        "rotate(degree)",
+        "scale(x, y)",
+        "skew(x-degree, y-degree)"
+      ],
+      "correctAnswer": "scale(x, y)"
+    },
+    {
+      "question": "Vad är ett primärt användningsområde för HTML5 Canvas?",
+      "options": [
+        "Att skapa interaktiva spel.",
+        "Att definiera semantiska webbdokument.",
+        "Att skapa externa stilark.",
+        "Att validera användardata."
+      ],
+      "correctAnswer": "Att skapa interaktiva spel."
+    },
+    {
+      "question": "Vilken fördel erbjuder SVG över Canvas för vissa tillämpningar?",
+      "options": [
+        "SVG presterar bättre för intensiva och komplexa animationer.",
+        "SVG-skript kan inte manipuleras med JavaScript.",
+        "SVG-grafik skalar perfekt till vilken storlek som helst utan kvalitetsförlust.",
+        "SVG är enklare att använda för pixelbaserade spel."
+      ],
+      "correctAnswer": "SVG-grafik skalar perfekt till vilken storlek som helst utan kvalitetsförlust."
+    
+  }
+  ]
+
+
+}
+ 
+
