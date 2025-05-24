@@ -1,0 +1,634 @@
+{
+  "questions": [
+    {
+      "question": "Vilket kommando används för att skapa ett nytt Angular-projekt?",
+      "options": [
+        "ng new",
+        "ng create",
+        "ng init",
+        "ng start"
+      ],
+      "correctAnswer": "ng new"
+    },
+    {
+      "question": "Vad är en komponent i Angular?",
+      "options": [
+        "En funktion som returnerar HTML",
+        "En återanvändbar byggsten som består av template, logik och metadata",
+        "En CSS-fil",
+        "En databasanslutning"
+      ],
+      "correctAnswer": "En återanvändbar byggsten som består av template, logik och metadata"
+    },
+    {
+      "question": "Vilken dekorator används för att definiera en komponent i Angular?",
+      "options": [
+        "@NgModule",
+        "@Injectable",
+        "@Component",
+        "@Directive"
+      ],
+      "correctAnswer": "@Component"
+    },
+    {
+      "question": "Vad är syftet med en Angular-modul (NgModule)?",
+      "options": [
+        "Att gruppera relaterade komponenter, direktiv, pipes och services",
+        "Att skapa CSS-klasser",
+        "Att hantera HTTP-anrop",
+        "Att skapa databaser"
+      ],
+      "correctAnswer": "Att gruppera relaterade komponenter, direktiv, pipes och services"
+    },
+    {
+      "question": "Hur binder du en variabel från komponentklassen till templatet i Angular?",
+      "options": [
+        "Med {{ variabel }}",
+        "Med []",
+        "Med ()",
+        "Med <!-- -->"
+      ],
+      "correctAnswer": "Med {{ variabel }}"
+    },
+    {
+      "question": "Vilken syntax används för property binding in Angular?",
+      "options": [
+        "{{ property }}",
+        "[property]",
+        "(property)",
+        "#property"
+      ],
+      "correctAnswer": "[property]"
+    },
+    {
+      "question": "Hur utför du event binding i Angular?",
+      "options": [
+        "[event]",
+        "(event)",
+        "{{ event }}",
+        "#event"
+      ],
+      "correctAnswer": "(event)"
+    },
+    {
+      "question": "Vad är en service i Angular?",
+      "options": [
+        "En klass för att dela data och logik mellan komponenter",
+        "En CSS-fil",
+        "En HTML-template",
+        "En router"
+      ],
+      "correctAnswer": "En klass för att dela data och logik mellan komponenter"
+    },
+    {
+      "question": "Vilken dekorator används för att göra en service tillgänglig för dependency injection?",
+      "options": [
+        "@Injectable",
+        "@Component",
+        "@NgModule",
+        "@Pipe"
+      ],
+      "correctAnswer": "@Injectable"
+    },
+    {
+      "question": "Vad är dependency injection i Angular?",
+      "options": [
+        "Att automatiskt skapa och tillhandahålla beroenden till klasser",
+        "Att importera CSS-filer",
+        "Att skapa databaser",
+        "Att hantera HTTP-anrop"
+      ],
+      "correctAnswer": "Att automatiskt skapa och tillhandahålla beroenden till klasser"
+    },
+    {
+      "question": "Hur navigerar du mellan sidor i Angular?",
+      "options": [
+        "Med Angular Router och <router-outlet>",
+        "Med window.location",
+        "Med ngSwitch",
+        "Med ngIf"
+      ],
+      "correctAnswer": "Med Angular Router och <router-outlet>"
+    },
+    {
+      "question": "Vilken modul måste importeras för att använda routing i Angular?",
+      "options": [
+        "FormsModule",
+        "RouterModule",
+        "HttpClientModule",
+        "CommonModule"
+      ],
+      "correctAnswer": "RouterModule"
+    },
+    {
+      "question": "Vad är en pipe i Angular?",
+      "options": [
+        "En funktion för att transformera data i templates",
+        "En CSS-klass",
+        "En router",
+        "En service"
+      ],
+      "correctAnswer": "En funktion för att transformera data i templates"
+    },
+    {
+      "question": "Hur använder du en pipe i en Angular-template?",
+      "options": [
+        "{{ value | pipeName }}",
+        "[value | pipeName]",
+        "(value | pipeName)",
+        "#value | pipeName"
+      ],
+      "correctAnswer": "{{ value | pipeName }}"
+    },
+    {
+      "question": "Vilken pipe används för att formatera datum i Angular?",
+      "options": [
+        "date",
+        "currency",
+        "json",
+        "uppercase"
+      ],
+      "correctAnswer": "date"
+    },
+    {
+      "question": "Vad är ett lifecycle hook i Angular?",
+      "options": [
+        "En metod som körs vid specifika tillfällen i en komponents livscykel",
+        "En CSS-klass",
+        "En router",
+        "En service"
+      ],
+      "correctAnswer": "En metod som körs vid specifika tillfällen i en komponents livscykel"
+    },
+    {
+      "question": "Vilket lifecycle hook används för att initiera logik när en komponent skapas?",
+      "options": [
+        "ngOnInit",
+        "ngOnDestroy",
+        "ngAfterViewInit",
+        "ngDoCheck"
+      ],
+      "correctAnswer": "ngOnInit"
+    },
+    {
+      "question": "Hur hanterar du formulär i Angular?",
+      "options": [
+        "Med Template-driven forms eller Reactive forms",
+        "Med CSS",
+        "Med pipes",
+        "Med services"
+      ],
+      "correctAnswer": "Med Template-driven forms eller Reactive forms"
+    },
+    {
+      "question": "Vilken modul måste importeras för att använda Reactive forms?",
+      "options": [
+        "ReactiveFormsModule",
+        "FormsModule",
+        "HttpClientModule",
+        "RouterModule"
+      ],
+      "correctAnswer": "ReactiveFormsModule"
+    },
+    {
+      "question": "Vad är en Observable i Angular?",
+      "options": [
+        "En dataström som kan observeras och reageras på",
+        "En CSS-klass",
+        "En router",
+        "En pipe"
+      ],
+      "correctAnswer": "En dataström som kan observeras och reageras på"
+    },
+    {
+      "question": "Vilket bibliotek används för Observables i Angular?",
+      "options": [
+        "RxJS",
+        "Lodash",
+        "jQuery",
+        "Moment.js"
+      ],
+      "correctAnswer": "RxJS"
+    },
+    {
+      "question": "Hur prenumererar du på en Observable i Angular?",
+      "options": [
+        "Med .subscribe()",
+        "Med .then()",
+        "Med .pipe()",
+        "Med .map()"
+      ],
+      "correctAnswer": "Med .subscribe()"
+    },
+    {
+      "question": "Vad är en directive i Angular?",
+      "options": [
+        "En klass som kan ändra utseende eller beteende på DOM-element",
+        "En CSS-klass",
+        "En router",
+        "En pipe"
+      ],
+      "correctAnswer": "En klass som kan ändra utseende eller beteende på DOM-element"
+    },
+    {
+      "question": "Vilken inbyggd structural directive används för att iterera över en lista i Angular?",
+      "options": [
+        "*ngFor",
+        "*ngIf",
+        "*ngSwitch",
+        "*ngClass"
+      ],
+      "correctAnswer": "*ngFor"
+    },
+    {
+      "question": "Hur kan du visa eller dölja ett element baserat på ett villkor i Angular?",
+      "options": [
+        "*ngIf",
+        "*ngFor",
+        "*ngSwitch",
+        "*ngClass"
+      ],
+      "correctAnswer": "*ngIf"
+    },
+    {
+      "question": "Vad är skillnaden mellan Template-driven och Reactive forms i Angular?",
+      "options": [
+        "Template-driven forms definieras i HTML, Reactive forms i TypeScript-kod",
+        "Reactive forms använder bara CSS",
+        "Template-driven forms kräver RxJS",
+        "Det finns ingen skillnad"
+      ],
+      "correctAnswer": "Template-driven forms definieras i HTML, Reactive forms i TypeScript-kod"
+    },
+    {
+      "question": "Hur kan du göra HTTP-anrop i Angular?",
+      "options": [
+        "Med HttpClient-service",
+        "Med fetch direkt",
+        "Med jQuery",
+        "Med ngModel"
+      ],
+      "correctAnswer": "Med HttpClient-service"
+    },
+    {
+      "question": "Vilken modul måste importeras för att använda HttpClient i Angular?",
+      "options": [
+        "HttpClientModule",
+        "FormsModule",
+        "RouterModule",
+        "CommonModule"
+      ],
+      "correctAnswer": "HttpClientModule"
+    },
+    {
+      "question": "Hur kan du hantera fel vid HTTP-anrop i Angular?",
+      "options": [
+        "Med catchError-operatorn från RxJS",
+        "Med try/catch direkt i komponenten",
+        "Med ngIf",
+        "Med pipes"
+      ],
+      "correctAnswer": "Med catchError-operatorn från RxJS"
+    },
+    {
+      "question": "Vad är syftet med Angular CLI?",
+      "options": [
+        "Att skapa, bygga och underhålla Angular-projekt via kommandoraden",
+        "Att skapa CSS-filer",
+        "Att hantera databaser",
+        "Att skapa pipes"
+      ],
+      "correctAnswer": "Att skapa, bygga och underhålla Angular-projekt via kommandoraden"
+    },
+    {
+      "question": "Hur kan du skapa en ny komponent med Angular CLI?",
+      "options": [
+        "ng generate component",
+        "ng new component",
+        "ng create component",
+        "ng build component"
+      ],
+      "correctAnswer": "ng generate component"
+    },
+    {
+      "question": "Vad är en guard i Angular routing?",
+      "options": [
+        "En tjänst som kan kontrollera åtkomst till rutter",
+        "En CSS-klass",
+        "En pipe",
+        "En modul"
+      ],
+      "correctAnswer": "En tjänst som kan kontrollera åtkomst till rutter"
+    },
+    {
+      "question": "Vilken typ av guard används för att skydda en rutt från att nås utan inloggning?",
+      "options": [
+        "CanActivate",
+        "CanDeactivate",
+        "Resolve",
+        "CanLoad"
+      ],
+      "correctAnswer": "CanActivate"
+    },
+    {
+      "question": "Vad är syftet med ngOnDestroy-lifecycle hook?",
+      "options": [
+        "Att städa upp resurser när en komponent tas bort",
+        "Att skapa komponenten",
+        "Att hantera formulär",
+        "Att skapa pipes"
+      ],
+      "correctAnswer": "Att städa upp resurser när en komponent tas bort"
+    },
+    {
+      "question": "Hur kan du skapa en custom pipe i Angular?",
+      "options": [
+        "Genom att skapa en klass med @Pipe-dekoratorn",
+        "Genom att skapa en CSS-klass",
+        "Genom att skapa en service",
+        "Genom att skapa en modul"
+      ],
+      "correctAnswer": "Genom att skapa en klass med @Pipe-dekoratorn"
+    },
+    {
+      "question": "Vad är skillnaden mellan @Input och @Output i Angular?",
+      "options": [
+        "@Input används för att ta emot data från förälder, @Output för att skicka data till förälder",
+        "Båda används för att skicka data till förälder",
+        "Båda används för att ta emot data från förälder",
+        "Det finns ingen skillnad"
+      ],
+      "correctAnswer": "@Input används för att ta emot data från förälder, @Output för att skicka data till förälder"
+    },
+    {
+      "question": "Hur kan du testa en komponent i Angular?",
+      "options": [
+        "Med Jasmine och Karma",
+        "Med Mocha och Chai",
+        "Med Jest",
+        "Med Protractor"
+      ],
+      "correctAnswer": "Med Jasmine och Karma"
+    },
+    {
+      "question": "Vad är syftet med ng-content i Angular?",
+      "options": [
+        "Att möjliggöra content projection (att stoppa in innehåll i en komponent från utsidan)",
+        "Att skapa pipes",
+        "Att skapa services",
+        "Att skapa moduler"
+      ],
+      "correctAnswer": "Att möjliggöra content projection (att stoppa in innehåll i en komponent från utsidan)"
+    },
+    {
+      "question": "Hur kan du optimera prestanda i en Angular-applikation?",
+      "options": [
+        "Med lazy loading av moduler och OnPush change detection",
+        "Genom att använda fler pipes",
+        "Genom att använda fler services",
+        "Genom att undvika RxJS"
+      ],
+      "correctAnswer": "Med lazy loading av moduler och OnPush change detection"
+    },
+    {
+      "question": "Vad är syftet med ChangeDetectionStrategy.OnPush i Angular?",
+      "options": [
+        "Att förbättra prestanda genom att endast kontrollera förändringar vid input eller events",
+        "Att alltid kontrollera alla komponenter",
+        "Att skapa nya komponenter automatiskt",
+        "Att hantera HTTP-anrop"
+      ],
+      "correctAnswer": "Att förbättra prestanda genom att endast kontrollera förändringar vid input eller events"
+    },
+    {
+      "question": "Hur kan du referera till ett barn-element eller komponent i din Angular-komponentklass?",
+      "options": [
+        "Med @ViewChild-dekoratorn",
+        "Med @Input",
+        "Med @Injectable",
+        "Med @Pipe"
+      ],
+      "correctAnswer": "Med @ViewChild-dekoratorn"
+    },
+    {
+      "question": "Vad är ngZone och vad används det till i Angular?",
+      "options": [
+        "För att hantera förändringsdetektering utanför Angulars zon",
+        "För att skapa pipes",
+        "För att skapa services",
+        "För att skapa moduler"
+      ],
+      "correctAnswer": "För att hantera förändringsdetektering utanför Angulars zon"
+    },
+    {
+      "question": "Vad är en feature module i Angular?",
+      "options": [
+        "En modul som kapslar in relaterad funktionalitet och kan laddas in vid behov",
+        "En modul för att hantera HTTP-anrop",
+        "En modul för att skapa pipes",
+        "En modul för att skapa CSS"
+      ],
+      "correctAnswer": "En modul som kapslar in relaterad funktionalitet och kan laddas in vid behov"
+    },
+    {
+      "question": "Hur kan du implementera lazy loading av moduler i Angular?",
+      "options": [
+        "Genom att använda loadChildren i routing-konfigurationen",
+        "Genom att använda ngIf",
+        "Genom att använda @Input",
+        "Genom att använda @Pipe"
+      ],
+      "correctAnswer": "Genom att använda loadChildren i routing-konfigurationen"
+    },
+    {
+      "question": "Vad är syftet med Angular Universal?",
+      "options": [
+        "Att möjliggöra server-side rendering av Angular-applikationer",
+        "Att skapa pipes",
+        "Att skapa services",
+        "Att skapa moduler"
+      ],
+      "correctAnswer": "Att möjliggöra server-side rendering av Angular-applikationer"
+    },
+    {
+      "question": "Hur kan du skapa en custom directive i Angular?",
+      "options": [
+        "Genom att skapa en klass med @Directive-dekoratorn",
+        "Genom att skapa en CSS-klass",
+        "Genom att skapa en service",
+        "Genom att skapa en modul"
+      ],
+      "correctAnswer": "Genom att skapa en klass med @Directive-dekoratorn"
+    },
+    {
+      "question": "Vad är syftet med module federation i Angular?",
+      "options": [
+        "Att möjliggöra micro frontends och dela kod mellan olika applikationer",
+        "Att skapa pipes",
+        "Att skapa services",
+        "Att skapa moduler"
+      ],
+      "correctAnswer": "Att möjliggöra micro frontends och dela kod mellan olika applikationer"
+    },
+    {
+      "question": "Hur kan du animera element i Angular?",
+      "options": [
+        "Med Angulars animationsmodul och @Component-animationsfältet",
+        "Med CSS enbart",
+        "Med pipes",
+        "Med services"
+      ],
+      "correctAnswer": "Med Angulars animationsmodul och @Component-animationsfältet"
+    },
+    {
+      "question": "Vad är TestBed i Angular testing?",
+      "options": [
+        "Ett verktyg för att konfigurera och skapa testmiljöer för komponenter och tjänster",
+        "En pipe för att testa data",
+        "En modul för att skapa CSS",
+        "En router"
+      ],
+      "correctAnswer": "Ett verktyg för att konfigurera och skapa testmiljöer för komponenter och tjänster"
+    },
+    {
+      "question": "Hur kan du mocka en service i ett Angular-test?",
+      "options": [
+        "Genom att använda providers-arrayen i TestBed och ange en mock-klass",
+        "Genom att använda ngIf",
+        "Genom att använda pipes",
+        "Genom att använda @Input"
+      ],
+      "correctAnswer": "Genom att använda providers-arrayen i TestBed och ange en mock-klass"
+    },
+    {
+      "question": "Vad är en resolver i Angular routing?",
+      "options": [
+        "En tjänst som hämtar data innan en rutt aktiveras",
+        "En pipe för att lösa data",
+        "En modul för att skapa CSS",
+        "En router"
+      ],
+      "correctAnswer": "En tjänst som hämtar data innan en rutt aktiveras"
+    },
+    {
+      "question": "Hur kan du hantera global state management i Angular?",
+      "options": [
+        "Med bibliotek som NgRx eller Akita",
+        "Med pipes",
+        "Med CSS",
+        "Med ngIf"
+      ],
+      "correctAnswer": "Med bibliotek som NgRx eller Akita"
+    },
+    {
+      "question": "Vad är skillnaden mellan deklarationer, imports, providers och exports i en Angular-modul?",
+      "options": [
+        "Declarations: komponenter/pipes/direktiv, Imports: andra moduler, Providers: tjänster, Exports: vad som exponeras utåt",
+        "Declarations: tjänster, Imports: pipes, Providers: komponenter, Exports: CSS",
+        "Declarations: CSS, Imports: pipes, Providers: komponenter, Exports: tjänster",
+        "Det finns ingen skillnad"
+      ],
+      "correctAnswer": "Declarations: komponenter/pipes/direktiv, Imports: andra moduler, Providers: tjänster, Exports: vad som exponeras utåt"
+    },
+    {
+      "question": "Vad är skillnaden mellan en pure och en impure pipe i Angular?",
+      "options": [
+        "Pure pipes körs bara när input ändras, impure pipes körs vid varje change detection",
+        "Impure pipes är snabbare",
+        "Pure pipes kan bara användas i services",
+        "Det finns ingen skillnad"
+      ],
+      "correctAnswer": "Pure pipes körs bara när input ändras, impure pipes körs vid varje change detection"
+    },
+    {
+      "question": "Hur kan du skapa en singleton-service i Angular?",
+      "options": [
+        "Genom att ange providedIn: 'root' i @Injectable",
+        "Genom att använda ngIf",
+        "Genom att använda @Pipe",
+        "Genom att skapa en modul"
+      ],
+      "correctAnswer": "Genom att ange providedIn: 'root' i @Injectable"
+    },
+    {
+      "question": "Vad är trackBy-funktionen i *ngFor och varför används den?",
+      "options": [
+        "För att optimera rendering av listor genom att identifiera objekt med unika nycklar",
+        "För att filtrera listor",
+        "För att sortera listor",
+        "För att skapa pipes"
+      ],
+      "correctAnswer": "För att optimera rendering av listor genom att identifiera objekt med unika nycklar"
+    },
+    {
+      "question": "Hur kan du kommunicera mellan två icke-relaterade komponenter i Angular?",
+      "options": [
+        "Med en gemensam service och Observables/Subjects",
+        "Med @Input och @Output",
+        "Med pipes",
+        "Med CSS"
+      ],
+      "correctAnswer": "Med en gemensam service och Observables/Subjects"
+    },
+    {
+      "question": "Vad är ett template reference variable i Angular?",
+      "options": [
+        "En variabel som refererar till ett DOM-element eller Angular-komponent i templatet",
+        "En variabel i TypeScript-koden",
+        "En pipe",
+        "En service"
+      ],
+      "correctAnswer": "En variabel som refererar till ett DOM-element eller Angular-komponent i templatet"
+    },
+    {
+      "question": "Hur kan du dynamiskt skapa komponenter vid runtime i Angular?",
+      "options": [
+        "Med ComponentFactoryResolver och ViewContainerRef",
+        "Med ngIf",
+        "Med pipes",
+        "Med @Input"
+      ],
+      "correctAnswer": "Med ComponentFactoryResolver och ViewContainerRef"
+    },
+    {
+      "question": "Vad är syftet med ng-template och ng-container i Angular?",
+      "options": [
+        "För att skapa och hantera osynliga template-block och strukturera DOM utan extra element",
+        "För att skapa pipes",
+        "För att skapa services",
+        "För att skapa moduler"
+      ],
+      "correctAnswer": "För att skapa och hantera osynliga template-block och strukturera DOM utan extra element"
+    },
+    {
+      "question": "Hur kan du hantera asynkrona dataflöden i templates utan att prenumerera manuellt?",
+      "options": [
+        "Med async-pipen",
+        "Med ngIf",
+        "Med @Input",
+        "Med ngOnInit"
+      ],
+      "correctAnswer": "Med async-pipen"
+    },
+    {
+      "question": "Vad är skillnaden mellan forRoot() och forChild() i Angular routing?",
+      "options": [
+        "forRoot() används i root-modulen, forChild() i feature-moduler för att konfigurera routes",
+        "forRoot() är för pipes, forChild() för services",
+        "Det finns ingen skillnad",
+        "forRoot() används för att skapa komponenter"
+      ],
+      "correctAnswer": "forRoot() används i root-modulen, forChild() i feature-moduler för att konfigurera routes"
+    },
+    {
+      "question": "Hur kan du skydda en hel modul från att laddas om användaren inte är inloggad?",
+      "options": [
+        "Med CanLoad-guard",
+        "Med CanActivate-guard",
+        "Med pipes",
+        "Med ngIf"
+      ],
+      "correctAnswer": "Med CanLoad-guard"
+    }
+  ]
+}

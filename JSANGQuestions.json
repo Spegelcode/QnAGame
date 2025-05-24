@@ -1,0 +1,814 @@
+{
+  "questions": [
+    {
+      "question": "Vad är en klass i JavaScript, och varför introducerades den i ES6?",
+      "options": [
+        "En funktion som returnerar ett objekt",
+        "En mall för att skapa objekt, introducerad för att strukturera kod och hantera arv",
+        "En typ av variabel som används i funktioner",
+        "En metod för att skriva HTML enklare"
+      ],
+      "correctAnswer": "En mall för att skapa objekt, introducerad för att strukturera kod och hantera arv"
+    },
+    {
+      "question": "Hur definierar man en klass i JavaScript?",
+      "options": [
+        "Med nyckelordet object",
+        "Med nyckelordet function",
+        "Med nyckelordet class följt av klassnamnet",
+        "Med en JSON-struktur"
+      ],
+      "correctAnswer": "Med nyckelordet class följt av klassnamnet"
+    },
+    {
+      "question": "Vad är en konstruktor i en klass, och vilken funktion fyller den?",
+      "options": [
+        "En funktion som körs när sidan laddas",
+        "En funktion som uppdaterar HTML",
+        "En metod som körs vid instansiering och initialiserar egenskaper",
+        "En metod som används för att ärva från andra klasser"
+      ],
+      "correctAnswer": "En metod som körs vid instansiering och initialiserar egenskaper"
+    },
+    {
+      "question": "Hur skapar man en instans av en klass i JavaScript?",
+      "options": [
+        "Med nyckelordet create",
+        "Genom att anropa funktionen direkt",
+        "Med nyckelordet new följt av klassnamnet",
+        "Med en array och ett objekt"
+      ],
+      "correctAnswer": "Med nyckelordet new följt av klassnamnet"
+    },
+    {
+      "question": "Vad är 'syntaktiskt socker' i JavaScript, och hur relaterar det till klasser?",
+      "options": [
+        "Ett sätt att förbättra prestanda",
+        "En metod för att skapa krypterade klasser",
+        "Förbättrad syntax som gör kod enklare att skriva och läsa",
+        "En funktion för att hantera cookies"
+      ],
+      "correctAnswer": "Förbättrad syntax som gör kod enklare att skriva och läsa"
+    },
+    {
+      "question": "Hur definierar man en metod i en klass i JavaScript?",
+      "options": [
+        "Genom att använda nyckelordet method",
+        "Genom att skriva en funktion med function-nyckelordet",
+        "Genom att skriva en funktion direkt i klassen utan function-nyckelord",
+        "Genom att lägga till den i constructor"
+      ],
+      "correctAnswer": "Genom att skriva en funktion direkt i klassen utan function-nyckelord"
+    },
+    {
+      "question": "Vad är 'this' i JavaScript inom en klass?",
+      "options": [
+        "Ett sätt att importera bibliotek",
+        "Referens till det globala objektet",
+        "Referens till den aktuella klassinstansen",
+        "En funktion som initierar egenskaper"
+      ],
+      "correctAnswer": "Referens till den aktuella klassinstansen"
+    },
+    {
+      "question": "Vad händer om man glömmer att använda 'this' i en klassmetod?",
+      "options": [
+        "Inget händer, metoden fungerar ändå",
+        "Variablerna refererar till superklassen",
+        "Det kan uppstå fel eftersom variablerna inte hittas",
+        "Den anropar automatiskt en global funktion"
+      ],
+      "correctAnswer": "Det kan uppstå fel eftersom variablerna inte hittas"
+    },
+    {
+      "question": "Hur skiljer sig 'this' i global kontext jämfört med i en klass?",
+      "options": [
+        "'this' pekar alltid på klassen",
+        "I global kontext refererar det till det globala objektet, i en klass till instansen",
+        "Det har ingen skillnad",
+        "'this' fungerar bara i klasser"
+      ],
+      "correctAnswer": "I global kontext refererar det till det globala objektet, i en klass till instansen"
+    },
+    {
+      "question": "Hur påverkar arrow functions hur 'this' fungerar i JavaScript?",
+      "options": [
+        "De skapar ett nytt 'this'",
+        "De använder alltid globalt 'this'",
+        "De binder inte sitt eget 'this', utan behåller det yttre värdet",
+        "De har ingen påverkan på 'this'"
+      ],
+      "correctAnswer": "De binder inte sitt eget 'this', utan behåller det yttre värdet"
+    },
+    {
+      "question": "Hur fungerar arv i JavaScript-klasser?",
+      "options": [
+        "Klasser kopierar metoder från varandra",
+        "En klass kan ärva egenskaper och metoder från en annan",
+        "Klasser skapar nya DOM-element",
+        "Klasser ersätter funktioner"
+      ],
+      "correctAnswer": "En klass kan ärva egenskaper och metoder från en annan"
+    },
+    {
+      "question": "Vilka nyckelord används för att implementera arv i JavaScript?",
+      "options": [
+        "inherit och parent",
+        "import och from",
+        "extends och super",
+        "class och subclass"
+      ],
+      "correctAnswer": "extends och super"
+    },
+    {
+      "question": "Vad gör 'extends' i en klass?",
+      "options": [
+        "Startar en konstruktor",
+        "Skapar ett nytt objekt",
+        "Definierar en ny funktion",
+        "Skapar en subklass som ärver från en superklass"
+      ],
+      "correctAnswer": "Skapar en subklass som ärver från en superklass"
+    },
+    {
+      "question": "Vad gör 'super' i en klass?",
+      "options": [
+        "Skapar en metod",
+        "Anropar konstruktor eller metod från superklassen",
+        "Importerar en modul",
+        "Returnerar ett objekt"
+      ],
+      "correctAnswer": "Anropar konstruktor eller metod från superklassen"
+    },
+    {
+      "question": "Vad händer om man inte anropar 'super' i en underklass?",
+      "options": [
+        "Inget händer",
+        "JavaScript anropar den automatiskt",
+        "Det uppstår ett fel eftersom 'super()' måste anropas först",
+        "Metoderna från superklassen laddas inte"
+      ],
+      "correctAnswer": "Det uppstår ett fel eftersom 'super()' måste anropas först"
+    },
+    {
+      "question": "Vad är en superklass och en subklass?",
+      "options": [
+        "Två olika funktioner",
+        "Superklass är en förälderklass och subklass ärver från den",
+        "De är olika variabeltyper",
+        "Subklass körs före superklass"
+      ],
+      "correctAnswer": "Superklass är en förälderklass och subklass ärver från den"
+    },
+    {
+      "question": "Hur kan arv hjälpa till att organisera och strukturera kod?",
+      "options": [
+        "Genom att minska antalet funktioner",
+        "Genom att samla all logik i en klass",
+        "Genom att dela upp funktionalitet i hanterbara delar",
+        "Genom att undvika användning av objekt"
+      ],
+      "correctAnswer": "Genom att dela upp funktionalitet i hanterbara delar"
+    },
+    {
+      "question": "Hur kan arv bidra till återanvändning av kod?",
+      "options": [
+        "Genom att undvika metoder",
+        "Genom att kopiera kod från andra filer",
+        "Genom att låta subklasser ärva egenskaper och metoder",
+        "Genom att använda globala variabler"
+      ],
+      "correctAnswer": "Genom att låta subklasser ärva egenskaper och metoder"
+    },
+    {
+      "question": "Vad innebär polymorfism inom objektorienterad programmering i JavaScript?",
+      "options": [
+        "Att objekt kan byta namn",
+        "Att klasser inte kan ärvas",
+        "Att en metod kan ha olika beteenden beroende på objekt",
+        "Att alla metoder måste vara unika"
+      ],
+      "correctAnswer": "Att en metod kan ha olika beteenden beroende på objekt"
+    },
+    {
+      "question": "Hur kan en underklass utöka eller modifiera en metod från en superklass?",
+      "options": [
+        "Genom att ta bort metoden",
+        "Genom att använda return",
+        "Genom att skriva om metoden eller anropa super()",
+        "Genom att kopiera metoden till en annan fil"
+      ],
+      "correctAnswer": "Genom att skriva om metoden eller anropa super()"
+    },
+    {
+      "question": "Vad är en prototyp i JavaScript?",
+      "options": [
+        "Ett bibliotek för design",
+        "En funktion för att skapa moduler",
+        "Ett objekt som andra objekt ärver från",
+        "En typ av loop"
+      ],
+      "correctAnswer": "Ett objekt som andra objekt ärver från"
+    },
+    {
+      "question": "Hur fungerar prototypkedjan?",
+      "options": [
+        "Den skapar HTML-element automatiskt",
+        "Den följer en kedja av funktioner",
+        "Den letar upp egenskaper/metoder uppåt i arvstrukturen",
+        "Den rensar variabler från minnet"
+      ],
+      "correctAnswer": "Den letar upp egenskaper/metoder uppåt i arvstrukturen"
+    },
+    {
+      "question": "Hur kan man lägga till en metod i en konstruktors prototyp?",
+      "options": [
+        "Genom att använda push",
+        "Genom att skriva metoden i constructor-funktionen",
+        "Genom att tilldela metoden till konstruktorens prototype-objekt",
+        "Det går inte att göra"
+      ],
+      "correctAnswer": "Genom att tilldela metoden till konstruktorens prototype-objekt"
+    },
+    {
+      "question": "Vad händer om en egenskap eller metod inte finns i ett objekt?",
+      "options": [
+        "Ett fel kastas direkt",
+        "Sökningen fortsätter i prototypkedjan",
+        "Metoden skapas automatiskt",
+        "JavaScript slutar exekvera koden"
+      ],
+      "correctAnswer": "Sökningen fortsätter i prototypkedjan"
+    },
+    {
+      "question": "Hur skiljer sig prototypbaserat arv från klassbaserat arv i JavaScript?",
+      "options": [
+        "Klassbaserat arv är helt nytt i JavaScript",
+        "Prototypbaserat arv är snabbare",
+        "Klassbaserat arv är en syntaktisk förfining av prototypbaserat arv",
+        "Det finns ingen skillnad"
+      ],
+      "correctAnswer": "Klassbaserat arv är en syntaktisk förfining av prototypbaserat arv"
+    },
+    {
+    "question": "Vad händer när du kör funktionen getUserAge(user) med objektet { name: \"Alice\" } som argument, och varför?",
+      "options": [
+        "Funktionen returnerar undefined eftersom age saknas i objektet",
+        "Funktionen kastar ett fel eftersom name är felaktigt angiven",
+        "Funktionen returnerar 0 som standardålder",
+        "Funktionen returnerar 'Alice'"
+      ],
+      "correctAnswer": "Funktionen returnerar undefined eftersom age saknas i objektet"
+    },
+    {
+      "question": "Vilken effekt har funktionen addUserRole(user, role) på objektet user, och vad skulle hända om funktionen anropades utan att ange en role?",
+      "options": [
+        "Den lägger till egenskapen role med värdet undefined",
+        "Den tar bort egenskapen role",
+        "Den kastar ett fel",
+        "Den ändrar användarens namn"
+      ],
+      "correctAnswer": "Den lägger till egenskapen role med värdet undefined"
+    },
+    {
+      "question": "Vilket problem kan uppstå när funktionen sumNumbers(mixedArray) körs med arrayen [1, 2, \"3\", 4] och varför är det ett problem?",
+      "options": [
+        "Funktionen returnerar felaktig summa på grund av typkonkatenering",
+        "Funktionen tar bort strängen automatiskt",
+        "Funktionen kastar ett typfel",
+        "Funktionen ignorerar alla icke-numeriska värden"
+      ],
+      "correctAnswer": "Funktionen returnerar felaktig summa på grund av typkonkatenering"
+    },
+    {
+      "question": "Vilka problem i JavaScript försökte Microsoft åtgärda genom att utveckla TypeScript?",
+      "options": [
+        "Problem med typkontroll, skalbarhet och kodunderhåll",
+        "Problem med HTML-rendering",
+        "Problem med CSS-kompatibilitet",
+        "Problem med databasanslutningar"
+      ],
+      "correctAnswer": "Problem med typkontroll, skalbarhet och kodunderhåll"
+    },
+    {
+      "question": "Hur kan statisk typning, som TypeScript erbjuder, bidra till att göra utveckling av större applikationer enklare och mer tillförlitlig?",
+      "options": [
+        "Genom att identifiera fel innan körning och ge bättre utvecklingsverktyg",
+        "Genom att automatiskt optimera koden för snabbare laddning",
+        "Genom att minska mängden kod",
+        "Genom att öka flexibiliteten i typdefinitioner"
+      ],
+      "correctAnswer": "Genom att identifiera fel innan körning och ge bättre utvecklingsverktyg"
+    },
+    {
+      "question": "När lanserades TypeScript och vad var det största syftet bakom dess skapande?",
+      "options": [
+        "2012, för att förbättra JavaScripts skalbarhet och struktur i stora projekt",
+        "2009, för att skapa ett nytt språk",
+        "2015, för att ersätta Java",
+        "2010, för att förbättra CSS-stöd"
+      ],
+      "correctAnswer": "2012, för att förbättra JavaScripts skalbarhet och struktur i stora projekt"
+    },
+    {
+      "question": "Vilken fördel med statisk typning gör TypeScript mer förutsägbart än JavaScript, och hur minskar det typrelaterade fel?",
+      "options": [
+        "Det möjliggör tidig felkontroll vid kompilering",
+        "Det förbättrar webbläsarkompatibiliteten",
+        "Det automatiserar testskrivning",
+        "Det tillåter dynamiska typer"
+      ],
+      "correctAnswer": "Det möjliggör tidig felkontroll vid kompilering"
+    },
+    {
+      "question": "I exemplet addNumbers(\"2\", 3), varför sker en strängkonkatenering istället för en numerisk addition, och hur kan TypeScript hjälpa till att förhindra detta?",
+      "options": [
+        "Eftersom \"2\" är en sträng sker konkatenering; TypeScript kan varna om blandade typer",
+        "Eftersom 3 är ett tal konverteras allt till sträng",
+        "TypeScript tillåter inte strängar",
+        "Konkatenering är standard i TypeScript"
+      ],
+      "correctAnswer": "Eftersom \"2\" är en sträng sker konkatenering; TypeScript kan varna om blandade typer"
+    },
+    {
+      "question": "Hur skulle en TypeScript-implementation av funktionen addNumbers kunna se ut för att förhindra att en sträng och ett tal sammanfogas istället för att läggas ihop?",
+      "options": [
+        "function addNumbers(a: number, b: number): number { return a + b; }",
+        "function addNumbers(a, b) { return a + b; }",
+        "function addNumbers(a: string, b: string): number { return parseInt(a) + parseInt(b); }",
+        "function addNumbers(a: any, b: any): string { return a + b; }"
+      ],
+      "correctAnswer": "function addNumbers(a: number, b: number): number { return a + b; }"
+    },
+    {
+      "question": "Vad är skillnaden mellan de olika typerna boolean, number och string i TypeScript, och kan du ge ett exempel på när var och en av dessa typer skulle användas?",
+      "options": [
+        "boolean: true/false för logik, number: numeriska värden, string: text",
+        "boolean: textsträngar, number: booleska värden, string: siffror",
+        "Alla är samma typ i TypeScript",
+        "boolean: siffror, number: text, string: objekt"
+      ],
+      "correctAnswer": "boolean: true/false för logik, number: numeriska värden, string: text"
+    },
+    {
+      "question": "Vad är skillnaden mellan 'let', 'const' och 'var' i JavaScript, särskilt när det gäller scope och hoisting?",
+      "options": [
+        "'var' är blockscoped, 'let' och 'const' är functionscoped",
+        "'let' och 'const' är blockscoped och hoistas inte på samma sätt som 'var'",
+        "Alla tre fungerar likadant",
+        "'const' kan ändras efter deklaration"
+      ],
+      "correctAnswer": "'let' och 'const' är blockscoped och hoistas inte på samma sätt som 'var'"
+    },
+    {
+      "question": "Vad innebär 'closure' i JavaScript och hur kan det användas?",
+      "options": [
+        "En funktion som körs direkt",
+        "En funktion som har tillgång till sitt yttre scopes variabler även efter att det yttre scope har avslutats",
+        "En metod för att skapa klasser",
+        "En typ av loop"
+      ],
+      "correctAnswer": "En funktion som har tillgång till sitt yttre scopes variabler även efter att det yttre scope har avslutats"
+    },
+    {
+      "question": "Vad är en generatorfunktion i JavaScript och hur används 'yield'?",
+      "options": [
+        "En funktion som alltid returnerar ett objekt",
+        "En funktion som kan pausa och återupptas med hjälp av 'yield'",
+        "En funktion som körs asynkront",
+        "En funktion som används för att skapa event listeners"
+      ],
+      "correctAnswer": "En funktion som kan pausa och återupptas med hjälp av 'yield'"
+    },
+    {
+      "question": "Hur fungerar async/await i JavaScript och vad är dess fördel jämfört med vanliga promises?",
+      "options": [
+        "Det gör koden långsammare",
+        "Det gör asynkron kod enklare att läsa och skriva genom att använda synkron syntax",
+        "Det ersätter helt promises",
+        "Det används bara för eventhantering"
+      ],
+      "correctAnswer": "Det gör asynkron kod enklare att läsa och skriva genom att använda synkron syntax"
+    },
+    {
+      "question": "Vad är ett Proxy-objekt i JavaScript och vad kan det användas till?",
+      "options": [
+        "Ett objekt som används för att skapa HTTP-förfrågningar",
+        "Ett objekt som kan fånga och modifiera grundläggande operationer på andra objekt",
+        "En metod för att skapa klasser",
+        "En funktion för att skapa arrayer"
+      ],
+      "correctAnswer": "Ett objekt som kan fånga och modifiera grundläggande operationer på andra objekt"
+    },
+    {
+      "question": "Vad är en Symbol i JavaScript och när kan det vara användbart?",
+      "options": [
+        "En typ av sträng",
+        "En unik och oföränderlig identifierare, ofta använd för att skapa privata egenskaper",
+        "En funktion för att skapa arrayer",
+        "En metod för att skapa event listeners"
+      ],
+      "correctAnswer": "En unik och oföränderlig identifierare, ofta använd för att skapa privata egenskaper"
+    },
+    {
+      "question": "Hur fungerar modulhantering i JavaScript med ES Modules (import/export)?",
+      "options": [
+        "Alla variabler blir globala",
+        "Kod delas upp i filer och funktioner exporteras/importeras explicit",
+        "Det går bara att använda i Node.js",
+        "Det kräver ingen särskild syntax"
+      ],
+      "correctAnswer": "Kod delas upp i filer och funktioner exporteras/importeras explicit"
+    },
+    {
+      "question": "Vad innebär immutability i JavaScript och varför är det viktigt?",
+      "options": [
+        "Att objekt och arrayer kan ändras fritt",
+        "Att data inte kan ändras efter att den skapats, vilket minskar buggar och underlättar felsökning",
+        "Att variabler alltid är globala",
+        "Att funktioner alltid returnerar nya värden"
+      ],
+      "correctAnswer": "Att data inte kan ändras efter att den skapats, vilket minskar buggar och underlättar felsökning"
+    },
+    {
+      "question": "Vad är skillnaden mellan optional chaining (?.) och nullish coalescing (??) i JavaScript?",
+      "options": [
+        "Optional chaining används för att hantera undefined/null vid egenskapsåtkomst, nullish coalescing används för att ge standardvärden vid null/undefined",
+        "De gör samma sak",
+        "Båda används för att skapa arrayer",
+        "Optional chaining fungerar bara i TypeScript"
+      ],
+      "correctAnswer": "Optional chaining används för att hantera undefined/null vid egenskapsåtkomst, nullish coalescing används för att ge standardvärden vid null/undefined"
+    },
+    {
+      "question": "Vad är en enum i TypeScript och när är det användbart?",
+      "options": [
+        "En funktion för att skapa arrayer",
+        "En typ som representerar en uppsättning namngivna konstanter, användbar för att göra koden mer läsbar",
+        "En metod för att skapa klasser",
+        "En funktion för att skapa event listeners"
+      ],
+      "correctAnswer": "En typ som representerar en uppsättning namngivna konstanter, användbar för att göra koden mer läsbar"
+    },
+    {
+      "question": "Vad är utility types i TypeScript, som Partial och Readonly, och vad används de till?",
+      "options": [
+        "Typer som används för att skapa arrayer",
+        "Fördefinierade generiska typer som kan modifiera andra typer, t.ex. göra alla egenskaper valfria eller readonly",
+        "En metod för att skapa klasser",
+        "En funktion för att skapa event listeners"
+      ],
+      "correctAnswer": "Fördefinierade generiska typer som kan modifiera andra typer, t.ex. göra alla egenskaper valfria eller readonly"
+    },
+    {
+      "question": "Hur fungerar Promise.all och Promise.race i JavaScript?",
+      "options": [
+        "Promise.all väntar på att alla promises ska bli klara, Promise.race returnerar så fort en promise är klar",
+        "Båda väntar på att alla promises ska misslyckas",
+        "Promise.all returnerar alltid en array med errors",
+        "Promise.race används bara för att hantera fel"
+      ],
+      "correctAnswer": "Promise.all väntar på att alla promises ska bli klara, Promise.race returnerar så fort en promise är klar"
+    },
+    {
+      "question": "Vad är ett WeakMap och WeakSet i JavaScript och när bör de användas?",
+      "options": [
+        "De är vanliga arrayer",
+        "De är samlingar där referenser till objekt inte hindrar garbage collection, användbara för minneshantering",
+        "De används för att skapa event listeners",
+        "De är typer i TypeScript"
+      ],
+      "correctAnswer": "De är samlingar där referenser till objekt inte hindrar garbage collection, användbara för minneshantering"
+    },
+    {
+      "question": "Hur kan du skapa och använda en asynkron iterator i JavaScript?",
+      "options": [
+        "Med en vanlig for-loop",
+        "Genom att använda Symbol.asyncIterator och for await...of",
+        "Med en generatorfunktion och yield",
+        "Det går inte att göra"
+      ],
+      "correctAnswer": "Genom att använda Symbol.asyncIterator och for await...of"
+    },
+    {
+      "question": "Vad är skillnaden mellan == och === i JavaScript?",
+      "options": [
+        "== jämför bara värde, === jämför både värde och typ",
+        "Det finns ingen skillnad",
+        "=== konverterar alltid till sträng",
+        "== används bara i funktioner"
+      ],
+      "correctAnswer": "== jämför bara värde, === jämför både värde och typ"
+    },
+    {
+      "question": "Vad är en Immediately Invoked Function Expression (IIFE)?",
+      "options": [
+        "En funktion som körs direkt efter att den definierats",
+        "En funktion som aldrig körs",
+        "En funktion som bara körs i klasser",
+        "En funktion som används för att skapa arrayer"
+      ],
+      "correctAnswer": "En funktion som körs direkt efter att den definierats"
+    },
+    {
+      "question": "Vad är en template literal i JavaScript?",
+      "options": [
+        "En sträng med inbäddade uttryck, omgiven av backticks (`)",
+        "En funktion",
+        "En array",
+        "En typ av loop"
+      ],
+      "correctAnswer": "En sträng med inbäddade uttryck, omgiven av backticks (`)"
+    },
+    {
+      "question": "Vad är destructuring assignment i JavaScript?",
+      "options": [
+        "Att packa upp värden från arrayer eller objekt till separata variabler",
+        "Att skapa nya arrayer",
+        "Att ta bort egenskaper från objekt",
+        "Att skapa funktioner"
+      ],
+      "correctAnswer": "Att packa upp värden från arrayer eller objekt till separata variabler"
+    },
+    {
+      "question": "Vad är en spread-operator (...) och när används den?",
+      "options": [
+        "För att sprida ut element i arrayer eller egenskaper i objekt",
+        "För att skapa klasser",
+        "För att skapa loops",
+        "För att skapa moduler"
+      ],
+      "correctAnswer": "För att sprida ut element i arrayer eller egenskaper i objekt"
+    },
+    {
+      "question": "Vad är en rest-parameter i JavaScript?",
+      "options": [
+        "En parameter som samlar flera argument till en array",
+        "En parameter som alltid är null",
+        "En parameter som används i klasser",
+        "En parameter som används för att skapa arrayer"
+      ],
+      "correctAnswer": "En parameter som samlar flera argument till en array"
+    },
+    {
+      "question": "Vad är en callback-funktion?",
+      "options": [
+        "En funktion som skickas som argument till en annan funktion och anropas senare",
+        "En funktion som alltid returnerar true",
+        "En funktion som används för att skapa arrayer",
+        "En funktion som används för att skapa klasser"
+      ],
+      "correctAnswer": "En funktion som skickas som argument till en annan funktion och anropas senare"
+    },
+    {
+      "question": "Vad är event bubbling i JavaScript?",
+      "options": [
+        "Att events propagerar uppåt i DOM-trädet",
+        "Att events bara sker på ett element",
+        "Att events alltid stoppas",
+        "Att events bara sker i klasser"
+      ],
+      "correctAnswer": "Att events propagerar uppåt i DOM-trädet"
+    },
+    {
+      "question": "Vad gör metoden Array.prototype.map?",
+      "options": [
+        "Skapar en ny array med resultatet av en funktion för varje element",
+        "Filtrerar bort element",
+        "Returnerar första elementet",
+        "Sorterar arrayen"
+      ],
+      "correctAnswer": "Skapar en ny array med resultatet av en funktion för varje element"
+    },
+    {
+      "question": "Vad gör metoden Array.prototype.filter?",
+      "options": [
+        "Skapar en ny array med de element som uppfyller ett villkor",
+        "Returnerar första elementet",
+        "Sorterar arrayen",
+        "Lägger till element i arrayen"
+      ],
+      "correctAnswer": "Skapar en ny array med de element som uppfyller ett villkor"
+    },
+    {
+      "question": "Vad gör metoden Array.prototype.reduce?",
+      "options": [
+        "Reducerar arrayen till ett enda värde genom att iterera över elementen",
+        "Filtrerar bort element",
+        "Returnerar första elementet",
+        "Sorterar arrayen"
+      ],
+      "correctAnswer": "Reducerar arrayen till ett enda värde genom att iterera över elementen"
+    },
+    {
+      "question": "Vad är en Promise i JavaScript?",
+      "options": [
+        "Ett objekt som representerar ett asynkront resultat",
+        "En funktion",
+        "En array",
+        "En klass"
+      ],
+      "correctAnswer": "Ett objekt som representerar ett asynkront resultat"
+    },
+    {
+      "question": "Vad är en async function?",
+      "options": [
+        "En funktion som alltid returnerar en Promise",
+        "En funktion som körs synkront",
+        "En funktion som inte kan använda await",
+        "En funktion som bara används i klasser"
+      ],
+      "correctAnswer": "En funktion som alltid returnerar en Promise"
+    },
+    {
+      "question": "Vad är en try/catch-sats i JavaScript?",
+      "options": [
+        "En struktur för att hantera fel och undantag",
+        "En loop",
+        "En funktion",
+        "En klass"
+      ],
+      "correctAnswer": "En struktur för att hantera fel och undantag"
+    },
+    {
+      "question": "Vad är en getter och en setter i JavaScript-klasser?",
+      "options": [
+        "Metoder för att läsa och skriva egenskaper med anpassad logik",
+        "Metoder för att skapa arrayer",
+        "Metoder för att skapa klasser",
+        "Metoder för att skapa loops"
+      ],
+      "correctAnswer": "Metoder för att läsa och skriva egenskaper med anpassad logik"
+    },
+    {
+      "question": "Vad är en statisk metod i en klass?",
+      "options": [
+        "En metod som anropas på själva klassen, inte på instanser",
+        "En metod som alltid returnerar true",
+        "En metod som bara används i arrayer",
+        "En metod som bara används i loops"
+      ],
+      "correctAnswer": "En metod som anropas på själva klassen, inte på instanser"
+    },
+    {
+      "question": "Vad är en modul i JavaScript?",
+      "options": [
+        "En separat fil eller kodblock som kan importeras/exporteras",
+        "En funktion",
+        "En array",
+        "En klass"
+      ],
+      "correctAnswer": "En separat fil eller kodblock som kan importeras/exporteras"
+    },
+    {
+      "question": "Vad är tree shaking i samband med JavaScript-moduler?",
+      "options": [
+        "Att ta bort oanvänd kod vid build-tillfället",
+        "Att sortera arrayer",
+        "Att skapa nya moduler",
+        "Att skapa loops"
+      ],
+      "correctAnswer": "Att ta bort oanvänd kod vid build-tillfället"
+    },
+    {
+      "question": "Vad är en default export i ES Modules?",
+      "options": [
+        "En export som kan importeras utan måsvingar",
+        "En export som måste importeras med måsvingar",
+        "En export som alltid är en funktion",
+        "En export som bara används i klasser"
+      ],
+      "correctAnswer": "En export som kan importeras utan måsvingar"
+    },
+    {
+      "question": "Vad är en named export i ES Modules?",
+      "options": [
+        "En export som måste importeras med måsvingar",
+        "En export som kan importeras utan måsvingar",
+        "En export som alltid är en funktion",
+        "En export som bara används i klasser"
+      ],
+      "correctAnswer": "En export som måste importeras med måsvingar"
+    },
+    {
+      "question": "Vad är en interface i TypeScript?",
+      "options": [
+        "En typbeskrivning för objekt och klasser",
+        "En funktion",
+        "En array",
+        "En klass"
+      ],
+      "correctAnswer": "En typbeskrivning för objekt och klasser"
+    },
+    {
+      "question": "Vad är en union type i TypeScript?",
+      "options": [
+        "En typ som kan vara flera olika typer, t.ex. string | number",
+        "En typ som alltid är en array",
+        "En typ som bara används i klasser",
+        "En typ som bara används i funktioner"
+      ],
+      "correctAnswer": "En typ som kan vara flera olika typer, t.ex. string | number"
+    },
+    {
+      "question": "Vad är en intersection type i TypeScript?",
+      "options": [
+        "En typ som kombinerar flera typer, t.ex. A & B",
+        "En typ som alltid är en array",
+        "En typ som bara används i klasser",
+        "En typ som bara används i funktioner"
+      ],
+      "correctAnswer": "En typ som kombinerar flera typer, t.ex. A & B"
+    },
+    {
+      "question": "Vad är type assertion i TypeScript?",
+      "options": [
+        "Att tala om för kompilatorn vilken typ ett värde har",
+        "Att skapa nya typer",
+        "Att ta bort typer",
+        "Att skapa arrayer"
+      ],
+      "correctAnswer": "Att tala om för kompilatorn vilken typ ett värde har"
+    },
+    {
+      "question": "Vad är keyof operatorn i TypeScript?",
+      "options": [
+        "En operator som ger en union av alla egenskapsnamn i en typ",
+        "En operator för att skapa arrayer",
+        "En operator för att skapa klasser",
+        "En operator för att skapa loops"
+      ],
+      "correctAnswer": "En operator som ger en union av alla egenskapsnamn i en typ"
+    },
+    {
+      "question": "Vad är typeof operatorn i TypeScript?",
+      "options": [
+        "En operator som ger typen av ett värde eller variabel",
+        "En operator för att skapa arrayer",
+        "En operator för att skapa klasser",
+        "En operator för att skapa loops"
+      ],
+      "correctAnswer": "En operator som ger typen av ett värde eller variabel"
+    },
+    {
+      "question": "Vad är en mapped type i TypeScript?",
+      "options": [
+        "En typ som skapas genom att iterera över egenskaper i en annan typ",
+        "En typ som alltid är en array",
+        "En typ som bara används i klasser",
+        "En typ som bara används i funktioner"
+      ],
+      "correctAnswer": "En typ som skapas genom att iterera över egenskaper i en annan typ"
+    },
+    {
+      "question": "Vad är en tuple i TypeScript?",
+      "options": [
+        "En array med ett fast antal element och fasta typer",
+        "En array med valfritt antal element",
+        "En klass",
+        "En funktion"
+      ],
+      "correctAnswer": "En array med ett fast antal element och fasta typer"
+    },
+    {
+      "question": "Vad är readonly modifieraren i TypeScript?",
+      "options": [
+        "En modifierare som gör en egenskap oföränderlig",
+        "En modifierare som gör en egenskap valfri",
+        "En modifierare som gör en egenskap till en array",
+        "En modifierare som gör en egenskap till en funktion"
+      ],
+      "correctAnswer": "En modifierare som gör en egenskap oföränderlig"
+    },
+    {
+      "question": "Vad är en optional property i TypeScript?",
+      "options": [
+        "En egenskap som inte måste anges på ett objekt",
+        "En egenskap som alltid är en array",
+        "En egenskap som alltid är en funktion",
+        "En egenskap som alltid är en klass"
+      ],
+      "correctAnswer": "En egenskap som inte måste anges på ett objekt"
+    },
+    {
+      "question": "Vad är en generic function i TypeScript?",
+      "options": [
+        "En funktion som kan arbeta med olika typer utan att förlora typkontroll",
+        "En funktion som alltid returnerar en array",
+        "En funktion som alltid returnerar en klass",
+        "En funktion som alltid returnerar en funktion"
+      ],
+      "correctAnswer": "En funktion som kan arbeta med olika typer utan att förlora typkontroll"
+    },
+    {
+      "question": "Vad är Non-Nullable utility type i TypeScript?",
+      "options": [
+        "En typ som tar bort null och undefined från en annan typ",
+        "En typ som alltid är null",
+        "En typ som alltid är undefined",
+        "En typ som alltid är en array"
+      ],
+      "correctAnswer": "En typ som tar bort null och undefined från en annan typ"
+    }
+  ]
+}

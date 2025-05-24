@@ -299,6 +299,576 @@
       "useReducer"
     ],
     "correctAnswer": "useEffect"
+  },
+  {
+    "question": "What is the difference between controlled and uncontrolled components in React?",
+    "options": [
+      "Controlled components store form data in state, uncontrolled components use the DOM",
+      "Uncontrolled components use Redux",
+      "Controlled components use refs",
+      "There is no difference"
+    ],
+    "correctAnswer": "Controlled components store form data in state, uncontrolled components use the DOM"
+  },
+  {
+    "question": "What does the useReducer hook do?",
+    "options": [
+      "Manages complex state logic in functional components",
+      "Fetches data from APIs",
+      "Renders lists",
+      "Handles side effects"
+    ],
+    "correctAnswer": "Manages complex state logic in functional components"
+  },
+  {
+    "question": "What is the purpose of the useLayoutEffect hook?",
+    "options": [
+      "Runs synchronously after all DOM mutations",
+      "Runs after painting is complete",
+      "Used for fetching data",
+      "Used for memoizing values"
+    ],
+    "correctAnswer": "Runs synchronously after all DOM mutations"
+  },
+  {
+    "question": "How do you optimize performance for large lists in React?",
+    "options": [
+      "By using windowing libraries like react-window or react-virtualized",
+      "By using more CSS",
+      "By using Redux",
+      "By using useEffect"
+    ],
+    "correctAnswer": "By using windowing libraries like react-window or react-virtualized"
+  },
+  {
+    "question": "What is the Context API used for?",
+    "options": [
+      "To pass data deeply through the component tree without props",
+      "To fetch data from APIs",
+      "To style components",
+      "To handle routing"
+    ],
+    "correctAnswer": "To pass data deeply through the component tree without props"
+  },
+  {
+    "question": "What is a custom hook in React?",
+    "options": [
+      "A function that starts with 'use' and encapsulates reusable logic",
+      "A built-in React hook",
+      "A class component",
+      "A CSS module"
+    ],
+    "correctAnswer": "A function that starts with 'use' and encapsulates reusable logic"
+  },
+  {
+    "question": "How do you update the state based on the previous state in React?",
+    "options": [
+      "By passing a function to setState or useState's updater",
+      "By assigning directly to state",
+      "By using useRef",
+      "By using useEffect"
+    ],
+    "correctAnswer": "By passing a function to setState or useState's updater"
+  },
+  {
+    "question": "What is the main benefit of using keys in lists?",
+    "options": [
+      "To help React identify which items have changed, are added, or are removed",
+      "To style list items",
+      "To fetch data",
+      "To manage state"
+    ],
+    "correctAnswer": "To help React identify which items have changed, are added, or are removed"
+  },
+  {
+    "question": "What is the difference between useEffect and useLayoutEffect?",
+    "options": [
+      "useLayoutEffect runs synchronously after DOM mutations, useEffect runs asynchronously after paint",
+      "useEffect runs before render",
+      "useLayoutEffect is only for class components",
+      "There is no difference"
+    ],
+    "correctAnswer": "useLayoutEffect runs synchronously after DOM mutations, useEffect runs asynchronously after paint"
+  },
+  {
+    "question": "How do you prevent memory leaks when using useEffect?",
+    "options": [
+      "By returning a cleanup function from useEffect",
+      "By using useMemo",
+      "By using useRef",
+      "By using setTimeout"
+    ],
+    "correctAnswer": "By returning a cleanup function from useEffect"
+  },
+  {
+    "question": "What is the purpose of React.StrictMode?",
+    "options": [
+      "To highlight potential problems in an application",
+      "To enable production mode",
+      "To style components",
+      "To fetch data"
+    ],
+    "correctAnswer": "To highlight potential problems in an application"
+  },
+  {
+    "question": "How do you share logic between components in React?",
+    "options": [
+      "By using custom hooks or higher-order components",
+      "By using CSS modules",
+      "By using useState",
+      "By using useEffect"
+    ],
+    "correctAnswer": "By using custom hooks or higher-order components"
+  },
+  {
+    "question": "What is prop drilling?",
+    "options": [
+      "Passing data through many layers of components via props",
+      "Using context to pass data",
+      "Using Redux",
+      "Using refs"
+    ],
+    "correctAnswer": "Passing data through many layers of components via props"
+  },
+  {
+    "question": "What is the useImperativeHandle hook used for?",
+    "options": [
+      "To customize the instance value that is exposed to parent components when using refs",
+      "To fetch data",
+      "To manage state",
+      "To handle events"
+    ],
+    "correctAnswer": "To customize the instance value that is exposed to parent components when using refs"
+  },
+  {
+    "question": "How do you lazy load a component in React?",
+    "options": [
+      "Using React.lazy and Suspense",
+      "Using useEffect",
+      "Using useMemo",
+      "Using useRef"
+    ],
+    "correctAnswer": "Using React.lazy and Suspense"
+  },
+  {
+    "question": "What is the default value of a React ref created with useRef()?",
+    "options": [
+      "undefined",
+      "null",
+      "0",
+      "false"
+    ],
+    "correctAnswer": "undefined"
+  },
+  {
+    "question": "What is the difference between useRef and createRef?",
+    "options": [
+      "useRef is for functional components, createRef is for class components",
+      "There is no difference",
+      "useRef is for class components",
+      "createRef is for functional components"
+    ],
+    "correctAnswer": "useRef is for functional components, createRef is for class components"
+  },
+  {
+    "question": "How do you handle errors in React components?",
+    "options": [
+      "By using Error Boundaries",
+      "By using useEffect",
+      "By using useState",
+      "By using useRef"
+    ],
+    "correctAnswer": "By using Error Boundaries"
+  },
+  {
+    "question": "What is the main advantage of using functional components over class components?",
+    "options": [
+      "Simpler syntax and ability to use hooks",
+      "Better performance",
+      "They can use lifecycle methods",
+      "They are required for Redux"
+    ],
+    "correctAnswer": "Simpler syntax and ability to use hooks"
+  },
+  {
+    "question": "What is the purpose of the children prop in React?",
+    "options": [
+      "To pass nested elements to a component",
+      "To manage state",
+      "To fetch data",
+      "To handle events"
+    ],
+    "correctAnswer": "To pass nested elements to a component"
+  },
+  {
+    "question": "How do you forward refs to child components?",
+    "options": [
+      "Using React.forwardRef",
+      "Using useRef",
+      "Using useEffect",
+      "Using useMemo"
+    ],
+    "correctAnswer": "Using React.forwardRef"
+  },
+  {
+    "question": "What is the main use of the useMemo hook?",
+    "options": [
+      "To memoize expensive calculations",
+      "To fetch data",
+      "To manage state",
+      "To handle events"
+    ],
+    "correctAnswer": "To memoize expensive calculations"
+  },
+  {
+    "question": "How do you test React components?",
+    "options": [
+      "Using testing libraries like Jest and React Testing Library",
+      "Using Mocha only",
+      "Using CSS modules",
+      "Using Redux"
+    ],
+    "correctAnswer": "Using testing libraries like Jest and React Testing Library"
+  },
+  {
+    "question": "What is the main purpose of the useDebugValue hook?",
+    "options": [
+      "To display a label for custom hooks in React DevTools",
+      "To fetch data",
+      "To manage state",
+      "To handle events"
+    ],
+    "correctAnswer": "To display a label for custom hooks in React DevTools"
+  },
+  {
+    "question": "What is the difference between mounting and unmounting in React?",
+    "options": [
+      "Mounting is when a component is added to the DOM, unmounting is when it is removed",
+      "Mounting is updating state, unmounting is deleting state",
+      "There is no difference",
+      "Mounting is for class components only"
+    ],
+    "correctAnswer": "Mounting is when a component is added to the DOM, unmounting is when it is removed"
+  },
+  {
+    "question": "How do you trigger a re-render in a functional component?",
+    "options": [
+      "By updating state with useState",
+      "By calling forceUpdate",
+      "By using useRef",
+      "By using useMemo"
+    ],
+    "correctAnswer": "By updating state with useState"
+  },
+  {
+    "question": "What is the main difference between useEffect and componentDidMount?",
+    "options": [
+      "useEffect runs after every render by default, componentDidMount runs once after mounting",
+      "There is no difference",
+      "useEffect is for class components",
+      "componentDidMount is for functional components"
+    ],
+    "correctAnswer": "useEffect runs after every render by default, componentDidMount runs once after mounting"
+  },
+  {
+    "question": "How do you update a nested object in state immutably?",
+    "options": [
+      "By using the spread operator or Object.assign",
+      "By assigning directly to the object",
+      "By using useRef",
+      "By using useEffect"
+    ],
+    "correctAnswer": "By using the spread operator or Object.assign"
+  },
+  {
+    "question": "What is the main purpose of the useId hook?",
+    "options": [
+      "To generate unique IDs for accessibility and server rendering",
+      "To manage state",
+      "To fetch data",
+      "To memoize values"
+    ],
+    "correctAnswer": "To generate unique IDs for accessibility and server rendering"
+  },
+  {
+    "question": "How do you handle asynchronous operations in useEffect?",
+    "options": [
+      "By defining an async function inside useEffect and calling it",
+      "By making useEffect async",
+      "By using useMemo",
+      "By using useRef"
+    ],
+    "correctAnswer": "By defining an async function inside useEffect and calling it"
+  },
+  {
+    "question": "What is the main use of the Suspense component?",
+    "options": [
+      "To display a fallback UI while waiting for lazy-loaded components",
+      "To manage state",
+      "To fetch data",
+      "To handle events"
+    ],
+    "correctAnswer": "To display a fallback UI while waiting for lazy-loaded components"
+  },
+  {
+    "question": "How do you memoize a callback function in React?",
+    "options": [
+      "By using useCallback",
+      "By using useMemo",
+      "By using useRef",
+      "By using useEffect"
+    ],
+    "correctAnswer": "By using useCallback"
+  },
+  {
+    "question": "What is the main difference between useCallback and useMemo?",
+    "options": [
+      "useCallback memoizes functions, useMemo memoizes values",
+      "There is no difference",
+      "useCallback is for class components",
+      "useMemo is for event handlers"
+    ],
+    "correctAnswer": "useCallback memoizes functions, useMemo memoizes values"
+  },
+  {
+    "question": "How do you prevent a form from submitting in React?",
+    "options": [
+      "By calling event.preventDefault() in the event handler",
+      "By using useRef",
+      "By using useMemo",
+      "By using useEffect"
+    ],
+    "correctAnswer": "By calling event.preventDefault() in the event handler"
+  },
+  {
+    "question": "What is the main purpose of the useTransition hook?",
+    "options": [
+      "To manage concurrent UI updates and transitions",
+      "To fetch data",
+      "To manage state",
+      "To handle events"
+    ],
+    "correctAnswer": "To manage concurrent UI updates and transitions"
+  },
+  {
+    "question": "How do you access the previous props or state in a functional component?",
+    "options": [
+      "By using useRef to store previous values",
+      "By using useEffect directly",
+      "By using useMemo",
+      "By using useCallback"
+    ],
+    "correctAnswer": "By using useRef to store previous values"
+  },
+  {
+    "question": "What is the main use of the useDeferredValue hook?",
+    "options": [
+      "To defer updating a value until less urgent work is complete",
+      "To fetch data",
+      "To manage state",
+      "To handle events"
+    ],
+    "correctAnswer": "To defer updating a value until less urgent work is complete"
+  },
+  {
+    "question": "How do you handle forms in React?",
+    "options": [
+      "By using controlled components and managing state",
+      "By using refs only",
+      "By using Redux",
+      "By using useEffect"
+    ],
+    "correctAnswer": "By using controlled components and managing state"
+  },
+  {
+    "question": "What is the main purpose of the useSyncExternalStore hook?",
+    "options": [
+      "To subscribe to external stores for concurrent rendering",
+      "To fetch data",
+      "To manage state",
+      "To handle events"
+    ],
+    "correctAnswer": "To subscribe to external stores for concurrent rendering"
+  },
+  {
+    "question": "How do you handle accessibility in React applications?",
+    "options": [
+      "By using semantic HTML and ARIA attributes",
+      "By using only divs",
+      "By using inline styles",
+      "By using useRef"
+    ],
+    "correctAnswer": "By using semantic HTML and ARIA attributes"
+  },
+  {
+    "question": "What is the main difference between React and React Native?",
+    "options": [
+      "React is for web, React Native is for mobile apps",
+      "There is no difference",
+      "React Native is for server-side rendering",
+      "React is for mobile apps"
+    ],
+    "correctAnswer": "React is for web, React Native is for mobile apps"
+  },
+  {
+    "question": "How do you optimize React performance for large applications?",
+    "options": [
+      "By code splitting, memoization, and avoiding unnecessary renders",
+      "By using more CSS",
+      "By using Redux only",
+      "By using useEffect everywhere"
+    ],
+    "correctAnswer": "By code splitting, memoization, and avoiding unnecessary renders"
+  },
+  {
+    "question": "What is the main purpose of the useImperativeHandle hook?",
+    "options": [
+      "To expose custom methods from child components to parent components via refs",
+      "To fetch data",
+      "To manage state",
+      "To handle events"
+    ],
+    "correctAnswer": "To expose custom methods from child components to parent components via refs"
+  },
+  {
+    "question": "How do you handle global state in React?",
+    "options": [
+      "By using Context API or state management libraries like Redux",
+      "By using useRef",
+      "By using useEffect",
+      "By using useMemo"
+    ],
+    "correctAnswer": "By using Context API or state management libraries like Redux"
+  },
+  {
+    "question": "What is the main use of the useInsertionEffect hook?",
+    "options": [
+      "To inject styles into the DOM before layout and paint",
+      "To fetch data",
+      "To manage state",
+      "To handle events"
+    ],
+    "correctAnswer": "To inject styles into the DOM before layout and paint"
+  },
+  {
+    "question": "How do you handle side effects in React?",
+    "options": [
+      "By using useEffect",
+      "By using useState",
+      "By using useRef",
+      "By using useMemo"
+    ],
+    "correctAnswer": "By using useEffect"
+  },
+  {
+    "question": "What is the main difference between useState and useReducer?",
+    "options": [
+      "useReducer is better for complex state logic, useState for simple state",
+      "There is no difference",
+      "useState is for class components",
+      "useReducer is for event handlers"
+    ],
+    "correctAnswer": "useReducer is better for complex state logic, useState for simple state"
+  },
+  {
+    "question": "How do you handle errors in async functions inside useEffect?",
+    "options": [
+      "By using try/catch inside the async function",
+      "By using useMemo",
+      "By using useRef",
+      "By using useCallback"
+    ],
+    "correctAnswer": "By using try/catch inside the async function"
+  },
+  {
+    "question": "What is the main use of the useDebugValue hook?",
+    "options": [
+      "To display debug information for custom hooks in React DevTools",
+      "To fetch data",
+      "To manage state",
+      "To handle events"
+    ],
+    "correctAnswer": "To display debug information for custom hooks in React DevTools"
+  },
+  {
+    "question": "How do you handle dynamic imports in React?",
+    "options": [
+      "By using React.lazy and Suspense",
+      "By using useEffect",
+      "By using useMemo",
+      "By using useRef"
+    ],
+    "correctAnswer": "By using React.lazy and Suspense"
+  },
+  {
+    "question": "What is the main purpose of the ErrorBoundary component?",
+    "options": [
+      "To catch JavaScript errors in child components and display a fallback UI",
+      "To fetch data",
+      "To manage state",
+      "To handle events"
+    ],
+    "correctAnswer": "To catch JavaScript errors in child components and display a fallback UI"
+  },
+  {
+    "question": "How do you handle authentication in a React application?",
+    "options": [
+      "By using state, context, and protected routes",
+      "By using useRef",
+      "By using useMemo",
+      "By using useEffect"
+    ],
+    "correctAnswer": "By using state, context, and protected routes"
+  },
+  {
+    "question": "What is the main use of the useSyncExternalStore hook?",
+    "options": [
+      "To subscribe to external stores for concurrent rendering",
+      "To fetch data",
+      "To manage state",
+      "To handle events"
+    ],
+    "correctAnswer": "To subscribe to external stores for concurrent rendering"
+  },
+  {
+    "question": "How do you handle server-side rendering in React?",
+    "options": [
+      "By using frameworks like Next.js",
+      "By using useEffect",
+      "By using useRef",
+      "By using useMemo"
+    ],
+    "correctAnswer": "By using frameworks like Next.js"
+  },
+  {
+    "question": "What is the main difference between SSR and CSR in React?",
+    "options": [
+      "SSR renders on the server, CSR renders in the browser",
+      "CSR is faster",
+      "SSR is for mobile apps",
+      "There is no difference"
+    ],
+    "correctAnswer": "SSR renders on the server, CSR renders in the browser"
+  },
+  {
+    "question": "How do you handle code splitting in React?",
+    "options": [
+      "By using dynamic imports and React.lazy",
+      "By using useEffect",
+      "By using useRef",
+      "By using useMemo"
+    ],
+    "correctAnswer": "By using dynamic imports and React.lazy"
+  },
+  {
+    "question": "What is the main use of the useDeferredValue hook?",
+    "options": [
+      "To defer updating a value until less urgent work is complete",
+      "To fetch data",
+      "To manage state",
+      "To handle events"
+    ],
+    "correctAnswer": "To defer updating a value until less urgent work is complete"
   }
-]
+  ]
 }
